@@ -1,14 +1,17 @@
 {
   "main": {
-    "id": "04d7d9886a7e68b6",
+    "id": "0f4ec3b99ae40ae3",
     "type": "split",
     "children": [
       {
-        "id": "441b7626051fac65",
+        "id": "2f13b2b3ade24286",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "Množiny/Zväzy.md",
+            "mode": "source"
+          }
         }
       }
     ],
@@ -49,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "17200a9d766dae17",
@@ -66,6 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Množiny/Zväzy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -91,11 +94,12 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "441b7626051fac65",
+  "active": "2f13b2b3ade24286",
   "lastOpenFiles": [
-    "Množiny/Čiastočne usporiadané množiny.md",
+    "Množiny/Zväzy.md",
     "Množiny/Množiny a množinové relácie.md",
-    "Untitled.md",
+    "Množiny/Grupy.md",
+    "Množiny/Čiastočne usporiadané množiny.md",
     "Main.md",
     "link.md",
     "Base.md",
