@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 gstatus=`git status --porcelain`
 
