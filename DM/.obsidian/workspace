@@ -1,0 +1,104 @@
+{
+  "main": {
+    "id": "418d057e264fee54",
+    "type": "split",
+    "children": [
+      {
+        "id": "792dd75f4cc3c8bd",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "204baf8ae97bbe82",
+    "type": "split",
+    "children": [
+      {
+        "id": "81a59201e76830ba",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f91172f59c9144fd",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "9fdcd5c325a5e661",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "17200a9d766dae17",
+    "type": "split",
+    "children": [
+      {
+        "id": "da9a0f5acf541b21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8173439443232b2a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "c3d221044146e3c0",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "792dd75f4cc3c8bd",
+  "lastOpenFiles": [
+    "Množiny/Množiny a množinové relácie.md",
+    "Untitled.md",
+    "Main.md",
+    "link.md",
+    "Base.md",
+    "Assets/Untitled.md",
+    "Excalidraw/Heeloo.md",
+    "Untitled 1.md"
+  ]
+}
