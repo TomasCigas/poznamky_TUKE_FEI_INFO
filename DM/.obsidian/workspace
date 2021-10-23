@@ -4,14 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "31b650feae50547c",
+        "id": "441b7626051fac65",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Množiny/Množiny a množinové relácie.md",
-            "mode": "source"
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
@@ -52,7 +49,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "17200a9d766dae17",
@@ -68,7 +66,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Množiny/Množiny a množinové relácie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,8 +91,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "31b650feae50547c",
+  "active": "441b7626051fac65",
   "lastOpenFiles": [
+    "Množiny/Čiastočne usporiadané množiny.md",
     "Množiny/Množiny a množinové relácie.md",
     "Untitled.md",
     "Main.md",
