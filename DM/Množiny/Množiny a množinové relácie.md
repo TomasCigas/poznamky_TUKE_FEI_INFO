@@ -6,3 +6,6 @@ Pokiaľ prvok patrí množine:
 _input file_
 Prázdna
 _input file_
+
+
+Hello world!
