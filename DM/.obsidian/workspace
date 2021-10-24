@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Boolovská algebra/Boolovské funkcie.md",
+            "file": "Boolovská algebra/Boolovská algebra.md",
             "mode": "source"
           }
         }
@@ -52,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "17200a9d766dae17",
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boolovská algebra/Boolovské funkcie.md",
+                "file": "Boolovská algebra/Boolovská algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,15 +97,15 @@
   },
   "active": "2f13b2b3ade24286",
   "lastOpenFiles": [
-    "Boolovská algebra/Boolovské funkcie.md",
+    "Boolovská algebra/Boolovská algebra.md",
     "Boolovská algebra/Zväzy.md",
-    "Množiny/Množiny a množinové relácie.md",
     "Boolovská algebra/Čiastočne usporiadané množiny.md",
+    "Množiny/Množiny a množinové relácie.md",
+    "N5aM5.png.md",
     "Množiny/Zobrazenia.md",
     "Assets/Pictures/N5aM5.png",
     "Množiny/Grupy.md",
     "Main.md",
-    "link.md",
-    "Base.md"
+    "link.md"
   ]
 }
