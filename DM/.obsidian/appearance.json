@@ -4,6 +4,8 @@
     "test",
     "checkboxes",
     "tags",
-    "header"
-  ]
+    "header",
+    "auto_adapt_DL"
+  ],
+  "theme": "obsidian"
 }

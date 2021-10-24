@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Boolovská algebra/Čiastočne usporiadané množiny.md",
+            "file": "Boolovská algebra/Zväzy.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boolovská algebra/Čiastočne usporiadané množiny.md",
+                "file": "Boolovská algebra/Zväzy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,9 +96,9 @@
   },
   "active": "2f13b2b3ade24286",
   "lastOpenFiles": [
+    "Boolovská algebra/Zväzy.md",
     "Boolovská algebra/Čiastočne usporiadané množiny.md",
     "Množiny/Množiny a množinové relácie.md",
-    "Boolovská algebra/Zväzy.md",
     "Boolovská algebra/Boolovská algebra.md",
     "N5aM5.png.md",
     "Množiny/Zobrazenia.md",

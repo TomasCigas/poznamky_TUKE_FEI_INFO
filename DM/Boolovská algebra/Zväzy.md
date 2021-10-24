@@ -35,7 +35,7 @@ x\ \vee(y\wedge z) = (x\vee y)\wedge (x\vee z)
 $$
 
 Zväzy $N_5$ a $M_5$ nie sú distributívne, lebo v oboch sa dá nájsť trojica prvkov, pre ktoré neplatí aspoň jedna z rovností. Ich [[Čiastočne usporiadané množiny#Hasseho diagram|Hasseho diagramy]]:
-![[N5aM5.png]]
+![[N5aM5.png#invert_B]]
 
 
 Z toho nám vyplíva, že všetky zväzy obsahujúce [[#Podzväz|podzväz]] sú [[#Homomorfizmus|izomorfné]] s $N_5$ alebo $M_5$ tiež nebude distributívny. Keďže sú $N_5$ a $M_5$ najmenšie nedistributívne zväzy, teda ak ho zväz neobsahuje, je distributívny. (? doplniť)
