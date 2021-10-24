@@ -38,7 +38,7 @@ Zväzy $N_5$ a $M_5$ nie sú distributívne, lebo v oboch sa dá nájsť trojica
 ![[N5aM5.png]]
 
 
-Z toho nám vyplíva, že všetky zväzy obsahujúce [[#Podzväz|podzväz]] sú [[#Homomorfizmus|izomorfné]] s $N_5$ alebo $M_5$ tiež nebude distributívny.
+Z toho nám vyplíva, že všetky zväzy obsahujúce [[#Podzväz|podzväz]] sú [[#Homomorfizmus|izomorfné]] s $N_5$ alebo $M_5$ tiež nebude distributívny. Keďže sú $N_5$ a $M_5$ najmenšie nedistributívne zväzy, teda ak ho zväz neobsahuje, je distributívny. (? doplniť)
 
 ### Boolovský
 ak je komplementárny a distributívny.

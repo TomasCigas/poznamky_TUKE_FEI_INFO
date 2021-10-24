@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Boolovská algebra/Boolovská algebra.md",
-            "mode": "source"
+            "file": "Boolovská algebra/Čiastočne usporiadané množiny.md",
+            "mode": "preview"
           }
         }
       }
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "17200a9d766dae17",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Boolovská algebra/Boolovská algebra.md",
+                "file": "Boolovská algebra/Čiastočne usporiadané množiny.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,10 +96,10 @@
   },
   "active": "2f13b2b3ade24286",
   "lastOpenFiles": [
-    "Boolovská algebra/Boolovská algebra.md",
-    "Boolovská algebra/Zväzy.md",
     "Boolovská algebra/Čiastočne usporiadané množiny.md",
     "Množiny/Množiny a množinové relácie.md",
+    "Boolovská algebra/Zväzy.md",
+    "Boolovská algebra/Boolovská algebra.md",
     "N5aM5.png.md",
     "Množiny/Zobrazenia.md",
     "Assets/Pictures/N5aM5.png",
