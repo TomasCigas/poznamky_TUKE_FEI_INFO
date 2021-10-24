@@ -15,28 +15,14 @@ Prázdna množina: $A = \emptyset$
 **Relácia** je ľubovoľná podmnožina karteziánskeho súčinu množín.
 
 ### Binárna relácia
-**Binárna relácia** z množiny A do množiny B je [[#Relácie|Relácia]]  $A\times B$. Ak $A=B$, hovoríme o binárnej relácii na množine A, čo je ľubovoľná podmnožina $R\subset A^2$.
+**Binárna relácia** z množiny A do množiny B je [[#Relácie|relácia]]  $A\times B$. Ak $A=B$, hovoríme o binárnej relácii na množine A, čo je ľubovoľná podmnožina $R\subset A^2$.
 
 ### Ekvivalencia
-Hovoríme, že [[#Relácia]] $R$ na množine $A$ je **ekvivalencia** na množine A, ak je *reflexívna*, *symetrická* a tranzitívna.
+Hovoríme, že [[#Relácie|relácia]] $R$ na množine $A$ je **ekvivalencia** na množine A, ak je *reflexívna*, *symetrická* a tranzitívna.
 
 ### Vlastnosti binárnych množín
 1. **Reflexívnosť**: Ak $\forall a\ \epsilon\ A$ platí $aRa$
 2. **Symetrickosť**: Ak $\forall a,b\ \epsilon\ A$ platí, že ak $aRb$, tak aj $bRa$
 3. **Antisymetrickosť**: Ak $\forall a,b\ \epsilon\ A$ platí, že ak $aRb\ \wedge bRa$, tak $a=b$
 4. **Tranzitívnosť**: Ak $\forall a,b,c\ \epsilon\ A$ platí, že ak $aRb\ \wedge bRc$, tak $aRc$
-
-## Zobrazenie
-**Zobrazenie** z množiny A do množiny B je binárna relácia
-s vlastnosťami:
-- Ku $\forall a\ \epsilon A;$ existuje $b\ \epsilon B$ tak, že $(a,b\ \epsilon f)$
-- Ak $(a,b)\epsilon f\ \wedge\ (a,c)\epsilon f$ tak $b=c$
-
-_input file_
-
-### Druhy zobrazení
-1. **Surjektívne**: Ak ku každému $b\ \epsilon\ B$ existuje aspoň jedno $a\ \epsilon\ A$ tak, že $b=f(a)$
-2. **Injektívne**: Ak z $a_1\neq a_2$; $a_1,a_2\ \epsilon\ A$ vyplíva $f(a_1) \neq\ f(a_2)$
-3. **Bijektívne**: ak je injektívne a surjektívne.
-
-
+5. **Trichotómnosť** Pre $\forall a,b\ \epsilon\ A$ platí, že $aRb\ \wedge\ bRa \wedge a=b$, _teda každé 2 prvky relácie sú porovnatelné - vzťahuje sa na [[Čiastočne usporiadané množiny|ČUM]]_

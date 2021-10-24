@@ -8,5 +8,4 @@ Nakoľko je ČUM $A$ usporiadaná má _maximálny_ a _minimálny_ prvok určený
 Pokiaľ má ČUM len jedno _maximum_, nazýva sa **infimum**(inf). Jedno _minimum_ sa nazýva **supremum**(sup).
 
 ## Hasseho diagram
-ČUM sa graficky znázorňujú Hasseho diagramom.
-_Doplň info_
+ČUM sa graficky znázorňujú Hasseho diagramom. Vrcholy odpovedajúce prvkom množiny $A$ umiestnime v rovine tak, že ak $a\ \preceq b$, tak vrchol $a$ umiestnime nižšie ako vrchol $b$. Vrchol $a$ a $b$ spojíme čiarou, keď $b$ pokrýva $a$, pri tom ignorujeme [[Množiny a množinové relácie#Vlastnosti binárnych množín|reflexívnosť a tranzitívnosť]].

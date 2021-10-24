@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Množiny/Čiastočne usporiadané množiny.md",
-            "mode": "preview"
+            "file": "Množiny/Zväzy.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Množiny/Čiastočne usporiadané množiny.md",
+                "file": "Množiny/Zväzy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,15 +96,15 @@
   },
   "active": "2f13b2b3ade24286",
   "lastOpenFiles": [
-    "Množiny/Čiastočne usporiadané množiny.md",
     "Množiny/Zväzy.md",
+    "Množiny/Zobrazenia.md",
     "Množiny/Množiny a množinové relácie.md",
     "Množiny/Grupy.md",
+    "Množiny/Čiastočne usporiadané množiny.md",
     "Main.md",
     "link.md",
     "Base.md",
     "Assets/Untitled.md",
-    "Excalidraw/Heeloo.md",
-    "Untitled 1.md"
+    "Excalidraw/Heeloo.md"
   ]
 }
