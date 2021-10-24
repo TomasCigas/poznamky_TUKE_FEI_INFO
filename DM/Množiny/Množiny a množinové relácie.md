@@ -12,13 +12,13 @@ Prázdna množina: $A = \emptyset$
 **Karteziánsky súčin** je množina všetkých usporiadaných n-tíc, kde každý prvok n-tice patrí jednej z množín.
 
 ## Relácie
-**Relácia** je ľubovoľná podmnožina karteziánskeho súčinu množín.
+**Relácia** je ľubovoľná podmnožina karteziánskeho súčinu zadefinovaných množín.
 
 ### Binárna relácia
-**Binárna relácia** z množiny A do množiny B je [[#Relácie|relácia]]  $A\times B$. Ak $A=B$, hovoríme o binárnej relácii na množine A, čo je ľubovoľná podmnožina $R\subset A^2$.
+**Binárna relácia** z množiny A do množiny B je relácia  $A\times B$. Ak $A=B$, hovoríme o binárnej relácii na množine A ($(A,R)$ alebo $a\ \epsilon\ A,aRa$), čo je ľubovoľná podmnožina $R\subset A^2$.
 
 ### Ekvivalencia
-Hovoríme, že [[#Relácie|relácia]] $R$ na množine $A$ je **ekvivalencia** na množine A, ak je *reflexívna*, *symetrická* a tranzitívna.
+Hovoríme, že relácia $R$ na množine $A$ je **ekvivalencia** na množine A, ak je *reflexívna*, *symetrická* a tranzitívna.
 
 ### Vlastnosti binárnych množín
 1. **Reflexívnosť**: Ak $\forall a\ \epsilon\ A$ platí $aRa$
@@ -26,3 +26,7 @@ Hovoríme, že [[#Relácie|relácia]] $R$ na množine $A$ je **ekvivalencia** na
 3. **Antisymetrickosť**: Ak $\forall a,b\ \epsilon\ A$ platí, že ak $aRb\ \wedge bRa$, tak $a=b$
 4. **Tranzitívnosť**: Ak $\forall a,b,c\ \epsilon\ A$ platí, že ak $aRb\ \wedge bRc$, tak $aRc$
 5. **Trichotómnosť** Pre $\forall a,b\ \epsilon\ A$ platí, že $aRb\ \wedge\ bRa \wedge a=b$, _teda každé 2 prvky relácie sú porovnatelné - vzťahuje sa na [[Čiastočne usporiadané množiny|ČUM]]_
+
+### Zúženie relácie
+Relácia $R^*$ je **zúženie** relácie $R$, pokiaľ všetky operácie $R^*$ majú rovnaký výsledok ako v relácii $R$.
+_Doplniť aj zrozumitelné vysvetlenie..._

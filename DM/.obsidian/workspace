@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Množiny/Zväzy.md",
+            "file": "Boolovská algebra/Boolovské funkcie.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Množiny/Zväzy.md",
+                "file": "Boolovská algebra/Boolovské funkcie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -96,15 +96,15 @@
   },
   "active": "2f13b2b3ade24286",
   "lastOpenFiles": [
-    "Množiny/Zväzy.md",
-    "Množiny/Zobrazenia.md",
+    "Boolovská algebra/Boolovské funkcie.md",
+    "Boolovská algebra/Zväzy.md",
     "Množiny/Množiny a množinové relácie.md",
+    "Boolovská algebra/Čiastočne usporiadané množiny.md",
+    "Množiny/Zobrazenia.md",
+    "Assets/Pictures/N5aM5.png",
     "Množiny/Grupy.md",
-    "Množiny/Čiastočne usporiadané množiny.md",
     "Main.md",
     "link.md",
-    "Base.md",
-    "Assets/Untitled.md",
-    "Excalidraw/Heeloo.md"
+    "Base.md"
   ]
 }
