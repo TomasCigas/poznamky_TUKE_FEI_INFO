@@ -76,3 +76,6 @@ $$
 
 Ak je [[Zobrazenia#Druhy zobrazení|bijekcia]] množiny $L$ na $L'$ vzhľadom na **obidve** operácie je **IZOMORFIZMUS**. Takéto zväzy majú teda rovnaký [[Čiastočne usporiadané množiny#Hasseho diagram|hasseho diagram]]. 
 __input file__
+
+
+Muťka je cute.
