@@ -1,0 +1,4 @@
+# Architektúry počítačových systémov
+---
+- <**>
+---

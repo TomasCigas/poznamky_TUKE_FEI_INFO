@@ -1,0 +1,1 @@
+# Štrukturálne návrhové vzory
