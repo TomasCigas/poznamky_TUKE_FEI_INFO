@@ -1,0 +1,13 @@
+{
+  "baseFontSize": 15,
+  "enabledCssSnippets": [
+    "test",
+    "checkboxes",
+    "tags",
+    "header",
+    "diagram",
+    "diagrams",
+    "auto_adapt_DL"
+  ],
+  "theme": "obsidian"
+}

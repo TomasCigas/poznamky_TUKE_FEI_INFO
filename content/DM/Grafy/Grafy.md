@@ -24,4 +24,5 @@ Takýto graf sa nazýva **pseudograf**.
 - [[Špeciálne typy grafov]]
 - [[Vlastnosti grafov]]
 - [[Operácie na grafoch]]
+- [[Postupnosť vrcholov a hrán]]
 ---

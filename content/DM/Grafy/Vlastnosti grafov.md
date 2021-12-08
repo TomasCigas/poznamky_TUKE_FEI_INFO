@@ -1,5 +1,6 @@
 # Vlastnosti grafov
 Nech $G_1=(V_1,H_1)$ a $G_2=(V_2,H_2)$ sú [[Grafy|grafy]].
+
 ## Komplementárnosť
 **Komplementom** grafu $G=(V,H)$ nazývame graf $\neg G = (V,{V\choose 2}/H)$. 
 	- Teda grafý $G$ a $\neg G$ sú komplementárne
@@ -19,12 +20,28 @@ Postup nájdenia:
 2. Hľadáme také bijektívne zobrazenie, ktoré spĺňa zachovanie incidencie.
 	- pri nesplnení upravujeme graf, tak aby predošlá podmienka spĺňala.
 	- dúfame, že spĺňa inak je bijektívnych zobrazení n!
-3. Prípadne môžeme prekresliť jeden z grafov tak, aby prekrýval ten druhý.
+ 
+ - Spôsoby nájdenia:
+ 1. Grafy majú rovnaký počet vrcholov
+ 2. Graf sa dá prekresliť tak, aby vyzeral totožne
+
+ - Spôsoby vyvrátenia:
+ 4. Nájdenie kružnice, ktorá sa v druhom nenachádza
+ 5. Rozdielny maximálny stupeň grafu
+ 6. Rozdielny stupeň susedov vo vrchole s maximálnym stupňom
+
 ! Ak sú grafy izomorfné, tak ich vlastnosti sú totožné !
+
+! Ak sú grafy komplementárne, nie sú izomorfné ! - dokázať
+
+! Grafy sú izomorfné ak jedna z permutácií stĺpcov a riadkov ich [[Vzdialenosti v grafe#Matica incidencie|matíc incidencie]] je rovnaká.
 	
 ## Súvislosť
 
-Graf  $G=(V,H)$ je **súvislý**, ak pre každú dvojicu vrcholov $u,v$ existuje medzi nimi [[Postupnosť vrcholov a hrán#Sled|sled]].
+Graf  $G=(V,H)$ je **súvislý**, ak pre každú dvojicu vrcholov $u,v$ existuje medzi nimi [[Postupnosť vrcholov a hrán#Cesta|cesta]].
+
+### Faktor grafu
+- [[Špeciálne typy grafov#Podgraf|podgraf]] [[Grafy|grafu]] $G$ ktorý obsahuje všetky vrcholy grafu $G$
 
 ### Stupeň vrchola v grafe 
 **Stupeň vrchola** je počet susedov vrchola.
@@ -39,20 +56,13 @@ $$
 
 _Def_.: Graf $G=(V,H)$, ktorý má $\forall$ vrcholy stupňa $k$ nazývame **pravidelný graf stupňa $k$**
 
-$K_n$ je [[Grafy|pravidelný]] graf stupňa n-1
+$K_n$ je [[Špeciálne typy grafov|pravidelný]] graf stupňa n-1
 
-- pravidelný faktor grafu - [[Špeciálne typy grafov#Podgraf|podgraf]] obsahujúci vrcholy grafu a má rovnaké stupne vrcholov
+- pravidelný [[Vlastnosti grafov#Faktor grafu|faktor grafu]] - faktor grafu, ktorého stupne vrcholov sú všetky rovnaké
+
+- vrchol s **maximálnym** stupňom musí byť menší ako počet vrcholov s nenulovým stupňom v grafe
 
 ### Grafová postupnosť
-_Veta_: 
-Počet vrcholov s nepárnym stupňom je v každom grafe číslo párne.
-_D_: 
-$$
-\sum_{v\epsilon V} \delta_G(v) = \sum \square + \sum \bigstar = 2*|H|
-$$
-kde $\square$ je párne a $\bigstar$ je nepárne.
-Súčet párnych čísel je párny, keďže aj výsledok je párny, musí byť súčet nepárnych čísel párnych.
-
 Postupnosť čísel je **grafová**, ak existuje graf s odpovedajúcimi stupňami vrcholov.
 
 _Veta_(Havlova):
@@ -61,6 +71,15 @@ $$
 S_1\geq S_2\geq ...\geq S_n
 $$
 Tá postupnosť je **grafová** $\Leftrightarrow$ ak je grafová aj postupnosť  $S_2 - 1,S_3 - 1,...,S_{S+1}-1, S_{S+2},...,S_n$ 
+
+_Veta_: 
+Počet vrcholov s nepárnym stupňom je v každom grafe číslo párne.
+_D_: 
+$$
+\sum_{v\epsilon V} \delta_G(v) = \sum \square + \sum \bigstar = 2*|H|
+$$
+kde $\square$ je párne a $\bigstar$ je nepárne.
+Súčet párnych čísel je párny, keďže aj výsledok je párny, musí byť súčet nepárnych čísel párnych.
 
 ## Komponent
 **Komponent** grafu $G$ je každý jeho maximálny (obsahuje maximálny počet hrán a vrcholov) súvislý [[Špeciálne typy grafov#Podgraf|podgraf]].

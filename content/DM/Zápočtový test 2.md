@@ -1,0 +1,14 @@
+# Okruhy
+- [ ] Výroková logika ???
+- [ ] Teória grafov
+	- [x] Grafová postupnosť
+		- [[Vlastnosti grafov#Grafová postupnosť]]
+	- [x] Izomorfizmus grafov
+		- [[Vlastnosti grafov#Izomorfizmus]]
+	- [ ] Vzdialenosť v grafoch
+	- [ ] Stred stromu
+	- [ ] Planárnosť, Hamiltonovskosť, Eulerovskosť (pravdepodobne nie)
+		- [[Postupnosť vrcholov a hrán]] 
+	- [ ] Frabenie grafov
+	- [ ] Počet kostier grafu
+	- [ ] Počet koreňových kostier
