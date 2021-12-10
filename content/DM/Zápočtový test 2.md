@@ -5,10 +5,14 @@
 		- [[Vlastnosti grafov#Grafová postupnosť]]
 	- [x] Izomorfizmus grafov
 		- [[Vlastnosti grafov#Izomorfizmus]]
-	- [ ] Vzdialenosť v grafoch
-	- [ ] Stred stromu
+	- [x] Vzdialenosť v grafoch
+		- [[Vzdialenosti v grafe]]
+	- [x] Stred stromu
+		- [[Vzdialenosti v grafe#Stred grafu]]
 	- [ ] Planárnosť, Hamiltonovskosť, Eulerovskosť (pravdepodobne nie)
 		- [[Postupnosť vrcholov a hrán]] 
-	- [ ] Frabenie grafov
-	- [ ] Počet kostier grafu
-	- [ ] Počet koreňových kostier
+	- [x] Frabenie grafov
+		- [[Operácie na grafoch#Farbenie]]
+	- [x] Počet kostier grafu + koreňové kostry
+		- [[Vlastnosti grafov#Kostra]]
+		- [[Vlastnosti digrafov#Koreňová kostra]]

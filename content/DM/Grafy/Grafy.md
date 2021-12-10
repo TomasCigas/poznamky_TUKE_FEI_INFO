@@ -21,8 +21,9 @@ Grafy môžu mať hrany ktoré incidujú len s jedným bodom, tzv. **slučky**.
 Takýto graf sa nazýva **pseudograf**.
 
 ---
-- [[Špeciálne typy grafov]]
 - [[Vlastnosti grafov]]
-- [[Operácie na grafoch]]
+- [[Špeciálne typy grafov]]
 - [[Postupnosť vrcholov a hrán]]
+- [[Operácie na grafoch]]
+- [[Digrafy]]
 ---

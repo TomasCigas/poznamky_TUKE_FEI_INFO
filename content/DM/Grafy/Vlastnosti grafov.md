@@ -38,7 +38,7 @@ Postup nájdenia:
 	
 ## Súvislosť
 
-Graf  $G=(V,H)$ je **súvislý**, ak pre každú dvojicu vrcholov $u,v$ existuje medzi nimi [[Postupnosť vrcholov a hrán#Cesta|cesta]].
+Graf  $G=(V,H)$ je **súvislý**, ak medzi každou dvojicou vrcholov $u,v$ existuje [[Postupnosť vrcholov a hrán#Cesta|cesta]]. Súvislý graf musí mať jeden [[#Komponent|komponent]].
 
 ### Faktor grafu
 - [[Špeciálne typy grafov#Podgraf|podgraf]] [[Grafy|grafu]] $G$ ktorý obsahuje všetky vrcholy grafu $G$
@@ -47,7 +47,7 @@ Graf  $G=(V,H)$ je **súvislý**, ak pre každú dvojicu vrcholov $u,v$ existuje
 **Stupeň vrchola** je počet susedov vrchola.
 
 _Def_.: Nech $G=(V,H)$ je graf a nech $u\epsilon V$.
-Číslo $\delta _G(u)$ nazývame **stupeň vrchola** v grafe $G$, kde $\delta _G (u)$ = počet susedov vrchola / počet incidujúcich hrán.
+Číslo $\delta _G(u)$ nazývame **stupeň vrchola** v grafe $G$, kde $\delta _G (u)$ = počet susedov vrchola (resp. počet incidujúcich hrán).
 
 _Veta_: Pre ľubovoľný graf $G=(V,H)$ platí: 
 $$
@@ -79,10 +79,15 @@ $$
 \sum_{v\epsilon V} \delta_G(v) = \sum \square + \sum \bigstar = 2*|H|
 $$
 kde $\square$ je párne a $\bigstar$ je nepárne.
-Súčet párnych čísel je párny, keďže aj výsledok je párny, musí byť súčet nepárnych čísel párnych.
+Súčet párnych čísel je párny, keďže aj výsledok je párny, musí byť súčet nepárnych čísel tiež párnych.
 
 ## Komponent
 **Komponent** grafu $G$ je každý jeho maximálny (obsahuje maximálny počet hrán a vrcholov) súvislý [[Špeciálne typy grafov#Podgraf|podgraf]].
 
 _Veta_:
 Nech $G=(V,H)$, $|V| = n$ je graf, v ktorom súčet stupňov ľubovoľnej dvojice nesusedných vrcholov je aspoň $n-1$. Potom graf $G$ je súvislý.
+
+## Kostra
+**Kostra** grafu je taký [[#Faktor grafu|faktor grafu]], ktorý je [[Špeciálne typy grafov#Strom|stromom]].
+Počet kostier grafu môžeme získať výpočtom determinantu matice $det(D-B)$, kde $D$ je [[Vzdialenosti v grafe#Diagonálna matica|diagonálna matica]] a $B$ je [[Vzdialenosti v grafe#Matica susednosti|matica susednosti]], pri čom z výslednej matice vyradíme ľubovoľný riadok a stĺpec $i$ (musia mať rovnaký index).
+

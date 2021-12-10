@@ -21,6 +21,8 @@
 - sčítaním všetkých prvkov v riadku či stĺpci $i$ dostávame [[Vlastnosti grafov#Stupeň vrchola v grafe|stupeň vrchola]] $\delta_{vi}$
 
 ### Diagonálna matica
+- existuje z matice incidencie a susednosti
+#### Susednosť
 - prvky na diagonále majú stupeň korešpondujúcich vrcholov
 $$
 \begin{bmatrix}
@@ -30,6 +32,8 @@ $$
 ... & ... & ... & \delta_{v_i}
 \end{bmatrix}
 $$
+#### Incidencia
+- prvky na diagonále majú počet incidujúcich hrán
 
 ## Vzdialenosť vrcholov
 - vzdialenosť susedných vrcholov je 1
@@ -53,3 +57,13 @@ $$
 3. Prvok $a_{i,j}$ matice $B^{(k)}$ nadobúda hodnoty:
 	- 1 -> pokiaľ vrcholy $v_i$ a $v_j$ majú vzdialenosť **menšiu alebo rovnú** ako $k$
 	- 0 -> pokiaľ vrcholy $v_i$ a $v_j$ majú vzdialenosť **väčšiu** ako $k$
+
+## Excentricita
+- **excentricita** vrchola je maximálna vzdialenosť od ostatných vrcholov
+! Z výpočtu vzdialenosti dokážeme zistiť excentricitu daného vrcholu vtedy, keď pri iterácii $k$ nadobúda riadok/stĺpec samých jednotiek, vtedy $e(v_i) = k$
+- **priemer grafu** je vrchol s najvyššou excentricitou
+- **polomer grafu** je vrchol s najnižšou excentricitou
+
+## Stred grafu
+- je množina vrcholov, ktorých [[#Excentricita|excentricita]] je rovná polomeru grafu
+- v prípade grafu [[Špeciálne typy grafov#Strom|stromov]] odstraňujeme listy, dokým nám nezostane 1 či 2 vrcholy

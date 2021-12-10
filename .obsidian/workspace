@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/DM/Grafy/Vzdialenosti v grafe.md",
+            "file": "content/DM/Grafy/Digrafy/Postupnosť vrcholov a orientovaných hrán.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pravidelný",
+                "query": "Stred",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/DM/Grafy/Vzdialenosti v grafe.md",
+                "file": "content/DM/Grafy/Digrafy/Postupnosť vrcholov a orientovaných hrán.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "60d369b85d8eebe5",
   "lastOpenFiles": [
-    "content/DM/Grafy/Vzdialenosti v grafe.md",
-    "content/DM/Grafy/Vlastnosti grafov.md",
-    "content/DM/Grafy/Špeciálne typy grafov.md",
-    "content/DM/Množiny/Množiny.md",
+    "content/DM/Grafy/Digrafy/Postupnosť vrcholov a orientovaných hrán.md",
+    "content/DM/Grafy/Digrafy/Digrafy.md",
+    "content/APS/Architektúry počítačových systémov.md",
+    "content/DM/Zápočtový test 2.md",
+    "content/DM/Grafy/Operácie na grafoch.md",
     "content/DM/Grafy/Grafy.md",
-    "content/DM/Boolovská algebra/Boolovská algebra.md",
-    "content/DM/Diskrétna matematika.md",
-    "content/DM/Množiny/Množiny a množinové relácie.md",
-    "content/DM/Grafy/Postupnosť vrcholov a hrán.md",
-    "content/DM/Grafy/Operácie na grafoch.md"
+    "content/DM/Grafy/Špeciálne typy grafov.md",
+    "content/DM/Grafy/Vlastnosti grafov.md",
+    "content/DM/Grafy/Digrafy/Vlastnosti digrafov.md",
+    "content/DM/Grafy/Vzdialenosti v grafe.md"
   ]
 }
