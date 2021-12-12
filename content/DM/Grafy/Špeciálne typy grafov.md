@@ -2,6 +2,8 @@
 
 ## Pravidelný graf
 - [[Grafy|graf]], ktorého všetky vrcholi majú rovnaký [[Vlastnosti grafov#Stupeň vrchola v grafe|stupeň]].
+- **k-regulárny** graf má všetky vrcholy $k$ stupňa:
+	- 3-regulárny graf sa nazýva aj **kubický**
 
 ## Biparitný graf
 - [[Grafy|graf]], kde množinu vrcholov $V$ je možné rozdeliť na dve skupiny, kde ani vrcholi nie sú navzájom susedné

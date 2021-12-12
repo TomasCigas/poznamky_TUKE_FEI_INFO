@@ -42,6 +42,7 @@ Graf  $G=(V,H)$ je **súvislý**, ak medzi každou dvojicou vrcholov $u,v$ exist
 
 ### Faktor grafu
 - [[Špeciálne typy grafov#Podgraf|podgraf]] [[Grafy|grafu]] $G$ ktorý obsahuje všetky vrcholy grafu $G$
+- **k-faktor** grafu je faktor, ktorého každý vrchol má $k$ stupeň
 
 ### Stupeň vrchola v grafe 
 **Stupeň vrchola** je počet susedov vrchola.
@@ -91,3 +92,51 @@ Nech $G=(V,H)$, $|V| = n$ je graf, v ktorom súčet stupňov ľubovoľnej dvojic
 **Kostra** grafu je taký [[#Faktor grafu|faktor grafu]], ktorý je [[Špeciálne typy grafov#Strom|stromom]].
 Počet kostier grafu môžeme získať výpočtom determinantu matice $det(D-B)$, kde $D$ je [[Vzdialenosti v grafe#Diagonálna matica|diagonálna matica]] a $B$ je [[Vzdialenosti v grafe#Matica susednosti|matica susednosti]], pri čom z výslednej matice vyradíme ľubovoľný riadok a stĺpec $i$ (musia mať rovnaký index).
 
+## Homeomorfizmus
+- dva grafy sú izomorfné, pokiaľ sú [[#Izomorfizmus|izomorfné]] alebo vznikli **rozpoľtením hrán** (na hranu sa pridá vrchol so stupňom 2)
+
+## Planárnosť
+- graf je **planárny** pokiaľ sa jeho hrany nepretínajú, resp. sa dá prekresliť do roviny tak, aby sa nepretínali
+- **eulerova formula** udáva, že pokiaľ máme súvislý, planárny graf _(zakreslený tak, že sa nepretínajú hrany)_, počet stien $r$ v tomto grafe sa dá vypočítať ako:
+$$
+|H| - |V| + 2 = r
+$$
+- pomocou eulerovej formuly teda vieme vydedukovať, že pokiaľ je graf planárny tak každá stena (okrem vonkajšej) je ohraničená aspoň 3 vrcholmi a každá hrana sa dotýka maximálne dvoch stien, matematicky povedané, že ak gra nespĺňa:
+$$
+|H| \leq 3*|V|-6
+$$
+tak určite **nie je** planárny
+
+- pokiaľ však spĺňa túto podmienku, stále nemusí byť planárny, v tomto prípade hľadáme či graf nemá podgrafy homeomorfné s [[Špeciálne typy grafov#Kompletný graf|grafmi]] $K_5$ alebo $K_{3,3}$, keďže tieto sú najmenšie neplanáre grafy (Kuratowského veta)
+
+- pokiaľ je graf [[Špeciálne typy grafov#Strom|stromom]] tak je planárny
+
+Postup pre zisťovanie planárnosti grafu(?):
+1. $|H| \leq 3*|V|-6$
+2. Pokiaľ graf nemá [[Postupnosť vrcholov a hrán#Kružnica|kružnicu]] dĺžky 3, tak $|H| \leq 2*|V| -4$
+3. $r \leq 2 *|V| - 4$
+
+## Eulerovskosť
+- graf je **eulerovský** pokiaľ sa v ňom nachádza tzv. **eulerovský ťah** -> [[Postupnosť vrcholov a hrán#Ťah|ťah]], ktorý prechádza každou hranou
+
+- pokiaľ všetky vrcholy v grafe majú párny stupeň, tak existuje eulerovský ťah
+- pokiaľ má graf práve 2 vrcholy nepárneho stupňa, existuje eulerovský ťah
+
+## Hamiltonovskosť
+- graf je **hamiltonovský** pokiaľ sa v ňom nachádza tzv. **hamiltonovská kružnica** -> [[Postupnosť vrcholov a hrán#Cesta|cesta]], ktorá prechádza každým vrcholom
+
+Vety:
+- pokiaľ graf obashuje **most** alebo **artikuláciu** nemôže byť hamiltonovský
+	- **most** -> hrana, ktorú po vynechaní z grafu sa v ňom zvýši počet komponentov
+	- **artikulácia** -> vrchol, ktorý po vynechaní z grafu sa v ňom zvýši počet komponentov
+- pokiaľ je graf diparcitný s rovnakým počtom vrcholov v partíciách, tak je aj hamiltonovský
+- pokiaľ graf $G = (V,H)$, kde $|V| \geq 3$  a každý vrchol $v\epsilon V$ spĺňa:
+$$
+\delta _v \geq \frac{|V|}{2}
+$$
+tak je graf hamiltonovský
+- pokiaľ pre ľubovoľné dva vrcholy $v$ a $u$ grafu $G = (V,H)$, kde $|V| \geq 3$ platí:
+$$
+\delta _v + \delta _u \geq |V|
+$$
+tak je graf hamiltonovský

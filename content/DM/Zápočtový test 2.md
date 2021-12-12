@@ -1,6 +1,6 @@
 # Okruhy
-- [ ] Výroková logika ???
-- [ ] Teória grafov
+- [x] Výroková logika -> tautológie a kontradikcie
+- [x] Teória grafov
 	- [x] Grafová postupnosť
 		- [[Vlastnosti grafov#Grafová postupnosť]]
 	- [x] Izomorfizmus grafov
@@ -9,7 +9,7 @@
 		- [[Vzdialenosti v grafe]]
 	- [x] Stred stromu
 		- [[Vzdialenosti v grafe#Stred grafu]]
-	- [ ] Planárnosť, Hamiltonovskosť, Eulerovskosť (pravdepodobne nie)
+	- [x] Planárnosť, Hamiltonovskosť, Eulerovskosť (pravdepodobne nie)
 		- [[Postupnosť vrcholov a hrán]] 
 	- [x] Frabenie grafov
 		- [[Operácie na grafoch#Farbenie]]

@@ -11,7 +11,7 @@ Potom:
 ## Farbenie
 cwayons hehe
 
-## Vrcholov
+### Vrcholov
 Princípy farbenia:
 1. Farbíme vrcholy
 2. Susedné vrcholy majú rôzne farby
@@ -31,7 +31,7 @@ Typy:
 - prioritizujeme jednoznačné farby pri minimálnom chromatickom čísle
 - pri symetrickom grafe môžeme farbiť najprv vonkajšiu kružnicu
 
-## Hrán
+### Hrán
 Princíp farbenia:
 1. Farbíme hrany
 2. Susedné hrany majú rôzne farby
