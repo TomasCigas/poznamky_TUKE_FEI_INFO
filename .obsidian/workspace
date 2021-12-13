@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/DM/Grafy/Špeciálne typy grafov.md",
+            "file": "content/DM/Grafy/Vlastnosti grafov.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/DM/Grafy/Špeciálne typy grafov.md",
+                "file": "content/DM/Grafy/Vlastnosti grafov.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,12 +88,12 @@
   },
   "active": "60d369b85d8eebe5",
   "lastOpenFiles": [
-    "content/DM/Grafy/Špeciálne typy grafov.md",
     "content/DM/Grafy/Vlastnosti grafov.md",
-    "content/DM/Grafy/Grafy.md",
-    "content/DM/Zápočtový test 2.md",
     "content/DM/Grafy/Vzdialenosti v grafe.md",
     "content/DM/Grafy/Operácie na grafoch.md",
+    "content/DM/Grafy/Špeciálne typy grafov.md",
+    "content/DM/Grafy/Grafy.md",
+    "content/DM/Zápočtový test 2.md",
     "content/DM/Výroky/Zložené výroky.md",
     "content/DM/Výroky/Výroky.md",
     "content/DM/Grafy/Postupnosť vrcholov a hrán.md",

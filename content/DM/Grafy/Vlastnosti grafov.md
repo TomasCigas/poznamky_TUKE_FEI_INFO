@@ -112,9 +112,9 @@ tak určite **nie je** planárny
 - pokiaľ je graf [[Špeciálne typy grafov#Strom|stromom]] tak je planárny
 
 Postup pre zisťovanie planárnosti grafu(?):
-1. $|H| \leq 3*|V|-6$
-2. Pokiaľ graf nemá [[Postupnosť vrcholov a hrán#Kružnica|kružnicu]] dĺžky 3, tak $|H| \leq 2*|V| -4$
-3. $r \leq 2 *|V| - 4$
+1. Snažíme sa prekresliť graf tak, aby sa nepretínali hrany
+2. Zisťujeme či $|H| \leq 3*|V|-6$
+3. Hľadáme $K_{3,3}$ alebo $K_5$
 
 ## Eulerovskosť
 - graf je **eulerovský** pokiaľ sa v ňom nachádza tzv. **eulerovský ťah** -> [[Postupnosť vrcholov a hrán#Ťah|ťah]], ktorý prechádza každou hranou
