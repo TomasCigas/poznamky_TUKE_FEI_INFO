@@ -1,0 +1,5 @@
+# Zadanie
+---
+- [[Medziprocesorová komunikácia]]
+- [[Súbory]]
+---

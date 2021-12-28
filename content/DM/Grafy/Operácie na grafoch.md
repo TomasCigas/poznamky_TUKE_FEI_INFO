@@ -1,6 +1,3 @@
-
-
-
 # Operácie na grafoch
 Nech $G_1=(V_1,H_1)$ a $G_2=(V_2,H_2)$ sú [[Grafy|grafy]].
 ## Zjednotenie a prienik

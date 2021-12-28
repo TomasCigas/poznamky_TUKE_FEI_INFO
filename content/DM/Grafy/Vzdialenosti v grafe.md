@@ -6,7 +6,7 @@
 ## Maticové reprezentácie grafov
 
 ### Matica incidencie
-- matica typu, ktorá zaznamenáva incidenciu hrán a vrcholov, kde (dohodou) každý riadok $i$ reprezentuje vrchol $v_i$ a každý stĺpec $j$ reprezentuje hranu $h_j$
+- matica typu $m,n$ ($m$-> počet vrcholov, $n$ -> počet hrán) , ktorá zaznamenáva incidenciu hrán a vrcholov, kde (dohodou) každý riadok $i$ reprezentuje vrchol $v_i$ a každý stĺpec $j$ reprezentuje hranu $h_j$
 - prvok $A_{i,j}$ v matici môže nadobudnúť hodnotu:
 	- 1 -> pokiaľ vrchol $v_i$ inciduje s hranou $h_j$
 	- 0 -> pokiaľ nie

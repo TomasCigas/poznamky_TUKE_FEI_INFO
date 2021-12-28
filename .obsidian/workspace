@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/DM/Grafy/Vlastnosti grafov.md",
+            "file": "content/OS/Činnosť počítača/Procesor.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/DM/Grafy/Vlastnosti grafov.md",
+                "file": "content/OS/Činnosť počítača/Procesor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "60d369b85d8eebe5",
   "lastOpenFiles": [
-    "content/DM/Grafy/Vlastnosti grafov.md",
-    "content/DM/Grafy/Vzdialenosti v grafe.md",
-    "content/DM/Grafy/Operácie na grafoch.md",
-    "content/DM/Grafy/Špeciálne typy grafov.md",
-    "content/DM/Grafy/Grafy.md",
-    "content/DM/Zápočtový test 2.md",
-    "content/DM/Výroky/Zložené výroky.md",
-    "content/DM/Výroky/Výroky.md",
-    "content/DM/Grafy/Postupnosť vrcholov a hrán.md",
-    "content/DM/Grafy/Digrafy/Postupnosť vrcholov a orientovaných hrán.md"
+    "content/OS/Činnosť počítača/Procesor.md",
+    "content/OS/Činnosť počítača/Vykonávanie inštrukcií.md",
+    "content/OS/Činnosť počítača/Prerušenia.md",
+    "content/OS/Činnosť počítača/Pamäť.md",
+    "content/OS/Činnosť počítača/Činnosť počítača.md",
+    "content/OS/Hardvér/Hardvér.md",
+    "content/OS/Bezpečnosť.md",
+    "assets/excal/ring_sec.excalidraw.md",
+    "content/OS/Operačné systémy.md",
+    "content/OS/Vstupno výstupné zariadenia.md"
   ]
 }
