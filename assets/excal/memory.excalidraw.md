@@ -403,7 +403,7 @@ Dáta ^P9DkXiMF
 			"type": "text",
 			"x": 204.39998245239258,
 			"y": -93.39999389648438,
-			"width": 53,
+			"width": 51,
 			"height": 25,
 			"angle": 0,
 			"strokeColor": "#000000",

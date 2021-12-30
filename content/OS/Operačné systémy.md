@@ -30,4 +30,5 @@ Každá časť operačného systému spravuje neaký zdroj, napr.:
 - [[Klasifikácie]]
 - [[Bezpečnosť]]
 - [[Činnosť počítača]]
+- [[Procesy]]
 ---

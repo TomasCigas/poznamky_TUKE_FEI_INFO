@@ -7856,7 +7856,7 @@ OS kernel ^8nD7gL6W
 			"type": "text",
 			"x": 243.19998168945307,
 			"y": 11.64615689791168,
-			"width": 93,
+			"width": 91,
 			"height": 25,
 			"angle": 0,
 			"strokeColor": "#000000",

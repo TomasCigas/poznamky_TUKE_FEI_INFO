@@ -2,7 +2,9 @@
 
 ## Základná štruktúra
 ![[zakladna_struktura_OS.excalidraw]]
-Alebo
+Alebo veľmi zjednodušene:
+![[basic_os.excalidraw]]
+
 
 ## Rôzne koncepty štruktúr OS
 - štruktúra MS-DOS, MS-Windows pred WinNT
@@ -26,3 +28,6 @@ Aplikácie boli zvyčajne neschopné narábať so samotným hardvérom a prístu
 ![[ramez_elmasri_bios.excalidraw]]
 #### Stupňový model
 ![[ramez_elmarsi_layered.excalidraw]]
+
+### UNIX
+![[UNIX_OS_struk.excalidraw]]

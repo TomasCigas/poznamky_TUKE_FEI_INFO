@@ -6,10 +6,19 @@ Slúži na dočasné, či dlhodobé ukladanie dát.
 
 ## Hierarchia pamätí
 ![[mem_hierarchy.excaldraw]]
+ 
+ **Operačná** -> rýchla, drahá, dočasná
+ **Sekundárna** -> pomalá, lacná, trvalá
 
 ## Vyrovnávacia pamäť (cache)
 Je transparentná pre programátora.
 ![[Cache.excalidraw]]
+
+---
+- [[Správa pamäte]]
+- [[Virtuálna pamäť]]
+- [[Fyzická pamäť]]
+---
 
 
 
