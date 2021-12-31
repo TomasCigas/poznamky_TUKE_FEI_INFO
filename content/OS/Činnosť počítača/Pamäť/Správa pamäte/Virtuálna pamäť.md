@@ -20,7 +20,7 @@ Pokiaľ sa proces odkazuje na pamäť, ktorá nie je fyzicky prítomná v oprač
 
 ## Princíp virtuálnej pamäte
 - Všetky adresy v rámci procesu sú logické
-- [[Pojmy#Logická adresa|Logické adresy]] sú transformované na [[Pojmy#Fyzická adresa|fyzické adresy]]
+- [[Pojmy pamäť#Logická adresa|Logické adresy]] sú transformované na [[Pojmy pamäť#Fyzická adresa|fyzické adresy]]
 - Pamäť procesu nemusí byť súvisle uložená v oblasti fyzickej pamäte
 
 ## Dôsledok virtuálnej pamäte
@@ -60,45 +60,47 @@ Riešenie:
 Musí obsahovať:
 ### Postup získavania (Fetch policy)
 Rozhoduje kedy preniesť stránku do operačnej pamäte
-#### Vyžiadanie stránkovania (Demand paging)
+
+### Vyžiadanie stránkovania (Demand paging)
 - Stránkovanie na **požiadanie**
 - Môže byť pomalé kvôli zapisovania a čítania zo [[Pamäť#Hierarchia pamätí|sekundárnej pamäte]]
-#### Predstránkovanie (Prepaging)
+### Predstránkovanie (Prepaging)
 - Odhaduje ktorá stránka sa bude používať a pripravý sa pred použitím
 
-#### Umiestňovanie stránok (Placement policy)
+### Umiestňovanie stránok (Placement policy)
 - Kde sa umiestňujú stránky v **operačnej a fyzickej pamäti**
 - [[Historické prístupy#Stránkovanie|Stránkovanie]] je bezproblémové vďaka rovnakej veľkosti stránok
 
-#### Výmena stránok (Replacement policy)
+### Výmena stránok (Replacement policy)
 - Určenie ktorá stránka bude vybraná na **výmenu obsahu**
 - **Frame locking** -> uzamknutie stránok, ktoré obsahujú dôležité dáta/kód aby sa tieto stránky nevymieňali
 - Hlavné algoritmy:
-##### Optimálny
+#### Optimálny
 - Vyberie stránku, ktorá sa v najbližšej dobe nebude využívať (ideálne vôbec)
 - Spôsobuje najmenší výpadok stránok
 - Nedá sa implementovať :)
 - Slúži ako ideálna hranica
 
-##### Najmenej používané (Least recently used -> LRU)
+#### Najmenej používané (Least recently used -> LRU)
 - Vymeňí stránku, ktorá bola najdlhšie nepoužitá
 - Prakticky neimplementovateľný, pretože by sme ku každej stránke pridať čas poslednej manipulácie -> extrémne zväčšuje jej veľkosť + musíme prehľadávať stránky aby sme vybrali ten ideálny
 
-##### Prvé-dnu-prvé-von (First-in-first-out -> FIFO)
+#### Prvé-dnu-prvé-von (First-in-first-out -> FIFO)
 - Najjednoduchšia implementácia
 - Vymení stránku ktorá bola v pamäti najdlhšie (ktorá prišla ako prvá)
 - Má zlé výsledky
 
-##### Hodiny
+#### Hodiny
 - Zo stránok si vytvoríme kruhový zoznam (hodiny) a so smerníkom (ručička) ukazujeme na poslednú prezeranú stránku v zozname. Taktiež máme uložený zoznam použitia stránok, ktorý slúži na vyberanie vhodnej stránky
 - Pokiaľ neexistuje voľná stránka kontroluje naša ručička či boli stránky použité, pokiaľ:
 	- áno -> tak jej nastavujeme že nebola použitá
 	- nie -> vymieňa sa stránka a nastavujeme, že bola použitá
 	- ručička sa posúva ďalej v oboch prípadoch
 
-#### Vyrovnávanie stránok (Page buffering)
+### Vyrovnávanie stránok (Page buffering)
+#add_info
 
-#### Manažovanie rezidentnej skupiny (Resident Set Managment -> RS managment)
+### Manažovanie rezidentnej skupiny (Resident Set Managment -> RS managment)
 - Veľkosť RS:
 	- Fixná
 	- Variabílna
@@ -106,9 +108,9 @@ Rozhoduje kedy preniesť stránku do operačnej pamäte
 	- Globálna
 	- Lokálna
 
-#### Postup čistenia
+### Postup čistenia (Cleaning policy)
 - Požiadavka
 - Predčisteni
 
-#### Controla načítania
+### Controla načítania (Load control)
 - Stupeň multiprogramingu

@@ -8,7 +8,7 @@ Pri takejto tvorbe sa medzi týmto a novým procesom vytvára vzťah **rodič-po
 Tieto procesy môžu zdieľať _všetky, niektoré alebo žiadne_ prostriedky.
 Rodič môže buď čakať kým sa potomok ukončí, alebo beží paralélne.
 
-Komunikácia medzi procesmi je možná pomocou [[Medziprocesorová komunikácia|IPC]] alebo stavov.
+Komunikácia medzi procesmi je možná pomocou [[IPC|IPC]] alebo stavov.
 
 ## Naplánovanie na vykonávanie
 Slúži na rozhodovanie o tom, kedy a čo sa s [[Procesy|procesmi]] deje.

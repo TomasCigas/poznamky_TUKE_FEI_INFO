@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "852671b54117ab18",
+        "id": "fe902714b3cea2cb",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/OS/Činnosť počítača/Pamäť/Správa pamäte/Virtuálna pamäť.md",
-            "mode": "preview"
+            "file": "content/OS/Procesy/Medziprocesorová komunikácia/Monitor.md",
+            "mode": "source"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Prerušenie",
+                "query": "Condition",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/OS/Činnosť počítača/Pamäť/Správa pamäte/Virtuálna pamäť.md",
+                "file": "content/OS/Procesy/Medziprocesorová komunikácia/Monitor.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -87,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "852671b54117ab18",
+  "active": "fe902714b3cea2cb",
   "lastOpenFiles": [
+    "content/OS/Procesy/Medziprocesorová komunikácia/Monitor.md",
+    "content/OS/Procesy/Medziprocesorová komunikácia/Semafóry.md",
+    "content/OS/Procesy/Medziprocesorová komunikácia/Medziprocesorová komunikácia.md",
+    "content/OS/Procesy/Medziprocesorová komunikácia/Pojmy IPC.md",
+    "content/OS/Bezpečnosť.md",
+    "content/OS/História operačných systémov.md",
+    "content/OS/Klasifikácie.md",
+    "content/OS/Vstupno výstupné zariadenia.md",
     "content/OS/Činnosť počítača/Pamäť/Správa pamäte/Virtuálna pamäť.md",
-    "assets/excal/vm_inverted_page.excalidraw.md",
-    "assets/excal/exchange_dom.excalidraw.md",
-    "assets/excal/Drawing 2021-12-30 17.34.42.excalidraw.md",
-    "content/OS/Činnosť počítača/Pamäť/Fyzická pamäť.md",
-    "assets/excal/layered_virtual_mem.excalidraw.md",
-    "assets/excal/Drawing 2021-12-29 18.20.59.excalidraw.md",
-    "assets/excal/virtual_mem.excalidraw.md",
-    "content/OS/Činnosť počítača/Pamäť/Pamäť.md",
-    "content/OS/Činnosť počítača/Pamäť/Správa pamäte/Historické prístupy.md"
+    "content/OS/Činnosť počítača/Pamäť/Správa pamäte/Správa pamäte.md"
   ]
 }

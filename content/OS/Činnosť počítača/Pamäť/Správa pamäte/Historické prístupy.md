@@ -35,7 +35,7 @@ Problémy, ktoré môžu nastávať:
 - operačný systém potom alokuje časť programu do viacerých stránok
 ![[strankovanie.excalidraw]]
 
-- problém je, že [[Pojmy#Logická adresa|logická]] a [[Pojmy#Fyzická adresa|fyzická]] adresa nie je rovnaká, takže potrebujeme tabuľku stránok, ktorá obsahuje na akom mieste sa nachádzajú jednotlivé procesy
+- problém je, že [[Pojmy pamäť#Logická adresa|logická]] a [[Pojmy pamäť#Fyzická adresa|fyzická]] adresa nie je rovnaká, takže potrebujeme tabuľku stránok, ktorá obsahuje na akom mieste sa nachádzajú jednotlivé procesy
 
 Prevod logickej na fyzickú adresu:
 ![[strank_convert_log_fyz.excalidraw]]

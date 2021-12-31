@@ -7,7 +7,8 @@
     "header",
     "diagram",
     "diagrams",
-    "auto_adapt_DL"
+    "auto_adapt_DL",
+    "tag_pills"
   ],
   "theme": "obsidian"
 }

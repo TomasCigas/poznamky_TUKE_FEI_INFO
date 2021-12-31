@@ -1,5 +1,5 @@
 # Zadanie
 ---
-- [[Medziprocesorová komunikácia]]
+- [[IPC]]
 - [[Súbory]]
 ---

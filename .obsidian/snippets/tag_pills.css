@@ -1,0 +1,32 @@
+.tag {
+    background-color: var(--text-accent);
+    border: none;
+    color: white;
+    font-size: 11px;
+    padding: 1px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 0px;
+    cursor: pointer;
+    border-radius: 14px;
+    }
+    .tag:hover {
+    color: white;
+    background-color: var(--text-accent-hover);
+    }
+    .tag[href^="#add_link"] {
+    background-color: red;
+    color: black;
+    }
+    .tag[href^="#add_source"] {
+    background-color: pink;
+    color: black;
+    }
+    .tag[href^="#add_info"] {
+    background-color: gold;
+    color: black;
+    }
+    .tag[href^="#complete"] {
+    background-color: green;
+}

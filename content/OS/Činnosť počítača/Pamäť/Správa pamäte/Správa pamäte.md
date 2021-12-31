@@ -18,7 +18,7 @@ Pokiaľ sa nachádza v pamäti **málo aplikácií** dochádza k dlhšiemu bloko
 
 ## Zdieľanie častí
 - ide o zdieľanie niektorej časti medzi programami
-- napr. dáta dokážeme zdieľať pomocou [[Medziprocesorová komunikácia|IPC]] a kód spoločnými knižnicami, alebo spustením jedného programu viackrát s inou verziou dát
+- napr. dáta dokážeme zdieľať pomocou [[IPC|IPC]] a kód spoločnými knižnicami, alebo spustením jedného programu viackrát s inou verziou dát
 ![[sharing.excalidraw]]
 
 ## Logicá organizácia
@@ -33,6 +33,6 @@ Pokiaľ sa nachádza v pamäti **málo aplikácií** dochádza k dlhšiemu bloko
 
 
 ---
-- [[Pojmy]]
+- [[Pojmy pamäť]]
 - [[Historické prístupy]]
 ---
