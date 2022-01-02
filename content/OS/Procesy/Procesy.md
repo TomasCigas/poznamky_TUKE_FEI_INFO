@@ -12,7 +12,19 @@ Operačný systém taktiež rozďeľuje jednotlivé procesy do troch skupín:
 
 OS musí taktiež vedieť **lokáciu** a **informácie** procesu, aby ho mohol spravovať a riadiť, na čo sa teda využíva [[#Riadiaci blok procesu|PCB]].
 
+Proces je reprezentovaný dvoma základnými charakteristikami:
+- Vlastníctvo zdrojov:
+	- [[Virtuálna pamäť|Virtuálny adresný priestor]]
+	- [[Vstupno výstupné zariadenia|V/V zariadenia]]
+	- Súbory
+- Vykonávanie výpočtu
+	- [[Vykonávanie inštrukcií|Vykonávanie inštrukcií]]
+	- Skoky a volanie podprogramov
+
 _Fyzická reprezentácia procesu je jeho umiestnenie v pamäti -> program._
+
+Proces vznikol ako koncept ochrany jednotlivých programov pred chybami a zneužitím.
+Pre systémy, ktoré pozostávajú z viacerých programov je efektívne a niekedy potrebné [[Medziprocesorová komunikácia|zdieľať]] niektoré zdroje
 
 ## Riadiaci blok procesu
 V **PCB** sa ukladajú _atribúty_, ktoré určujú jeho [[#Identifikáciu|identifikáciu]], [[#Stav|stav]] a [[#Riadenie|riadenie]].

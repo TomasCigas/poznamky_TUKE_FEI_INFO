@@ -22,5 +22,5 @@
 
 #add_link
 
-## Vyhladovanie
+## Vyhladovanie (Starvation)
 - situácia, v ktorej bol procesu odmietnutý prístup k vyžadovaným zdrojom, obvykle pretože s týmto zdrojom narába iný proces

@@ -9,5 +9,4 @@
 ## Klasický stavový diagram
 _(Päťstavový)_
 ![[cl_state_diag.excalidraw]]
-Pokiaľ máme málo operačnej pamäte, tak sa čakajúce procesy odložia na disk
--> Silberschatz
+Pokiaľ máme málo operačnej pamäte, tak sa čakajúce procesy odložia na [[Pamäť#Hierarchia pamätí|sekundárnu pamäť]]

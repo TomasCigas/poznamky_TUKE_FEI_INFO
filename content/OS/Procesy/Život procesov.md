@@ -36,6 +36,12 @@ Vykonávanie má teda:
 - priestor, kde môže inštrukcie vykonávať (zdroje)
 - vzťahy s okolitým svetom (komunikácia s inými procesmi)
 
+Charakteristiky vykonávania *procesu*:
+- $w$ -> čas strávený v systéme (waiting)
+- $e$ -> čas strávený vykonávaním (execution)
+- $s$ -> celkový čas obsluhy (service time)
+	- $s = w+e$
+
 ## Ukončenie procesu
 Všetky zdroje priradené tomuto procesu sú uvoľnené:
 - Fyzická a virtuálna pamäť

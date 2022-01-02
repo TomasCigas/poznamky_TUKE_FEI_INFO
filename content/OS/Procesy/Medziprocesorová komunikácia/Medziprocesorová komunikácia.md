@@ -47,10 +47,57 @@ Spôsoby vyriešenia:
 		#add_link 
 	 - Princíp "Exchange instruction" -> výmena obsah registra a pamäte
 		
+## Dizajnové charakteristiky pre [[Synchronizácia|synchronizáciu]] a [[Komunikácia|komunikáciu]]
 
+### Synchronizácia
+- príjmateľ nemôže prijať správu, kým nie je odoslaná
+
+
+### Posielanie
+- Blokujúce
+	- proces je zablokovaný, kým nebude správa prijatá
+- Neblokujúce
+	- proces nie je zablokovaný a pokračuje v nejakej činnosti (obvykle generovanie ďalších správ)
+
+### Príjmanie
+- Blokujúce
+	- zablokovanie, kým nedojde správa
+- Neblokujúce
+	- spracovanie "nepríchodu" správy
+- Testovanie na príchode
+
+### Adresácia
+Spôsob špecifikácie ktorý proces dostane správu
+
+- **Priama** -> špecifikuje presného adresáta
+	- Poslanie
+	- Prijatie
+		- explicitné 
+		- implicitné
+
+- **Nepriama** -> použitie schránky
+	- statická
+	- dynamická
+	- vlastníctvo
+
+### Formát
+Závisí od účelu navrhnutého systému
+
+- **Obsah**
+- **Dĺžka**
+	- *fixná* -> jednoduchá implementácia
+	- *variabilná* -> flexibílnejšie
+		- fixná hlavička
+		- premenlivé telo
+
+### Disciplína frontovania
+- **FIFO** -> prvá príde prvá odíde (podobné ako [[Virtuálna pamäť#Prvé-dnu-prvé-von First-in-first-out - FIFO|tu]])
+- **Prioritné**
 
 
 
 ---
 - [[Pojmy IPC]]
+- [[Komunikácia]]
+- [[Synchronizácia]]
 ---

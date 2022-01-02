@@ -11,7 +11,7 @@ Príjmi ^SxlBRh3F
 
 Pusti ^p2WYFJfV
 
-Rad pripravených
+Front pripravených
  procesov ^rkwlityX
 
 Procesor ^hNDKN8fI
@@ -20,7 +20,7 @@ Prerušenie ^fSLlDz6p
 
 Vykonaj ^PF2ugjgh
 
-Rad blokovaných
+Front blokovaných
  procesov ^bR3GQQjB
 
 Udalosť čakania ^HAbh0HTC
@@ -302,8 +302,8 @@ Udalosť spustenia ^jHISRl6V
 		},
 		{
 			"type": "text",
-			"version": 248,
-			"versionNonce": 2000828276,
+			"version": 260,
+			"versionNonce": 181234887,
 			"isDeleted": false,
 			"id": "rkwlityX",
 			"fillStyle": "hachure",
@@ -312,26 +312,26 @@ Udalosť spustenia ^jHISRl6V
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -310.2847774524194,
+			"x": -321.48478965945066,
 			"y": -207.08817637499982,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 233,
+			"width": 252,
 			"height": 72,
 			"seed": 1543358068,
 			"groupIds": [],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1640790049991,
+			"updated": 1641132766630,
 			"fontSize": 28.538171540847944,
 			"fontFamily": 1,
-			"text": "Rad pripravených\n procesov",
-			"rawText": "Rad pripravených\n procesov",
+			"text": "Front pripravených\n procesov",
+			"rawText": "Front pripravených\n procesov",
 			"baseline": 62,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Rad pripravených\n procesov"
+			"originalText": "Front pripravených\n procesov"
 		},
 		{
 			"type": "line",
@@ -659,8 +659,8 @@ Udalosť spustenia ^jHISRl6V
 		},
 		{
 			"type": "text",
-			"version": 513,
-			"versionNonce": 2091683572,
+			"version": 521,
+			"versionNonce": 1399367527,
 			"isDeleted": false,
 			"id": "bR3GQQjB",
 			"fillStyle": "hachure",
@@ -673,22 +673,22 @@ Udalosť spustenia ^jHISRl6V
 			"y": 214.40008544921875,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 226,
+			"width": 245,
 			"height": 72,
 			"seed": 1736233804,
 			"groupIds": [],
 			"strokeSharpness": "sharp",
 			"boundElements": [],
-			"updated": 1640790135900,
+			"updated": 1641132764508,
 			"fontSize": 28.538171540847944,
 			"fontFamily": 1,
-			"text": "Rad blokovaných\n procesov",
-			"rawText": "Rad blokovaných\n procesov",
+			"text": "Front blokovaných\n procesov",
+			"rawText": "Front blokovaných\n procesov",
 			"baseline": 62,
 			"textAlign": "left",
 			"verticalAlign": "top",
 			"containerId": null,
-			"originalText": "Rad blokovaných\n procesov"
+			"originalText": "Front blokovaných\n procesov"
 		},
 		{
 			"type": "line",

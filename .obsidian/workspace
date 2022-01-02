@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/OS/Procesy/Medziprocesorová komunikácia/Monitor.md",
+            "file": "content/DM/Grafy/Vlastnosti grafov.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Condition",
+                "query": "FCFS",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "17200a9d766dae17",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/OS/Procesy/Medziprocesorová komunikácia/Monitor.md",
+                "file": "content/DM/Grafy/Vlastnosti grafov.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +88,15 @@
   },
   "active": "fe902714b3cea2cb",
   "lastOpenFiles": [
-    "content/OS/Procesy/Medziprocesorová komunikácia/Monitor.md",
-    "content/OS/Procesy/Medziprocesorová komunikácia/Semafóry.md",
-    "content/OS/Procesy/Medziprocesorová komunikácia/Medziprocesorová komunikácia.md",
-    "content/OS/Procesy/Medziprocesorová komunikácia/Pojmy IPC.md",
-    "content/OS/Bezpečnosť.md",
-    "content/OS/História operačných systémov.md",
-    "content/OS/Klasifikácie.md",
-    "content/OS/Vstupno výstupné zariadenia.md",
-    "content/OS/Činnosť počítača/Pamäť/Správa pamäte/Virtuálna pamäť.md",
-    "content/OS/Činnosť počítača/Pamäť/Správa pamäte/Správa pamäte.md"
+    "content/DM/Grafy/Vlastnosti grafov.md",
+    "content/DM/Grafy/Vzdialenosti v grafe.md",
+    "content/DM/Grafy/Digrafy/Vzdialenosti v digrafoch.md",
+    "content/DM/Grafy/Špeciálne typy grafov.md",
+    "content/DM/Grafy/Operácie na grafoch.md",
+    "content/DM/Grafy/Postupnosť vrcholov a hrán.md",
+    "content/DM/Grafy/Digrafy/Vlastnosti digrafov.md",
+    "content/DM/Grafy/Digrafy/Špeciálne typy digrafov.md",
+    "content/DM/Grafy/Digrafy/Postupnosť vrcholov a orientovaných hrán.md",
+    "content/DM/Grafy/Digrafy/Digrafy.md"
   ]
 }

@@ -7,8 +7,8 @@
 - Jednopoužívatelský
 - Viacpoužívatelský
 ## Počtu paralelne bežiacich úloh
-- Jednoúlohový
-- Viacúlohový
+- Jednoúlohový (Uniprogramming)
+- Viacúlohový (Multiprogramming)
 ## Garantovanej doby odozvy
 - Bez nej
 - S ňou (OS reálneho času)
