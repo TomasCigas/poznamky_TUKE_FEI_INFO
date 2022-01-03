@@ -8,12 +8,17 @@ Nekonvenčný hardvér taktiež zvykne poskytovať svoj vlastný softvér (tzv. 
 
 OS ako riadiaci program zabraňuje vzniku chýb a nekorektnému použitiu počítača.
 
-Špecíalnu pozornosť venuje činnosti a riadeniu [[Vstupno výstupné zariadenia|V/V zariadení]].
-
-
+Špecíalnu pozornosť venuje činnosti a riadeniu [[Vstupno-výstupné zariadenia|V/V zariadení]].
 
 ## BIOS
 **BIOS** alebo ***B**asic **I**nput **O**utput **S**ystem* je základný program PC ktorý slúži ako sprostredkovateľ medzi hardvérom a (zvyčajne) operačným systémom. Obvykle je "vypálený" na read-only pamäť základnej dosky a je to prvý program, ktorý sa po zapnutí počítača spustí
+
+## Kernel
+Kernel je základná časť operačného systému, ktorá poskytuje služby ostatným častiam OS.
+
+Je to hlavná vrstvá medzi OS a hardvérom.
+
+Lepšia vizualizáciu je [[Štruktúra operačných systémov#UNIX|tu]].
 
 ## Správa zdrojov
 Každá časť operačného systému spravuje neaký zdroj, napr.:
@@ -31,4 +36,7 @@ Každá časť operačného systému spravuje neaký zdroj, napr.:
 - [[Bezpečnosť]]
 - [[Činnosť počítača]]
 - [[Procesy]]
+- [[Pamäť]]
+- [[Vlákna]]
+- [[Vstupno-výstupný podsystém]]
 ---

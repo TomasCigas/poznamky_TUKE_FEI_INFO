@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/DM/Grafy/Vlastnosti grafov.md",
+            "file": "content/OS/Súborový systém/Implementácia súborového systému.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "FCFS",
+                "query": "práva",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,11 +48,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "17200a9d766dae17",
@@ -68,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/DM/Grafy/Vlastnosti grafov.md",
+                "file": "content/OS/Súborový systém/Implementácia súborového systému.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +90,15 @@
   },
   "active": "fe902714b3cea2cb",
   "lastOpenFiles": [
-    "content/DM/Grafy/Vlastnosti grafov.md",
-    "content/DM/Grafy/Vzdialenosti v grafe.md",
-    "content/DM/Grafy/Digrafy/Vzdialenosti v digrafoch.md",
-    "content/DM/Grafy/Špeciálne typy grafov.md",
-    "content/DM/Grafy/Operácie na grafoch.md",
-    "content/DM/Grafy/Postupnosť vrcholov a hrán.md",
-    "content/DM/Grafy/Digrafy/Vlastnosti digrafov.md",
-    "content/DM/Grafy/Digrafy/Špeciálne typy digrafov.md",
-    "content/DM/Grafy/Digrafy/Postupnosť vrcholov a orientovaných hrán.md",
-    "content/DM/Grafy/Digrafy/Digrafy.md"
+    "content/OS/Súborový systém/Implementácia súborového systému.md",
+    "assets/excal/FAT_FS.excalidraw.md",
+    "assets/excal/UNIX_FS.excalidraw.md",
+    "content/OS/Činnosť počítača/Pamäť/Ochrana pamäte.md",
+    "content/OS/Súborový systém/Ochrana súborov.md",
+    "content/OS/Operačné systémy.md",
+    "content/OS/Zadanie/Súbory/Práca so súbormi.md",
+    "content/OS/Vstupno výstupný podsystém/Vstupno-výstupný podsystém.md",
+    "assets/excal/single_lvl_dir.excalidraw.md",
+    "content/OS/Súborový systém/Súborový systém.md"
   ]
 }

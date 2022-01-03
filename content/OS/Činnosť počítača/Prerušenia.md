@@ -4,7 +4,7 @@
  Zvyšuje efektivitu niektorých činností a otvára nové možnosti, ktoré by sme bez prerušení neboli schopný urobiť. 
  
  ## Typy prerušení
-- Vonkajšie -> od [[Vstupno výstupné zariadenia|V/V zariadení]]
+- Vonkajšie -> od [[Vstupno-výstupné zariadenia|V/V zariadení]]
 - Vnútorné:
 	- Programové -> inštrukcia INT (volanie služieb [[Operačné systémy#BIOS|BIOSu]], OS)
 	- Od procesora -> reakcie na udalosti

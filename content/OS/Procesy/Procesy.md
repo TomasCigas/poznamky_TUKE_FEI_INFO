@@ -15,7 +15,7 @@ OS musí taktiež vedieť **lokáciu** a **informácie** procesu, aby ho mohol s
 Proces je reprezentovaný dvoma základnými charakteristikami:
 - Vlastníctvo zdrojov:
 	- [[Virtuálna pamäť|Virtuálny adresný priestor]]
-	- [[Vstupno výstupné zariadenia|V/V zariadenia]]
+	- [[Vstupno-výstupné zariadenia|V/V zariadenia]]
 	- Súbory
 - Vykonávanie výpočtu
 	- [[Vykonávanie inštrukcií|Vykonávanie inštrukcií]]
@@ -65,4 +65,6 @@ Potrebné zdroje|Súbor na disku (1)|CPU, pamäť, adresa (mnoho)
 - [[Zdieľanie času a zdrojov]]
 - [[Stavy procesov]]
 - [[Prepínanie procesov]]
+- [[Medziprocesorová komunikácia]]
+- [[Plánovanie procesov]]
 ---

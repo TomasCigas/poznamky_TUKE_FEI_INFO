@@ -23,7 +23,7 @@ Jednotlivé kritériá môžu byť prepojené nepriamou úmernosťou => sú prot
 - zabezpečenie aby každý proces zaberal podobné množstvo zdrojov a času nehľade na vypätie systému
 
 #### Systémovo orientované
-- využitie systémových zdrojov (CPU, [[Vstupno výstupné zariadenia|V/V]] ...)
+- využitie systémových zdrojov (CPU, [[Vstupno-výstupné zariadenia|V/V]] ...)
 
 ##### Ohľaduplnosť (Fairness)
 - zabezpečenie, aby nedošlo k [[Pojmy IPC#Vyhladovanie Starvation|vyhladovaniu]]
