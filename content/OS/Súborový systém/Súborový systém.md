@@ -1,4 +1,6 @@
 # Súborový systém
+**Súborový systém** je spôsob a štruktúra ukladnia a získavania *súborov*.
+
 **Súbor** je počítačový zdroj, ktorý slúži na záznam dát. Je primárne určený svjoím menom.
 
 Môže nastať problém v [[Klasifikácie#Podľa počtu paralelne pracujúcich používateľov|viacpoužívatelských]] a [[Klasifikácie#Počtu paralelne bežiacich úloh|viacúlohových]] OS. -> môže dôjsť ku konkurovaní dvoch úloh.

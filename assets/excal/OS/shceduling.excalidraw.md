@@ -2668,28 +2668,37 @@ plánovanie ^Yhn3ba2O
 			]
 		},
 		{
-			"id": "o0r-Ak9_mAI6gZgvo3607",
 			"type": "arrow",
-			"x": 310.5167436415294,
-			"y": -207.3580375550282,
-			"width": 366.4000244140625,
-			"height": 414.4000244140625,
-			"angle": 0,
-			"strokeColor": "#000000",
-			"backgroundColor": "transparent",
+			"version": 186,
+			"versionNonce": 1493692521,
+			"isDeleted": false,
+			"id": "o0r-Ak9_mAI6gZgvo3607",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "dotted",
 			"roughness": 1,
 			"opacity": 100,
+			"angle": 0,
+			"x": 310.5167436415294,
+			"y": -207.3580375550282,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 366.4000244140625,
+			"height": 414.4000244140625,
+			"seed": 954271751,
 			"groupIds": [],
 			"strokeSharpness": "round",
-			"seed": 954271751,
-			"version": 186,
-			"versionNonce": 1493692521,
-			"isDeleted": false,
-			"boundElements": null,
+			"boundElements": [],
 			"updated": 1641135037760,
+			"startBinding": {
+				"elementId": "7AQuMZyT",
+				"focus": 0.02553494546590411,
+				"gap": 7.521608864036011
+			},
+			"endBinding": null,
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "arrow",
 			"points": [
 				[
 					0,
@@ -2707,19 +2716,7 @@ plánovanie ^Yhn3ba2O
 					211.20001220703125,
 					390.4000244140625
 				]
-			],
-			"lastCommittedPoint": [
-				211.20001220703125,
-				390.4000244140625
-			],
-			"startBinding": {
-				"elementId": "7AQuMZyT",
-				"focus": 0.02553494546590411,
-				"gap": 7.521608864036011
-			},
-			"endBinding": null,
-			"startArrowhead": null,
-			"endArrowhead": "arrow"
+			]
 		}
 	],
 	"appState": {

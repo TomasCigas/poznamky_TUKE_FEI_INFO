@@ -23,7 +23,7 @@ Kde $O = inf(L)$ a $I = sup(L)$
 ## Vlastnosti zväzov
 Ak máme zväz $L$ tak je:
 ### Komplementárny
-Keď každý prvok $x\ \epsilon\ L$ má svoj komplement $x'\ \epsilon\ L$
+Keď každý prvok $x\ \epsilon\ L$ má svoj [[#Komplement|komplement]] $x'\ \epsilon\ L$
 
 ### Distributívny
 Ak pre všetky $x,y,z\ \epsilon\ L$ platí:

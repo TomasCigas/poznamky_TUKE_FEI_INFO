@@ -1,6 +1,6 @@
 # Procesy
 
-**Proces** je abstrakcia operačného systému, ktorá reprezentuje všetko, čo je potrebné prebeh [[#Program|programu]].
+**Proces** je abstrakcia operačného systému, ktorá reprezentuje všetko, čo je potrebné na priebeh [[#Program|programu]].
 
 [[Operačné systémy|Operačný systém]] si musí udržiavať informácie o svojich zdrojoch aby ich mohol poskytnúť procesom, toto sa nazýva **kontrolné tabuľky**.
 ![[control_table.excalidraw]]

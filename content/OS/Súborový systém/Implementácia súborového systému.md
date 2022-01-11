@@ -10,7 +10,7 @@ Súbor -> zoznam záznamov -> zoznam bajtov
 
 Došlo nám k "stretu" definícií
 
-**Súborový systém** je spôsob mapovania *súborového* zoznamu batov -> zoznamu bajtov *zariadenia*.
+**Súborový systém** je spôsob mapovania *súborového* zoznamu bajtov -> zoznamu bajtov *zariadenia*.
 
 Konceptuálne riešenie je teda:
 ![[concept_filesystem.excalidraw]]
