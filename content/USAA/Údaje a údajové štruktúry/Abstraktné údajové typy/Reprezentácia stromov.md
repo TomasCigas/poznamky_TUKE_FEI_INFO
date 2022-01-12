@@ -64,7 +64,7 @@ Návrh ÚŠ pre efektívne spracovanie [[Práca s ADT množiny|množiny]].
 
 **Postup**:
 ROOTS(S) -> [[Metódy návrhu efektívnych algoritmov#Dynamické programovanie|dynamické programovanie]]
-BUILDTREE(0,n) -> vytvorenie nášho stromu
+BUILDTREE(0,n) -> vytvorenie nášho stromu ([[Metódy návrhu efektívnych algoritmov#Rekurzia|rekurzia]])
 
 **Zložitosť**:
 - konštrukcia - $O(n^3)$

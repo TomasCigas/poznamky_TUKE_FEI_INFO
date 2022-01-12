@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/USAA/Algoritmy/Triedenie.md",
+            "file": "content/USAA/Údaje a údajové štruktúry/Abstraktné údajové typy/Reprezentácia stromov.md",
             "mode": "preview"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "behy",
+                "query": "BUILDTREE",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -48,7 +48,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -69,7 +70,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/USAA/Algoritmy/Triedenie.md",
+                "file": "content/USAA/Údaje a údajové štruktúry/Abstraktné údajové typy/Reprezentácia stromov.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,9 +90,9 @@
   },
   "active": "8b90c183c1817359",
   "lastOpenFiles": [
+    "content/USAA/Údaje a údajové štruktúry/Abstraktné údajové typy/Reprezentácia stromov.md",
     "content/USAA/Algoritmy/Triedenie.md",
     "content/USAA/Údajové štruktúry a algoritmy pre vonkajśie pamäte.md",
-    "content/USAA/Údaje a údajové štruktúry/Abstraktné údajové typy/Reprezentácia stromov.md",
     "assets/excal/DM/Priklady/graf_postup.excalidraw.md",
     "assets/excal/USA/index_file.excalidraw.md",
     "content/OS/Súborový systém/Implementácia súborového systému.md",
