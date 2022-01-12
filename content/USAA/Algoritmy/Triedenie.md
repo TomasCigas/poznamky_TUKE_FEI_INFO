@@ -3,6 +3,9 @@ Preusporiadanie prvkov postupnosti tak by boli v neklesajúcom/nevrzastajúcom p
 
 Potrebujeme vedieť nad našou vstupnou [[Čiastočne usporiadané množiny|postupnosťou]] [[Množiny a množinové relácie|reláciu]], podľa ktorej ju budeme triediť.
 
+**Zložitosti**:
+![[algorithms.jpg]]
+
 ## Metódy triedenia
 - **Vnútorné** -> údaje v hlavnej pamäti
 - **Vonkajšie** -> údaje z časti v hlavnej pamäti, zväčša v sekundárnej

@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/USAA/Údaje a údajové štruktúry/Abstraktné údajové typy/Reprezentácia stromov.md",
-            "mode": "source"
+            "file": "content/USAA/Algoritmy/Triedenie.md",
+            "mode": "preview"
           }
         }
       }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Binárne vyhľ",
+                "query": "behy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/USAA/Údaje a údajové štruktúry/Abstraktné údajové typy/Reprezentácia stromov.md",
+                "file": "content/USAA/Algoritmy/Triedenie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,10 +89,10 @@
   },
   "active": "8b90c183c1817359",
   "lastOpenFiles": [
-    "content/USAA/Údaje a údajové štruktúry/Abstraktné údajové typy/Reprezentácia stromov.md",
-    "content/USAA/Údajové štruktúry a algoritmy pre vonkajśie pamäte.md",
-    "assets/excal/DM/Priklady/graf_postup.excalidraw.md",
     "content/USAA/Algoritmy/Triedenie.md",
+    "content/USAA/Údajové štruktúry a algoritmy pre vonkajśie pamäte.md",
+    "content/USAA/Údaje a údajové štruktúry/Abstraktné údajové typy/Reprezentácia stromov.md",
+    "assets/excal/DM/Priklady/graf_postup.excalidraw.md",
     "assets/excal/USA/index_file.excalidraw.md",
     "content/OS/Súborový systém/Implementácia súborového systému.md",
     "content/DM/Grafy/Vlastnosti grafov.md",
