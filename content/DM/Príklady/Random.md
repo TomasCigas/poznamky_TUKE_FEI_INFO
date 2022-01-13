@@ -11,3 +11,7 @@
 
 # 4
 ![[graf_postup.excalidraw]]
+
+# 5
+![[planar.png]]
+![[planar.excalidraw]]
