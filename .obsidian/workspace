@@ -7,9 +7,10 @@
         "id": "8cd8b7e59a9f060d",
         "type": "leaf",
         "state": {
-          "type": "excalidraw",
+          "type": "markdown",
           "state": {
-            "file": "assets/excal/DM/Priklady/kostra_grafu.excalidraw.md"
+            "file": "content/APS/Paralelizmus.md",
+            "mode": "source"
           }
         }
       }
@@ -38,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "supremum",
+                "query": "tag:#add_info",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/excal/DM/Priklady/kostra_grafu.excalidraw.md",
+                "file": "content/APS/Paralelizmus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "8cd8b7e59a9f060d",
   "lastOpenFiles": [
-    "assets/excal/DM/Priklady/kostra_grafu.excalidraw.md",
-    "content/DM/Príklady/Random.md",
-    "assets/excal/planar.excalidraw.md",
-    "content/DM/Grafy/Vlastnosti grafov.md",
-    "content/DM/Grafy/Grafy.md",
-    "content/DM/Príklady/Skúška.md",
-    "content/DM/Grafy/Špeciálne typy grafov.md",
-    "content/DM/Grafy/Operácie na grafoch.md",
-    "assets/excal/DM/Priklady/uloha2_p1.excalidraw.md",
-    "assets/excal/uloha3_3.png"
+    "content/APS/Paralelizmus.md",
+    "content/APS/Logické obvody/Sekvenčné logické obvody.md",
+    "content/APS/Logické obvody/Logické obvody.md",
+    "content/APS/Reprezentácia čísla.md",
+    "content/USAA/Údaje a údajové štruktúry/Abstraktné údajové typy/Reprezentácia stromov.md",
+    "content/OS/Bezpečnosť.md",
+    "content/OS/História operačných systémov.md",
+    "content/USAA/Algoritmy/Triedenie.md",
+    "content/OS/Činnosť počítača/Pamäť/Správa pamäte/Virtuálna pamäť.md",
+    "content/APS/Architektúry počítačových systémov.md"
   ]
 }
