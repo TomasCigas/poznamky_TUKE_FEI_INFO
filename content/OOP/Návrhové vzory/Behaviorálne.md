@@ -102,3 +102,6 @@ ConcreteObserver-->ConcreteObservable
 ```
 - !pozor, podľa kódu je možné, že sledovanec bude samostatný objekt, ktorý vykonáva svoju činnosť a taktiež slúži ako sledovanec, ktorý informuje svojich sledovateľov, jednoducho povedané náš ConcreteObserver bude porušovať [[Princípy programovania#Princíp jednej zodpovednosti|princíp jednej zodpovednosti]]
 	- je možné to napríklad zmenou IObservable z rozhrania na abstraktnú triedu a implementovania jednotlivých služieb zodpovedných za správu sledovateľov do nej
+
+## Reťaz zodpovednosti
+(Chain of responsibility)
