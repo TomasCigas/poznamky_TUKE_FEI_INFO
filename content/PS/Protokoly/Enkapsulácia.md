@@ -1,0 +1,2 @@
+# Enkapsulácia
+#add_info 

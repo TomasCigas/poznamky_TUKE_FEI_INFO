@@ -47,7 +47,7 @@ Spôsoby vyriešenia:
 		#add_link 
 	 - Princíp "Exchange instruction" -> výmena obsah registra a pamäte
 		
-## Dizajnové charakteristiky pre [[Synchronizácia|synchronizáciu]] a [[Komunikácia|komunikáciu]]
+## Dizajnové charakteristiky pre [[Synchronizácia|synchronizáciu]] a [[content/OS/Procesy/Medziprocesorová komunikácia/Komunikácia/Komunikácia|komunikáciu]]
 
 ### Synchronizácia
 - príjmateľ nemôže prijať správu, kým nie je odoslaná
@@ -98,6 +98,6 @@ Závisí od účelu navrhnutého systému
 
 ---
 - [[Pojmy IPC]]
-- [[Komunikácia]]
+- [[content/OS/Procesy/Medziprocesorová komunikácia/Komunikácia/Komunikácia]]
 - [[Synchronizácia]]
 ---

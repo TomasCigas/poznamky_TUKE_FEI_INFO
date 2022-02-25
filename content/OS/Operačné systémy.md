@@ -29,7 +29,7 @@ Každá časť operačného systému spravuje neaký zdroj, napr.:
 - ...
 
 ---
-- [[Zadanie]]
+- [[content/OS/Zadanie/Zadanie]]
 - [[História operačných systémov]]
 - [[Štruktúra operačných systémov]]
 - [[Klasifikácie]]

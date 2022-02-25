@@ -1,0 +1,4 @@
+# Numerická matemtika
+---
+- [[Chyby]]
+---
