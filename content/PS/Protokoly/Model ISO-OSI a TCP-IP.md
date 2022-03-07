@@ -1,4 +1,4 @@
-# Model ISO/OSI a TCP/IP
+# Model ISO/OSI
 **Vrstvy**:
 ![[ISO-TCP.excalidraw]]
 
@@ -12,6 +12,8 @@ Na fyzickej vrstve pracujú **HUB**-y a **opakovače**.
 
 Dátová jednotka (PDU): **Bity**
 
+Bližšie: [[Sieťové médiá]]
+
 ## Linková vrstva
 Linková vrstva poskytuje funkcionalitu a prostriedky na prenos dát medzi dvoma systémami.
 Poskytuje detekciu/opravu chýb
@@ -21,6 +23,15 @@ V minulosti sa využíval **Bridge** -> Dokáže čítať dáta. Bridge blokuje 
 Dnes sa využíva **Switch** -> Zariadenie, ktoré spája v rámci lokálnej siete počítače na základe MAC adresy. Rozdiel medzi HUB-om je, že segmentujeme komunikáciu a môže prebiehať komunikácia na viacerých PC naráz.
 
 Dátová jednotka (PDU): **Rámce**
+
+### LLC vrstva
+Komunikuje so sieťovou vrstvou.
+Určuje protokol sieťovej vrstvy pre rámec.
+Zjednocuje viacerým L3 protokolom (IPv4/IPv6) prístup k sieti.
+
+### MAC vrstva
+Definuje procesy pre prístup k médiu vykonávané HW.
+#add_info 
 
 ## Sieťová vrstva
 **Sieťová vrstva** as stará o smerovanie a kontrolu dát, taktiež aj ako (de)segmentáciu a kontrolu chýb
@@ -36,6 +47,13 @@ Využívajú sa:
 TCP (Transmission Control Protocol)
 UDP (User Datagram Protocol)
 #add_link 
+
+**Sledovanie informácii**:
+**Segmntácia**:
+**daco**:
+#add_info 
+
+**Port** -> 
 
 Dátová jednotka (PDU): **Segmenty**
 
@@ -55,3 +73,11 @@ Dátová jednotka (PDU): **Dáta**
 **Aplikačná vrstva** implementuje rozhranie pre aplikačné procesy a poskytuje im služby
 
 Dátová jednotka (PDU): **Dáta**
+
+## Média L1 vrstvy
+Elektrické signály -> metalické káble
+
+# Model TCP/IP
+
+
+
