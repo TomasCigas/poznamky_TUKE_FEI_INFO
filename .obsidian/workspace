@@ -4,12 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "8cd8b7e59a9f060d",
+        "id": "2ab157144be2f552",
         "type": "leaf",
         "state": {
-          "type": "excalidraw",
+          "type": "markdown",
           "state": {
-            "file": "assets/excal/DKA_zadanie.excalidraw.md"
+            "file": "content/FJ/Úlohy/Úlohy.md",
+            "mode": "preview"
           }
         }
       }
@@ -51,7 +52,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "17200a9d766dae17",
@@ -67,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "assets/excal/DKA_zadanie.excalidraw.md",
+                "file": "content/FJ/Úlohy/Úlohy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,17 +87,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8cd8b7e59a9f060d",
+  "active": "2ab157144be2f552",
   "lastOpenFiles": [
-    "assets/excal/DKA_zadanie.excalidraw.md",
-    "assets/excal/DKA1.excalidraw.md",
-    "content/PS/Protokoly/Model ISO-OSI a TCP-IP.md",
-    "content/PS/Protokoly/TCP a UDP.md",
-    "content/PS/Protokoly/Protokoly.md",
-    "content/PS/Ethernet, ARP.md",
-    "content/PS/Počítačové siete.md",
-    "content/PS/Sieťovanie/Sieťovanie.md",
-    "content/PS/Sieťovanie/Sieťový dizajn.md",
-    "content/PS/Sieťovanie/Adresácia.md"
+    "content/FJ/Úlohy/Úlohy.md",
+    "assets/excal/Drawing 2022-04-06 09.37.24.excalidraw.md",
+    "assets/excal/Drawing 2022-04-06 09.22.31.excalidraw.md",
+    "content/PS/Pisomky.md",
+    "content/PS/Úlohy.md",
+    "content/FJ/Zadanie/Zadania FJ.md",
+    "content/FJ/Abeceda.md",
+    "assets/excal/Strom-FJ6.excalidraw.md",
+    "assets/excal/FJ-strom.excalidraw.md",
+    "content/DS/Dátové modelovanie/Dátové modelovanie.md"
   ]
 }
