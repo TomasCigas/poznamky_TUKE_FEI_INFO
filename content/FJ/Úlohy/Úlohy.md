@@ -146,9 +146,9 @@ F(E) = {e,$\epsilon$}
 W(S) = {$}
 W(A) = {b,c}
 W(B) = {c}
-W(C) = {d,e,$}
-W(D) = {e,$}
-W(E) = {$}
+W(C) = {d,e,\$}
+W(D) = {e,\$}
+W(E) = {\$}
 
 E -> TE'
 E' -> TE | E
@@ -283,7 +283,7 @@ FOLLOW(A) = { \#, ), x, (  }
 FOLLOW(B) = { ) }
 
 ### Predict
-PREDICT( **1** ) = { (, \#, ), x  }
+PREDICT( **1** ) = { (, \# }
 PREDICT( **2** ) = { ( }
 PREDICT( **3** ) = { \#, ), x, ( }
 PREDICT( **4** ) = { ( }
@@ -291,8 +291,25 @@ PREDICT( **5** ) = { x }
 
 --|(|)|x|\#
 --|--|--|--|--
-S|1|1|1|1
+S|1|--|--|1
 A|2,3|3|3|3
 B|4|--|5|--
 
 Nie je LL(1), dochádza ku konfliktu.
+
+## 4
+1) S -> AB\#
+2) A -> xA
+3) A -> B
+4) A -> $\epsilon$
+5) B -> yzB
+6) B -> z
+
+### First a Follow
+FIRST(S) = {x,y,z}
+FIRST(A) = {x,z,y,$\epsilon$}
+FIRST(B) = {z,y}
+
+FOLLOW(S) = {\#}
+FOLLOW(A) = {z,y,x}
+FOLLOW(B) = {\#,x,y,z}

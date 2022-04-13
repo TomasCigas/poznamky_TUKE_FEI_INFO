@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/FJ/Úlohy/Úlohy.md",
-            "mode": "preview"
+            "file": "content/FJ/Zadanie/Zadania FJ.md",
+            "mode": "source"
           }
         }
       }
@@ -52,8 +52,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "17200a9d766dae17",
@@ -69,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/FJ/Úlohy/Úlohy.md",
+                "file": "content/FJ/Zadanie/Zadania FJ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,12 +88,12 @@
   },
   "active": "2ab157144be2f552",
   "lastOpenFiles": [
+    "content/FJ/Zadanie/Zadania FJ.md",
     "content/FJ/Úlohy/Úlohy.md",
     "assets/excal/Drawing 2022-04-06 09.37.24.excalidraw.md",
     "assets/excal/Drawing 2022-04-06 09.22.31.excalidraw.md",
     "content/PS/Pisomky.md",
     "content/PS/Úlohy.md",
-    "content/FJ/Zadanie/Zadania FJ.md",
     "content/FJ/Abeceda.md",
     "assets/excal/Strom-FJ6.excalidraw.md",
     "assets/excal/FJ-strom.excalidraw.md",
