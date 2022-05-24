@@ -313,3 +313,66 @@ FIRST(B) = {z,y}
 FOLLOW(S) = {\#}
 FOLLOW(A) = {z,y,x}
 FOLLOW(B) = {\#,x,y,z}
+
+# LL(1) parsovanie, generovanie kódu
+
+## 1
+1. S -> ABc
+2. A -> a
+3. A -> $\epsilon$
+4. B -> b
+5. B -> $\epsilon$
+
+### FIRST,FOLLOW,PREDICT
+FIRST(S) = {a,b,c}
+FIRST(A) = {a,$\epsilon$}
+FIRST(B) = {b,$\epsilon$}
+
+FOLLOW(S) = {\$}
+FOLLOW(A) = {b,c}
+FOLLOW(B) = {c}
+
+PREDICT(**1**) = {a,\$}
+PREDICT(**2**) = {a}
+PREDICT(**3**) = {}
+PREDICT(**4**) = {b}
+PREDICT(**5**) = {}
+### Tabuľka
+--|a|b|c|\$
+--|--|--|--|--
+S|1|--|--|1
+A|2|--|--|--
+B|--|4|--|--
+
+Je to LL(1)
+
+## 2
+1. S -> Ab
+2. A -> a
+3. A -> B
+4. A -> $\epsilon$
+5. B -> b
+6. B -> $\epsilon$
+
+### FIRST, FOLLOW, PREDICT
+
+FIRST(S) = {a,b}
+FIRST(A) = {a,b,$\epsilon$}
+FIRST(B) = {b,$\epsilon$}
+
+FOLLOW(S) = {\$}
+FOLLOW(A) = {b}
+FOLLOW(B) = {b} -> za neterminálom sa nachádza $\epsilon$, takže je to FOLLOW(A), ktoré ide pred tým
+
+PREDICT(**1**) = {a,b}
+PREDICT(**2**) = {a}
+PREDICT(**3**) = {b}
+PREDICT(**4**) = {b}
+PREDICT(**5**) = {b}
+PREDICT(**6**) = {b}
+
+--|a|b|\$
+--|--|--|--
+S|1|1|1
+A|2|3,4|--
+B|--|5,6|--

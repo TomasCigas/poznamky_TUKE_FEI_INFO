@@ -1,37 +1,41 @@
 # Dátové modelovanie
+Jedná sa o analýzu informácií v systéme. Kladie sa dôraz na logické entity a ich závislosti.
 
-## Entitno-relačný model
+**Dátový model** -> množina pojmov a pravidiel opisujúca štruktúru databázy.
 
-**Entita** -> existujúci objekt, rozlíšiteľný od ostatných objektov
+## Proces projektovania databáz
+Etapy:
+- **Systémová analýza** predmetnej oblasti a slovný opis databázy
+- **Konceptuálne projektovanie** -> návrh [[Databázové systémy#Údajový model|konceptuálneho]] modelu
+- **Voľba [[Systém riadenia bázy dát|SRBD]]**
+- **Implementačné projektovanie** -> návrh [[Databázové systémy#Údajový model|logického]] modelu 
+- **Fyzické projektovanie** -> reálne vytvorenie objektov v databáze
 
-**Entitná množina** -> množina entít rovnakého *atribútu*
+## Integrita údajov v databáze
+Databáza sa musí starať, aby boli údaje konzistentné a neporušené.
+DBS poskytuje [[Systém riadenia bázy dát#SQL|mechanizmy]] na zabezpečenie integrity údajov.
 
-**Atribút** ->
+**Typy**:
+- Doménová -> definícia povolených hodnôt v stĺpcoch => rovnaká štruktúra záznamov
+- Entitná -> zabezpečenie primárneho kľúča => jednoznačná identifikácia záznamov
+- Referenčná -> zabezpečuje existenciu a integritu cudzieho kľúča => správnosť vzťahov
+	- *Kaskádny prístup* -> ak sú zmazané riadky v tabuľke, sú zmazané aj riadky v odkazovaných tabuľkách
+	- *Restrikčný prístup* -> záznam nemôže byť zmazaný, ak naň existuje referencia
+	- *Nulitný prístup* -> cudzí kľúč sa nastavý na null
 
-**Vzťah**/relácia
+## Normalizácia
+Slúži na ukladanie dát bez duplicít a zabráňuje anomáliám pri manipulácii s údajmi.
 
-**Vzťahová množina** -> matematická [[Množiny a množinové relácie|relácia]]
+### Normálne formy
+Jedná sa o sadu pravidiel, kde každá úroveň musí spĺňat svoje a o úroveň nižšie pravidlá.
 
-## Chen-ová notácia
-ERD je grafický nástroj pre zápis [[#Entitno-relačný model|ER]] modelov
+**1 NF** -> Každý atribút obsahuje iba atomické hodnoty
+**2 NF** -> Každý nekľúčový atribút závisí na primárnom kľúči
+**3 NF** -> Atribúty sú navzájom nezávislé (okrem primárneho)
 
-Základné stavebné bloky:
-#add_info 
-
-### Stupeň vzťahu
-Počet zúčastnených množín
-
-**Binárny**:
-
-**Ternárny**:
-
-### Kardinalita vzťahu
-**1:1** (One to one) :
-
-**1:N** (One to many) :
-
-**M:N** (Many to many) :
+Dôsledok použitia normalizácie je rozdelenie údajov do viacerých tabuliek.
 
 ---
-- <**>
+- [[Entitno-Relačný model]]
+- [[Relačný model]]
 ---

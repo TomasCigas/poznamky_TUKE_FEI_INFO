@@ -1,1 +1,0 @@
-# Regulárne výrazy

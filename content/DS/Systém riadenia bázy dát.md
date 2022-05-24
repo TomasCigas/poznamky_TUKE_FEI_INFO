@@ -3,11 +3,12 @@ Softvér, pomocou ktorého sa vykonáva riadenie nad databázami.
 
 ## Základná funkcionalita a účely
 **Funkcionality:**
-- Definovanie databázy
-- Konštrukcia databázy
-- 
+- Definovanie databázy - špecifikácia dátových typov a štruktúry
+- Konštrukcia databázy - proces ukladania dát na nejaké pamäťové médium
+- Aktualizácia a manipulácia údajov v databáze
 
 **Účely:**
+- Cielený výber údajov z databázy
 
 ## Komponenty
 - Údaje
@@ -25,10 +26,14 @@ Softvér, pomocou ktorého sa vykonáva riadenie nad databázami.
 Pred DBS sa údaje ukladali do súborov, čo spôsobovalo:
 - Redundanciu a inkonzistenciu údajov:
 - Komplikovaný prístup k údajom
-- 
+- Izolácia údajov
 - Atomicita zmien
+	- zlyhanie systému počas zmeny ponechá údaje v nestabílnom stave
 - Súbežný prístup k údajom
+	- podobne ako pri atomicite, nekontrolovaná súbežnosť
 - Bezpečnosť
+	- kontrola používateľov a ich obmedzenie
+- Malý výkon
 
 Všetky tieto problémy rieši DBS, stačí len vedieť dopitovací jazyk tejto DBS.
 
@@ -46,8 +51,12 @@ Začiatok 1980 rokov -> existuje množstvo SRBD, kde každý používal vlastny 
 **SQL** je štandardizovaný jazyk na manipuláciu s dátami.
 
 **Typy príkazov**:
-- DDL -> definícia štruktúry databázy (CREATE, DROP, ALTER, TRUNCATE)
-- DML -> manipulácia s údajmi (SELECT, INSERT, UPDATE, DELETE)
-- DCL -> riadenie prístupu (GRANT, REVOKE)
-- TCL -> riadenie transakcií (COMMIT, ROLLBACK, BEGIN WORK)
+- **DDL** (Data Definition Language)
+	- definícia štruktúry databázy (CREATE, DROP, ALTER, TRUNCATE)
+- **DML** (Data Manipulation Language)
+	- manipulácia s údajmi (SELECT, INSERT, UPDATE, DELETE)
+- **DCL** (Data Control Language)
+	- riadenie prístupu (GRANT, REVOKE)
+- **TCL** (Transaction Control Language)
+	- riadenie transakcií (COMMIT, ROLLBACK, BEGIN WORK)
 

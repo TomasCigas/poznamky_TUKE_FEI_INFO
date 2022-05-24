@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "2ab157144be2f552",
+        "id": "98cf9ef95d1330ab",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/FJ/Zadanie/Zadania FJ.md",
+            "file": "content/DS/Systém riadenia bázy dát.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/FJ/Zadanie/Zadania FJ.md",
+                "file": "content/DS/Systém riadenia bázy dát.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -86,17 +86,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "2ab157144be2f552",
+  "active": "98cf9ef95d1330ab",
   "lastOpenFiles": [
-    "content/FJ/Zadanie/Zadania FJ.md",
+    "content/DS/Systém riadenia bázy dát.md",
+    "content/DS/Databázové systémy.md",
+    "content/DS/Architektúry DBS.md",
+    "content/FJ/Gramatika.md",
     "content/FJ/Úlohy/Úlohy.md",
-    "assets/excal/Drawing 2022-04-06 09.37.24.excalidraw.md",
-    "assets/excal/Drawing 2022-04-06 09.22.31.excalidraw.md",
-    "content/PS/Pisomky.md",
-    "content/PS/Úlohy.md",
-    "content/FJ/Abeceda.md",
-    "assets/excal/Strom-FJ6.excalidraw.md",
-    "assets/excal/FJ-strom.excalidraw.md",
-    "content/DS/Dátové modelovanie/Dátové modelovanie.md"
+    "content/FJ/Formálne jazyky.md",
+    "content/FJ/Zadanie/Zadania FJ.md",
+    "assets/excal/FJ/DKA_zadanie.excalidraw.md",
+    "assets/excal/FJ/DKA1.excalidraw.md",
+    "content/FJ/Lexikálna analýza.md"
   ]
 }
