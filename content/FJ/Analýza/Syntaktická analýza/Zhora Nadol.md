@@ -16,6 +16,7 @@ Analyzátor má predurčené usporiadané dvojice $(A,t)$, kde $A$ je pravidlo a
 Toto predurčenie sa znázorňuje ako *rozkladová tabuľka*.
 V prípade, že neexistuje pravidlo pre určitý vstup automat vyhodí syntaktickú chybu.
 napr.:
+
 --|a|b|c|\$
 --|--|--|--|--
 S|1|--|--|1
@@ -23,6 +24,7 @@ A|2|--|--|--
 B|--|4|--|--
 
 je LL(1) parsovanie a
+
 --|a|b|\$
 --|--|--|--
 S|1|1|1

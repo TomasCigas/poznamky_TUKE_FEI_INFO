@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/FJ/Analýza/Analýza.md",
-            "mode": "source"
+            "file": "content/FJ/Gramatika.md",
+            "mode": "preview"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/FJ/Analýza/Analýza.md",
+                "file": "content/FJ/Gramatika.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "98cf9ef95d1330ab",
   "lastOpenFiles": [
-    "content/FJ/Analýza/Analýza.md",
-    "content/FJ/Analýza/Údajové štrukutúry analyzátora/Údajové štrukutúry analyzátora.md",
-    "content/FJ/Analýza/Údajové štrukutúry analyzátora/Tabuľka symbolov.md",
-    "content/FJ/Analýza/Sémantická analýza/Sémantická analýza.md",
-    "content/FJ/Analýza/Sémantická analýza/Medzikód.md",
-    "content/FJ/Analýza/Syntaktická analýza/Zdola Nahor.md",
-    "content/FJ/Analýza/Syntaktická analýza/Zhora Nadol.md",
-    "assets/excal/DBS/chen-kardinalita.excalidraw.md",
-    "assets/excal/FJ/ASTvsSO.excalidraw.md",
-    "assets/excal/FJ/LR_parser.excalidraw.md"
+    "content/FJ/Gramatika.md",
+    "content/FJ/Formálne jazyky.md",
+    "content/NMPaMŠ/Pravdepodobnosť/Pravdepodobnosť.md",
+    "content/NMPaMŠ/Numerická matematika Pravdepodobnosť a Štatistika.md",
+    "content/NMPaMŠ/Numerická matematika/Numerická matemtika.md",
+    "content/NMPaMŠ/Numerická matematika/Chyby.md",
+    "content/NMPaMŠ/Organizačné poznámky NMPaM.md",
+    "content/DS/Dátové modelovanie/Dátové modelovanie.md",
+    "content/DS/Databázové systémy.md",
+    "content/DS/Systém riadenia bázy dát.md"
   ]
 }

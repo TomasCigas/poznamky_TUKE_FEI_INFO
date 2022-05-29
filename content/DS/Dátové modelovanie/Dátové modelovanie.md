@@ -29,8 +29,8 @@ Slúži na ukladanie dát bez duplicít a zabráňuje anomáliám pri manipulác
 ### Normálne formy
 Jedná sa o sadu pravidiel, kde každá úroveň musí spĺňat svoje a o úroveň nižšie pravidlá.
 
-**1 NF** -> Každý atribút obsahuje iba atomické hodnoty
-**2 NF** -> Každý nekľúčový atribút závisí na primárnom kľúči
+**1 NF** -> Každý atribút obsahuje iba atomické hodnoty ( každý atribút obashuje len jednu hodnotu )
+**2 NF** -> Každý nekľúčový atribút závisí na primárnom kľúči ( pri zložených kľúčoch, ak niektorý atribút je závislý len na jednej časti kľúča )
 **3 NF** -> Atribúty sú navzájom nezávislé (okrem primárneho)
 
 Dôsledok použitia normalizácie je rozdelenie údajov do viacerých tabuliek.

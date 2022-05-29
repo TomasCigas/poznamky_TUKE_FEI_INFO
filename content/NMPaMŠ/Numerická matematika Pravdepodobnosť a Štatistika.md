@@ -1,6 +1,6 @@
 # NMPaŠ
 
-
+**!Nedkokončené!**
 
 ---
 - [[Numerická matemtika]]

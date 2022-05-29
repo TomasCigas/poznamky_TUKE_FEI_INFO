@@ -51,15 +51,15 @@ $$
 
 ## Klasifikácia
 Podľa N. Chomského:
-**Frázová** -> Na prepisovaných pravidiel nekladú ďalšie obmedzenia
+1. **Frázová** -> Na prepisovaných pravidiel nekladú ďalšie obmedzenia
 
-**Kontextová** -> Každé prepisovacie pravidlo je v tvare $A\rightarrow B$, kde $A$ môže byť terminál aj neterminál a $B$ je terminál alebo neterminál a dĺžka pravej strany nesmie byť dlhšia ako dĺžka pravej strany. 
+2. **Kontextová** -> Každé prepisovacie pravidlo je v tvare $A\rightarrow B$, kde $A$ môže byť terminál aj neterminál a $B$ je terminál alebo neterminál a dĺžka ľavej strany nesmie byť dlhšia ako dĺžka pravej strany. 
 - inak, aby sme aplikovali pravidlo potrebujeme vedieť kontext okolo, ktorého existuje $A$
 $\alpha A \beta$ -> $\alpha x \beta$, kde $\alpha$ a $\beta$ predstavuje ten kontext
 
-**Bezkontextová** -> Každé prepisovacie pravidlo v tvare $A\rightarrow B$, kde $A$ je terminál a $B$ je mix terminálov alebo neterminálov
+3. **Bezkontextová** -> Každé prepisovacie pravidlo v tvare $A\rightarrow B$, kde $A$ je terminál a $B$ je mix terminálov alebo neterminálov
 
-**Regulárna** -> Každé prepisovacie pravidlo v tvare:
+4. **Regulárna** -> Každé prepisovacie pravidlo v tvare:
 	- $A\rightarrow bB$ a $A\rightarrow B$ alebo
 	- $A\rightarrow Bb$ a $A\rightarrow B$
 - regulárna gramatika je podstatná na tvorenie programovacích jazykov
