@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/DS/Systém riadenia bázy dát.md",
+            "file": "content/FJ/Analýza/Analýza.md",
             "mode": "source"
           }
         }
@@ -39,7 +39,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Zadanie",
+                "query": "Údajové štruktúry",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/DS/Systém riadenia bázy dát.md",
+                "file": "content/FJ/Analýza/Analýza.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "98cf9ef95d1330ab",
   "lastOpenFiles": [
-    "content/DS/Systém riadenia bázy dát.md",
-    "content/DS/Databázové systémy.md",
-    "content/DS/Architektúry DBS.md",
-    "content/FJ/Gramatika.md",
-    "content/FJ/Úlohy/Úlohy.md",
-    "content/FJ/Formálne jazyky.md",
-    "content/FJ/Zadanie/Zadania FJ.md",
-    "assets/excal/FJ/DKA_zadanie.excalidraw.md",
-    "assets/excal/FJ/DKA1.excalidraw.md",
-    "content/FJ/Lexikálna analýza.md"
+    "content/FJ/Analýza/Analýza.md",
+    "content/FJ/Analýza/Údajové štrukutúry analyzátora/Údajové štrukutúry analyzátora.md",
+    "content/FJ/Analýza/Údajové štrukutúry analyzátora/Tabuľka symbolov.md",
+    "content/FJ/Analýza/Sémantická analýza/Sémantická analýza.md",
+    "content/FJ/Analýza/Sémantická analýza/Medzikód.md",
+    "content/FJ/Analýza/Syntaktická analýza/Zdola Nahor.md",
+    "content/FJ/Analýza/Syntaktická analýza/Zhora Nadol.md",
+    "assets/excal/DBS/chen-kardinalita.excalidraw.md",
+    "assets/excal/FJ/ASTvsSO.excalidraw.md",
+    "assets/excal/FJ/LR_parser.excalidraw.md"
   ]
 }

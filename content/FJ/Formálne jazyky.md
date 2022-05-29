@@ -27,9 +27,8 @@
 **Jazyk** (formálny) je ľubovoľná podmnožina $L$ množiny $A^*$	
 - $L = \emptyset$ -> prázdny jazyk
 - $|L| = n$ -> konečný jazyk
-- 
 
 ---
 - [[Gramatika]]
-- [[Lexikálna analýza]]
+- [[Analýza]]
 ---
