@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/FJ/Gramatika.md",
+            "file": "content/DS/Dátové modelovanie/Relačný model.md",
             "mode": "preview"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/FJ/Gramatika.md",
+                "file": "content/DS/Dátové modelovanie/Relačný model.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "98cf9ef95d1330ab",
   "lastOpenFiles": [
+    "content/DS/Dátové modelovanie/Relačný model.md",
+    "content/DS/Dátové modelovanie/Entitno-Relačný model.md",
+    "content/DS/Dátové modelovanie/Dátové modelovanie.md",
+    "content/DS/Architektúry DBS.md",
+    "content/DS/Systém riadenia bázy dát.md",
+    "content/DS/Databázové systémy.md",
     "content/FJ/Gramatika.md",
     "content/FJ/Formálne jazyky.md",
-    "content/NMPaMŠ/Pravdepodobnosť/Pravdepodobnosť.md",
-    "content/NMPaMŠ/Numerická matematika Pravdepodobnosť a Štatistika.md",
-    "content/NMPaMŠ/Numerická matematika/Numerická matemtika.md",
-    "content/NMPaMŠ/Numerická matematika/Chyby.md",
-    "content/NMPaMŠ/Organizačné poznámky NMPaM.md",
-    "content/DS/Dátové modelovanie/Dátové modelovanie.md",
-    "content/DS/Databázové systémy.md",
-    "content/DS/Systém riadenia bázy dát.md"
+    "content/FJ/Zadanie/Zadania FJ.md",
+    "content/NMPaMŠ/Pravdepodobnosť/Pravdepodobnosť.md"
   ]
 }
