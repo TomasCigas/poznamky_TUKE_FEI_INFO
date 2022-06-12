@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/DS/Dátové modelovanie/Relačný model.md",
-            "mode": "preview"
+            "file": "content/DS/Dátové modelovanie/Dátové modelovanie.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/DS/Dátové modelovanie/Relačný model.md",
+                "file": "content/DS/Dátové modelovanie/Dátové modelovanie.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +88,15 @@
   },
   "active": "98cf9ef95d1330ab",
   "lastOpenFiles": [
-    "content/DS/Dátové modelovanie/Relačný model.md",
-    "content/DS/Dátové modelovanie/Entitno-Relačný model.md",
     "content/DS/Dátové modelovanie/Dátové modelovanie.md",
-    "content/DS/Architektúry DBS.md",
     "content/DS/Systém riadenia bázy dát.md",
     "content/DS/Databázové systémy.md",
-    "content/FJ/Gramatika.md",
-    "content/FJ/Formálne jazyky.md",
+    "content/DS/Architektúry DBS.md",
+    "content/DS/Dátové modelovanie/Relačný model.md",
+    "content/DS/Dátové modelovanie/Entitno-Relačný model.md",
+    "content/FJ/Úlohy/Úlohy.md",
+    "assets/excal/FJ/DKA1.excalidraw.md",
     "content/FJ/Zadanie/Zadania FJ.md",
-    "content/NMPaMŠ/Pravdepodobnosť/Pravdepodobnosť.md"
+    "assets/excal/FJ/DKA_zadanie.excalidraw.md"
   ]
 }

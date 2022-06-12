@@ -17,6 +17,7 @@ DBS poskytuje [[Systém riadenia bázy dát#SQL|mechanizmy]] na zabezpečenie in
 
 **Typy**:
 - Doménová -> definícia povolených hodnôt v stĺpcoch => rovnaká štruktúra záznamov
+	- Hodnoty musia byť *atomické* a z definovanej domény
 - Entitná -> zabezpečenie primárneho kľúča => jednoznačná identifikácia záznamov
 - Referenčná -> zabezpečuje existenciu a integritu cudzieho kľúča => správnosť vzťahov
 	- *Kaskádny prístup* -> ak sú zmazané riadky v tabuľke, sú zmazané aj riadky v odkazovaných tabuľkách
