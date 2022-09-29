@@ -1,0 +1,4 @@
+# Vyhodnotenie párce
+---
+- <**>
+---

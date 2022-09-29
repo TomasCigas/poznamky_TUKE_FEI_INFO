@@ -2,7 +2,7 @@
 ## Úloha
 ![[image0.jpg]]
 ## Riešenia
-![[assets/excal/DM/Priklady/uloha1.excalidraw]]
+![[uloha1.excalidraw]]
 
 # 2
 ## Úloha

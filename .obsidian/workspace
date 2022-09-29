@@ -9,8 +9,9 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/DS/Dátové modelovanie/Dátové modelovanie.md",
-            "mode": "source"
+            "file": "content/ISI/Inteligentné systémy v informatike.md",
+            "mode": "preview",
+            "source": false
           }
         }
       }
@@ -39,7 +40,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Údajové štruktúry",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -68,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/DS/Dátové modelovanie/Dátové modelovanie.md",
+                "file": "content/ISI/Inteligentné systémy v informatike.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -88,15 +89,15 @@
   },
   "active": "98cf9ef95d1330ab",
   "lastOpenFiles": [
-    "content/DS/Dátové modelovanie/Dátové modelovanie.md",
-    "content/DS/Systém riadenia bázy dát.md",
-    "content/DS/Databázové systémy.md",
-    "content/DS/Architektúry DBS.md",
-    "content/DS/Dátové modelovanie/Relačný model.md",
-    "content/DS/Dátové modelovanie/Entitno-Relačný model.md",
-    "content/FJ/Úlohy/Úlohy.md",
-    "assets/excal/FJ/DKA1.excalidraw.md",
-    "content/FJ/Zadanie/Zadania FJ.md",
-    "assets/excal/FJ/DKA_zadanie.excalidraw.md"
+    "content/ISI/Systém strojového učenia.md",
+    "content/ISI/Terminológia a označenia v ISI.md",
+    "assets/excal/ISI/data_set.excalidraw.md",
+    "assets/excal/machine_learning_system.excalidraw.md",
+    "content/ISI/Inteligentné systémy v informatike.md",
+    "assets/excal/ISI/clustrovanie.excalidraw.md",
+    "content/Archív/DM/Grafy/Vzdialenosti v grafe.md",
+    "content/Archív/DM/Grafy/Vlastnosti grafov.md",
+    "content/Archív/DM/Grafy/Operácie na grafoch.md",
+    "content/Archív/DM/Grafy/Postupnosť vrcholov a hrán.md"
   ]
 }

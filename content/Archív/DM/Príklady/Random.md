@@ -14,4 +14,4 @@
 
 # 5
 ![[planar.png]]
-![[assets/excal/DM/planar.excalidraw]]
+![[assets/excal/_Archív/DM/planar.excalidraw]]

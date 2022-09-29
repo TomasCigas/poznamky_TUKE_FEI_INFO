@@ -12,7 +12,7 @@
   "matchThemeTrigger": true,
   "defaultMode": "normal",
   "zoomToFitOnResize": true,
-  "zoomToFitMaxLevel": 7,
+  "zoomToFitMaxLevel": 9,
   "linkPrefix": "📍",
   "urlPrefix": "🌐",
   "openInAdjacentPane": false,

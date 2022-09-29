@@ -28,7 +28,7 @@ DBS poskytuje [[Systém riadenia bázy dát#SQL|mechanizmy]] na zabezpečenie in
 Slúži na ukladanie dát bez duplicít a zabráňuje anomáliám pri manipulácii s údajmi.
 
 ### Normálne formy
-Jedná sa o sadu pravidiel, kde každá úroveň musí spĺňat svoje a o úroveň nižšie pravidlá.
+Jedná sa o sadu pravidiel, kde každá úroveň musí spĺňat svoje a o úroveň nižšie pravidlá. 
 
 **1 NF** -> Každý atribút obsahuje iba atomické hodnoty ( každý atribút obashuje len jednu hodnotu )
 **2 NF** -> Každý nekľúčový atribút závisí na primárnom kľúči ( pri zložených kľúčoch, ak niektorý atribút je závislý len na jednej časti kľúča )

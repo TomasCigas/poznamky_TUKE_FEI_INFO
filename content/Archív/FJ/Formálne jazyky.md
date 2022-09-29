@@ -30,5 +30,5 @@
 
 ---
 - [[Gramatika]]
-- [[Analýza]]
+- [[content/Archív/FJ/Analýza/Analýza]]
 ---
