@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "content/ISI/Inteligentné systémy v informatike.md",
-            "mode": "preview",
+            "file": "content/Bakalárska práca/Hrubé vypracovanie/Úvod.md",
+            "mode": "source",
             "source": false
           }
         }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "content/ISI/Inteligentné systémy v informatike.md",
+                "file": "content/Bakalárska práca/Hrubé vypracovanie/Úvod.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,15 +89,15 @@
   },
   "active": "98cf9ef95d1330ab",
   "lastOpenFiles": [
-    "content/ISI/Systém strojového učenia.md",
-    "content/ISI/Terminológia a označenia v ISI.md",
-    "assets/excal/ISI/data_set.excalidraw.md",
-    "assets/excal/machine_learning_system.excalidraw.md",
-    "content/ISI/Inteligentné systémy v informatike.md",
-    "assets/excal/ISI/clustrovanie.excalidraw.md",
-    "content/Archív/DM/Grafy/Vzdialenosti v grafe.md",
-    "content/Archív/DM/Grafy/Vlastnosti grafov.md",
-    "content/Archív/DM/Grafy/Operácie na grafoch.md",
-    "content/Archív/DM/Grafy/Postupnosť vrcholov a hrán.md"
+    "content/Bakalárska práca/Hrubé vypracovanie/Jadro/Analýza.md",
+    "content/Bakalárska práca/Hrubé vypracovanie/Jadro/_Jadro.md",
+    "content/Bakalárska práca/Hrubé vypracovanie/Úvod.md",
+    "content/Bakalárska práca/Hrubé vypracovanie/_Hrubé vypracovanie.md",
+    "content/Bakalárska práca/_Index.md",
+    "content/Bakalárska práca/Poznámky na EKG/Poznámky na EKG.md",
+    "content/UIUX/Zadania/Zadanie C.md",
+    "content/UIUX/UIUX.md",
+    "content/UIUX/Komponenty použiteľnosti.md",
+    "content/UIUX/Komponenty čohosi.md"
   ]
 }

@@ -1,5 +1,3 @@
-# ???
-#add_info 
 ## Konzistentnosť
 "Podobné veci majú podobne vyzerať". Teda interakcie, či služby s používateľom, ktoré vyzerajú/prebiehajú podobne by mali mať aj podobný výsledok.
 Taktiež sem patrí aj štandardizácia medzi inými produktmi, pomáha to so zapamätovateľnosťou.

@@ -17,5 +17,3 @@ Zmysel zadania:
 	- kde čo je, možnosť porušiť konvenciu
 - Nedodržané existujúce štandardy a konvencie
 
-Tím:
-Halčin, 

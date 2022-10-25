@@ -11,5 +11,6 @@
     "header"
   ],
   "theme": "system",
-  "cssTheme": ""
+  "cssTheme": "Wasp",
+  "accentColor": ""
 }

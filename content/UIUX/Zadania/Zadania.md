@@ -1,5 +1,4 @@
-# Zadania
-
----
+********
 - [[Zadanie A]]
----
+- [[Zadanie C]]
+********
