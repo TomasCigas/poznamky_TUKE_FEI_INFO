@@ -3,7 +3,7 @@ Proces, ktorého cieľom je zistiť, či slovo patrí jazyku a ak áno určiť j
 
 **Metódy analýzy**:
 - [[Zhora Nadol|*Zhora nadol*]] -> $S\Rightarrow ^*w$
-[[Zdola Nahor|*Zdola nahor*]] -> $w\Rightarrow ^*S$
+- [[Zdola Nahor|*Zdola nahor*]] -> $w\Rightarrow ^*S$
 
 **Najľavejšie odvodenie** ->vždy pri odvodzovaní sa vyberá neterminál najviac v ľavo
 - produkuje vetné formy v tvate $uA\alpha$, kde $u$ je možné porovnávať so vstupným reťazcom $w$, teda nie je potrebné sa pri prvek kontrole po odvodení k $u$ vraciať
