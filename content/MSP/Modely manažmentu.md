@@ -35,10 +35,16 @@ Existuje viacero verzií UP, resp. [[#RADIT|RADITu]], poďla potreby (Agile, Bas
 Označenie krokov, ktoré musíme vykonať pri každom kroku testovania.
 
 # Cleanroom
+*Cleanroom* - "najčistejší" spôsob tvorby programu, pretože eliminuje chyby ešte pred kódením.
+
 Základom *cleanroom* je správna implementácia modelu do kódu. Pokiaľ sa v modelovacej časti nenachádza chyba, tak pri programovaní už by nemala vzniknúť žiadna.
 Výhodou cleanroom, je že ešte pred vytváraním kódu vieme jeho presnú štruktúru, teda dokážeme automatizovať tvorbu kostry kódu.
 
-*Cleanroom* - "najčistejší" spôsob tvorby programu, pretože eliminuje chyby ešte pred kódením.
+Záleží na otázke manažmentu, či použiť cleanroom, alebo agilný spôsob:
+- Vytváranie už podobného projektu: *Agílne*
+- Vytváranie nového/neznámeho projekti: *Cleanroom*
+
+Podobá sa vodopádovému modelu, avšak je rozdelený na 2 časti:
 ![[Pasted image 20221204140603.png]]
 
 # Špirálový model
@@ -54,9 +60,10 @@ Sústredí sa na testovanie celého projektu, čím zabezpečuje jeho kvalitu + 
 ![[Pasted image 20221204141046.png]]
 
 # SCRUM
-SCRUM je najzákladnejší agílny model, od ktorého sa väčšina odvíja. Je opaku cleanroom, teda problém sa snažíme prispôsobiť našemu riešeniu, teda snažíme sa šablónovo riešiť hocijaký problém. Takéto riešenie je veľmi rýchle, avšak veľmi neflexibílne.
+SCRUM je najzákladnejší agílny model, od ktorého sa väčšina odvíja. Je opaku [[#Cleanroom|cleanroom]], teda problém sa snažíme prispôsobiť našemu riešeniu, teda snažíme sa šablónovo riešiť hocijaký problém. Takéto riešenie je veľmi rýchle, avšak veľmi neflexibílne.
 
-V tíme vystupuje tzv. *scrum-master*, ktorý rieši konflikty, resp. problémy, ktoré môžu počas vývoja vznikať. Najideálnejšie sa im snaží predchádzať.
+V tíme vystupuje tzv. *scrum-master*, ktorý rieši konflikty, resp. problémy, ktoré môžu počas vývoja vznikať. Najideálnejšie sa im snaží predchádzať. Mal by byť informovaný a relatívne zasadený vo všetkých taskoch šprintu.
+
 Každý deň sa vykonáva krátky meeting, kde sa všetci zíjdu, nevytvárajú kód, ale synchronizujú svoju prácu -> môže vznikať problém pri veľkom počte ľudí.
 
 Koncept **SCRUMu**:
@@ -64,6 +71,37 @@ Koncept **SCRUMu**:
 
 Model jedného **šprintu**:
 ![[Pasted image 20221204141615.png]]
+
+Väčšina tímov adaptuje svoj SCRUM model, nakoľko ignoruje veľké množstvo problémov. Ako napríklad zlú terminológiu.
+
+## DAD
+**D**isciplined **A**gile **D**elivery je škálovateľná forma [[#SCRUM|SCRUMu]], ktorá berie do úvahu risky a je *enterprise-vedomí*.
+Mení pohľad na projekt z vývojára na *zákazníka*, teda nesnažíme sa dodať predateľný SW, ale akceptovateľné riešenie, ktoré zákazník vyžaduje.
+Preto je aj terminológia bližšia zákazníkovi.
+
+Model DAD s pridaním R/T grafu z [[#Zjednotený proces|UPu]]
+![[Pasted image 20221204191718.png]]
+
+### Ciele organizácie
+Zdieľame informácie (hlavne, či niekto nerobí na rovnakom probléme osobitne), nikto nesmie pracovať na tasku sám, inak bude mať limitovaný pohľad na projekt (ideálne preberáme už spracovanú robotu). Pri nedostatku komunikácii dochádza k vytváraniu chýb v kóde.
+Zdieľame informácie aj medzi lokáciami:
+- ideálne fyzicky (ak sa dá)
+- pri veľkých firmách (lokáciách) používame ambasádorov
+
+### Team awarness
+![[Pasted image 20221204192431.png]]
+
+
+
+### V skratke
+1. Zameriavame sa na konzúmne riešenia, nie len predateľný softvér
+2. Predĺžime SCRUMovú konštrukciu aby sme mohli opísať *celý* životný priebeh SW + poslanie (SCRUM je dobrý začiatok, ale treba škálovať)
+3. Posunieme sa z označovania metód (zľudšujeme terminológiu)
+4. Adoptujeme explicitné stratégie na kontrolu
+5. Zameriavame sa na ciele aby sme umožnili škálovateľnosť
+
+## Water-SCRUM-fall
+Hovadina, nerobiť. Príliš zložité začiatočné a konečné fázy projektu.
 
 # RAD
 **R**apid **A**pp **D**evelopment je model, ktorý sa viac sústredí na prototypovanie a rýchly feedback od zákazníka, pri čom plánuje len veľmi zľahko. Toto zabezpečuje rýchly a kvalitný finálny produkt. Umožňuje nám pridávať alebo meniť funkcie počas iterovania bez toho, aby sme museli začínať od začiatku (keďže stále žiadame feedback).
@@ -75,3 +113,29 @@ Model jedného **šprintu**:
 Snažíme sa predikovať budúcnosť a začať vývoj ešte pred tým, než je náš produkt použiteľný (možno kvôli prostrediu, alebo zdrojom).
 
 ![[Pasted image 20221204142152.png]]
+
+# Ostatné agílne metódy
+- FDD (Feature)
+- TDD (Test)
+- XP (Extreme)
+- BDD (Behaviour)
+- DDD (Domain)
+
+# Prototypovanie
+
+**Typ:**
+- *Vertikálny*: rozvoj prototypu k finálnemu projektu (dokončovanie existujúcich funkcií).
+- *Horizontálny*: zisťujeme a skúšame všetky funkcionality, ktoré sa môžu v programe nachádzať.
+
+
+## Na odhodenie
+Účelne vytvorený len na zistenie požiadaviek a feedbacku, ale ani jedna časť z toho sa nebude nachádzať vo finálnom programe
+## Evolučný
+Obsahuje všetko potrebné na funkciu a len evolučne prehlbujeme už existujúce funkcie
+## Inkrementačný
+Postupujeme podľa toho, čo zákazník potrebuje a požaduje
+## Extrémny
+Prototyp sa blíži ku finálnemu projektu a ideálne ho len už podľa zákazníka upavíme, aby spĺňal všetky požiadavky.
+
+# Lean Development
+Redukcia [[#SCRUM|SCRUMu]] o scrum-mastera, keďže všetci vedia, čo majú robiť a review so synchronizáciou robia navzájom.

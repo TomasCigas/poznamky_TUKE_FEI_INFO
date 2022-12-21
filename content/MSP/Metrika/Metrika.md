@@ -13,10 +13,10 @@ Hovoria o výsledku projektu.
 ## Extérne
 Sú od používateľov.
 - *Nespoľahlivosť* - Defekty a nepresnosti produktu (koľko chýb ešte v ňom ostáva)
-- *Cena* - kúpy a používania
+- *Náklady* - aké zdroje produkt potrebuje + cena
 - *Použiteľnosť* - ako jednoducho sa produkt používa a učí jeho používanie
 - *Funkcionalita* - čo všetko produkt ponúka
-- *Výkon* - aké zdroje produkt potrebuje
+- *Výkon* - využitia zdrojov
 
 ## Intérne 
 Od vývojárov.
@@ -64,12 +64,14 @@ Výhodou funkčných bodov je tvorba benchmarku produktov a pre tímy. Sme schop
 Postup použitia FP:
 - hrubý vstup v tvare UFP
 - upravíme UFP na VAF a AFP
+	- VAF - koordinačná konštanta : 0.65
+	- VAF -nadobúda od 0.65 po 1.35
 - zistíme LOC v našom prípade
 - zistíme komplexitu [[COCOMO|COCOMO]]
 - pracujeme s tým na výpočet trvania a úsilia
 
 *Experimentálne pravidlá pre FP*:
-- $1 FP$ ~ 100 LOC
+- $1 FP$ ~ 100 LOC a 50 LOC pre OOP
 - $FP^{1.15}=$ počet strán dokumentácie
 - $FP_{(m+1)}~FP_m*1.01=$ "používateľov apetít"
 - $FP^{1.12}=$ počet testov
@@ -82,6 +84,6 @@ Postup použitia FP:
 ## Znovapoužiteľnosť
 *Znovapoužiteľnosť* kódu nám môže rozhadzovať niektoré metriky, napr. [[#Lines Of Code (LOC)|LOC]], nakoľko zvyšuje komplexitu v začiatočných fázach, ale môže ju znížiť v iných.
 
----
+*******
 - [[COCOMO]]
----
+*******

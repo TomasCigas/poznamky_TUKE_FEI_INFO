@@ -57,9 +57,6 @@ Pri *intermediate* COCOMO modely môžeme potom dostať celkový *effort*, trvan
 - Modulové kódenie a testovanie
 - Integrácia a testovanie
 
-
-
-
 # COCOMO II
 Podľa modelu:
 - *Application composition*

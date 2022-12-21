@@ -8,7 +8,17 @@ Manažment SW projektov pozostáva zo 7 častí, ktoré v rôznych [[Modely mana
 - **Integrácia** systému do prostredia
 - **Dokumentácia** - dokument, resp. manuál, ktorý obsahuje všetko potrebné na správu, vývoj prípadne použitie programu/systému
 
+**6 tipov na manažovanie**:
+1. *Prístup* - manažment je komplexná a náročná práca
+2. *Konflikty* - nevyhýbať sa im, ale riešiť ich diskrétne a rovnocenne
+3. *Pohľad* - pozerať sa očami aj ostatných
+4. *Pomoc* od ostatných, keď ju potrebuješ
+5. *Nastavenie jasných objektívov* na zjednotenie cieľa pre zamestancov
+6. Myslieť vo forme prínosov a slabostí tímu (práva a povinnosti)
+
 ---
 - [[Metrika]]
+- [[Odhad projektu]]
 - [[Modely manažmentu]]
+- [[Zdroje]]
 ---
