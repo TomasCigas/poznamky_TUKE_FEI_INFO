@@ -1,31 +1,24 @@
-# Inteligentné systémy v informatike
+******************************
 V tomto predmete sa zameriavame na **Machine Learning** (ML), alebo strojové učenie.
 
-## Kocnepty ML
-Strojové učenie má za úlohu vytvoriť **algoritmus**, ktorý dokáže robiť rozhodnutia na základe jeho vstupu. Rozhodnutie závisí od typu učenia:
+# Kocnepty ML
+Strojové učenie má za úlohu vytvoriť **algoritmus**, ktorý dokáže robiť rozhodnutia na základe jeho vstupu. Rozhodnutie závisí od [[Učebné algoritmy|typu učenia]].
 
-### Učenie s učiteľom
-Náš algoritmus sa uči prostredníctvom **označeného data setu**.
+# Predpsracovanie dát
+Jedná sa o prípravu dát na učenie algoritmom.
+**OUTLIER** - vzorka, ktorá sa nachádza mimo trendu, snažíme sa tieto vzorky buď zahodiť, alebo naopak práve nájsť (rôzne dôvody)
 
-Rozdelenie:
-- **Klasifikácia**
-	- hodnota, ktorú predikujeme má konečný počet značiek (variácií)
-	- teda rozdeľujeme vstupy podľa značiek a algoritmus 
-- **Regresná analýza**
-	- počet značiek nie je konečný
-	- obvykle ide o reálne číslo (teda počet je nekonečný)
+**Spracovanie chýbajúcich dát**:
+- Vymazanie vzorky 
+- Dosadenie vzorky (priemer, medián a i.)
+- Zaobstarávame sa kategorickými vzorkami (napr. stringy):
+	- ordinálne (dokážeme ich medzi sebou porovnať)
+	- nominálne (sú osobitné/neporovnateľné)
+	- Prístupy LabelEncoding, OridnalEncoding a One Hot Encoding
 
-### Učenie bez učiteľa
-Algoritmus **nemá** označený data set, ako pri [[#Učenie s učiteľom|učiteľovi]]. Preto si obvykle robí závery na báze vlastného rozhodnutia a typu:
-- **Klastrovanie**
-	- algoritmus rozdeľuje vzorky podľa podobnosti, teda vytvára *klastre*.
-![[clustrovanie.excalidraw]]
-- **Redukcia [[Terminológia a označenia v ISI|dimenzionality]]**
-	- jedná sa o redukciu počtu vzoriek, za účelom zlepšenia, alebo zrýchlenia učenia
-	- ==Spýtať sa na korektnosť==
+Dáta sa snažíme **normalizovať** (hodnota od 0 po 1) **štandardizovať** (hodnota okolo 0) aby sme odstránili preferenciu veľkých/malých hodnôt v jednotlivých atribútoch.
 
-### Učenie s posilňovaním
-Za každú vykonanú akciu dostane algoritmus spätnú väzbu vo forme **odmeny**, podľa ktorej robí zmeny.
+Predspracovanie dát musí prebiehať aj na naších neznámych/predikčných dátach, avšak nastavenie parametrov (napr. labels pri LabelEncoder) musí prebiehať len na trénovacích, keďže môže dochádzať k bleedingu informácie.
 
 ---
 - [[Terminológia a označenia v ISI]]
