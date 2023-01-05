@@ -2,7 +2,7 @@
 Nemáme žiadne informácie o momentálnom stave priestoru
 
 BFS > DFS - ak sa cieľ nachádza plytko v strome
-DFS > BFS - vieme v akoej hĺbke sa cieľ nachádza
+DFS > BFS - vieme v akej hĺbke sa cieľ nachádza
 
 # DFS
 Vyhľadávanie do hĺbky. Strom najprv expanduje deti až potom uzly na rovnakej úrovni.

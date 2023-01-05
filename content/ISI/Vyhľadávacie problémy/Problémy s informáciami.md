@@ -38,7 +38,7 @@ Heuristika musí byť [[#Heuristiky|prípustná]].
 
 # Heuristiky
 *Návrh nových huristík*:
-- heuristiku berieme z nášho stavového priestoru, snažíme sa teda zrelaxovať problém na jednoduchší a ľahko počítateľný
+- heuristiku berieme z nášho stavového priestoru, snažíme sa teda zrelaxovať problém na jednoduchší a ľahko počítateľný:
 	- Zrelaxovaný problém supergraf $\forall$ možných stavových grafov
 	- Zrelaxovaný problém by sa mal čo najviac podobať reálnej situácii na zníženie počtu expandovaných stavov.
 

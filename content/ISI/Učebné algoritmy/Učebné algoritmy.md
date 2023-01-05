@@ -30,12 +30,14 @@ pri ladení môže dôjsť ku *overfitovaniu* (pretrénovaniu) modelu, tomuto pr
 # Redukcia dimenzionality
 **Redukcia [[Terminológia a označenia v ISI|dimenzionality]]** -  jedná sa o redukciu počtu vzoriek, za účelom zlepšenia, alebo zrýchlenia učenia.
 
-Feature selection - rozdelenie atribútov podľa relevantnosti
+**Feature selection** - rozdelenie atribútov podľa relevantnosti
 - Silno relevantné - IDEÁLNA PODMNOŽINA
 - Slabo relevantné neredundantné - IDEÁLNA PODMNOŽINA
 - Slabo relevantné redundantné
 - Šum
 
+# Systém strojového učenia
+![[machine_learning_system.excalidraw]]
 
 ---
 - [[Učenie s učiteľom]]
