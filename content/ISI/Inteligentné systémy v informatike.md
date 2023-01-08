@@ -22,5 +22,6 @@ Predspracovanie dát musí prebiehať aj na naších neznámych/predikčných d�
 
 ---
 - [[Terminológia a označenia v ISI]]
-- [[Systém strojového učenia]]
+- [[Učebné algoritmy]]
+- [[Vyhľadávacie problémy]]
 ---

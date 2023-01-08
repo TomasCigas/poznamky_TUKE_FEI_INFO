@@ -19,11 +19,16 @@ Vyhľadávanie do šírky. Strom najprv expanduje uzly na rovnakej úrovni a pot
 
 Vracia v prípade rovnocenných javov (teda hrán grafu/stromu) optimálne riešenie.
 
-**Časová zložitosť** - $O(b^m)$, kde:
+**Časová zložitosť** - $O(b^m)$
 **Pamäťová zložitosť** - $O(b^m)$
 
 # Iteratívne hĺbenie
 Spojenie BFS a DFS: expandujeme do určitej hĺbky a potom ideme po úrovniach.
+
+Nachádza *optimálne* riešenie.
+
+**Časová zložitosť** - $O(b^m)$
+**Pamäťová zložitosť** - $O(b^m)$
 
 # Ostatné
 - Obojstranné hľadanie - pošleme dvoch [[Vyhľadávacie problémy|agentov]] aby spolu hľadali riešenie.

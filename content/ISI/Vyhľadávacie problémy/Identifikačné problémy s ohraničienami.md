@@ -11,10 +11,6 @@ Stav je definovaný premennými $X_i$, ktoré nadobúdajú hodnotu z domény $D$
 - *Binárne ohraničenie* - ohraničenie pre 2 premenné na seba súvisiace
 - *Ohraničenie vyššieho rádu* - ohraničenie n premenných na seba súvisiacich
 
-**Diskrétne premenné**:
-- $H(f)$ má konečný počet prvkov
-#add_info 
-
 *Summary*:
 - hľadáme cieľový stav, ktorý je definovaný ohraničiami
 - základné riešenie je [[#Spätné vyhľadávanie|spätné vyhľadávanie]], plus rozšírenia
@@ -31,7 +27,7 @@ Považujú sa za "slepé" algoritmy.
 **BFS**:
 - *Časová*: $O(d*n)$
 - *Pamäťová*: $O(d^k*n^k)$
-#add_info 
+_nvm čo je d,n a k :P_
 
 # Spätné vyhľadávanie 
 Algoritmus overuje ohraničenia počas chodu algoritmu a pokiaľ sa nájde nesplnené ohraničenie stav zahadzuje.
@@ -50,13 +46,20 @@ Hrana $X \rightarrow Y$ je konzistentnám, ak pre $\forall$ hodnotu z $x \epsilo
 Jednoducho povedané $\forall$ hrana v grafe musí byť konzistentná.
 Pri redukcii $H(f)$ musíme skontrolovať aj už okonotrolované hrany.
 
+**Algoritmus**:
+1. Pridáme hodnotu premennej
+2. Zistíme konzistenciu hrán susedov $A$ a $B$
+	1. Ak hrana $AB$ nie je konzistentná s hranou $BA$, tak redukujeme $H(f)$ hrany $A$
+3. Ak je $H(f)$ hrany $B$ prázdny, vyberáme inú hodnotu premennej
+4. Opakujeme od 1. dokedy nie sú všetky hrany konzistentné
+
 **Časová náročnosť**: $O(e*d^3)$
 **Pamäťová náročnosť**: $O(e)$
 
 **Radenie premenných**:
 - *Minimal remaining values* - Vyberáme premenné s najmenšou mohutnosťou $H(f)$
-- *Fail-Fast ordering* - 
 - *Least constraining values* - Vyberáme premennú, ktorá minimálne narúša $H(f)$ ostatných premenných
+- *Fail-Fast ordering* - ?
 
 **Rozšírenia**:
 *Path-consistency* - Rozšírenie hranovej konzistencie o cestu medzi dvoma stavmi

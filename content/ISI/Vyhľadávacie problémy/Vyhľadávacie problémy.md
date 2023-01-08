@@ -22,6 +22,10 @@ Existuje viacero vyhľadávacích problémov (viď kapitoly).
 	- úplný
 	- čiastočný
 
+**Typ riešenia**:
+- *Kompletné* - riešenie problému je správne, avšak existuje lepšie
+- *Optimálne* - najlepšie riešenie problému
+
 Interakcia agenta s prostredím funguje na základe logickej tabuľky (podľa ktorej sa agent rozhoduje)
 ![[agent_priestor.excalidraw]]
 
@@ -35,14 +39,24 @@ Stromové vyhľadávanie spočíva vo vytvorení stromu a následnom prehľadáv
 Tento strom predstavuje súslednosť akcií agenta (hrany) a stav agentového priestoru (uzly).
 Strom expandujeme dokým nenájdeme riešenie.
 
-Vyhľadávanie v grafe vs strome:
-- pokiaľ sa v grafe nachádza cyklus môžeme sa zacykliť pri tvorbe stromu
-	- riešime zásobníkom navštívených stavov
+## Prehľadávanie stavového priestoru
 
-
-
-
-
+**Vo forme stromu**:
+- Problémom môže byť expandovanie identických stavov viackrát
+- *Algoritmus*:
+	1. Do zásobníka vlož štartovací uzol (stav)
+	2. Vyber zo zásobníka prvý uzol
+	3. Ak je uzol konečný stav, tak ho vráť
+	4. Expanduj uzol a jeho deti pridaj do zásobníka
+	5. Opakuj od 2. kroka
+**Vo forme grafu**:
+- *Algoritmus*:
+	1. Do zásobníka vlož štartovací uzol (stav)
+	2. Vyber zo zásobníka prvý uzol
+	3. Ak je uzol konečný stav, tak ho vráť
+	4. Pridaj uzol do zoznamu navštívených uzlov
+	5. Expanduj uzol a jeho susedov pridaj do zásobníka
+	6. Opakuj od 2. kroka 
 
 
 ---

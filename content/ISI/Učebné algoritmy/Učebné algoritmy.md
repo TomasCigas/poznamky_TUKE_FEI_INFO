@@ -13,7 +13,8 @@ pri ladení môže dôjsť ku *overfitovaniu* (pretrénovaniu) modelu, tomuto pr
 - **Hold-Out** - rozdelíme dáta na 3 sady (trénovacie, validačné a testovacie), kde túnujeme model len na dvoch z nich a potom testujeme s tretím
 - **Cross-validation** - dáta rozdelíme na $n$ častí a trénujem model $n$-krát.
 	- vystupuje tu k-fold parameter, ktorý hovorí na koľko častí rozdelíme dáta
-	- *strutified k-fold*: k-fold = počtu dát
+	- *stratified k-fold* - dáta sa rozdeľujú na rovnomerné časti
+	- *nonstratified k-fold* - dáta sa rozdeľujú v náhodnom pomere
 - **Diagnostika pomocou kriviek učenia a validácie** - krivky nám ukazujú, či sme mdel pod/pretrénovali
 	- ![[krivky_diagnost.excalidraw]]
 	- kde plnou čiarou sú reálne výsledky testovania a čiarkovanou zdánlivé krivky validácie
