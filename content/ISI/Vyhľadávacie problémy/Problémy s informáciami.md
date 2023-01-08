@@ -44,8 +44,10 @@ Heuristika musí byť [[#Heuristiky|prípustná]].
 
 **Dominantnosť heuristík** - ak heuristika aproximuje reálne váhy, vo všeobecnosti expanduje menší poćet uzlov, ale výpočet je náročnejší
 
-**Prípustnosť heuristík** - heuristika musí spĺňať $h(n) \leq c(n)$
+**Prípustnosť heuristík** - heuristika musí spĺňať $h(n) \leq c^*(n)$
+- heuristka nikdy nepresahuje cenu (náklady) na dosiahnutie cieľa.
 
-**Konzistencia (monotónnosť) heuristík** - heuristika musí spĺňať trojuholníkovú nerovnosť, teda $f(n) = g(n) + h(n)$ je *neklesajúca*
+**Konzistencia (monotónnosť) heuristík** - prípustná heuristika, ktorá spĺňa trojuholníkovú nerovnosť, teda $f(n) = g(n) + h(n)$ je *neklesajúca*
+- heurisitka sa považuje za konzistentnú, ak je jej odhad vždy menší alebo rovný odhadovanej vzdialenosti od akéhokoľvek susedného uzla k cieľu + náklady na dosiahnutie toho suseda
 
 Pri vyhľadávaní v strome musí byť heuristika prípustná, pri vyhľadávaní v grafe musí byť heuristika konzistentná.
