@@ -9,10 +9,10 @@ UCS algoritmus hľadá cestu v strome, ktorá je "najlacnejšia", teda má najme
 
 UCS nájde optimálne riešenie
 
-**Časová zložitosť** - $O(b^{c^* / \epsilon})$, kde
+**Časová zložitosť** - $O(b^{1+(c^* / \epsilon)})$, kde
 - $\epsilon$ - minimálna váha hrany
 - $c^*$ - kumulatívna váha k cieľu
-**Pamäťová zložitosť** - $O(b^{c^* / \epsilon})$
+**Pamäťová zložitosť** - $O(b^{1+(c^* / \epsilon)})$
 
 # Greedy
 $f(n) = h(n)$
@@ -27,6 +27,10 @@ Pokiaľ zvolíme zlú heuristiku, môže sa zmeniť na veľmi zlý DFS.
 
 Heuristika musí byť [[#Heuristiky|prípustná]].
 
+**Časová zložitosť** - od $O(m+n)$ (grid based) po $O(N*log(N))$ (sorted data)
+! nemusí byť presné, záleží od problému a implementácii !
+**Pamäťová zložitosť** - $O(1)$
+
 # A*
 $f(n) = c'(n) + h(n)$, kde
 $c'(n)$ je kumulatívna hodnota do momentálneho expandovaného stavu.
@@ -34,7 +38,10 @@ $c'(n)$ je kumulatívna hodnota do momentálneho expandovaného stavu.
 Je pomalší ako [[#Greedy|greedy]], ale nachádza optimálne riešenie (rýchlejšie ako [[#UCS]]).
 Podobne ako pri greedy zlé zvolenie heuristiky môže spôsobiť neoptimálnosť a dlhšie vyhľadávanie + musíme dávať pozor aj na kumulatívne ceny.
 
-Heuristika musí byť [[#Heuristiky|prípustná]].
+Heuristika musí byť [[#Heuristiky|prípustná]] ak prehľadávame v strome a [[#Heuristiky|konzistentná]] ak prehľadávame v grafe.
+
+**Časová zložitosť** - závisí od heurisitky
+**Pamäťová zložitosť** - ?
 
 # Heuristiky
 *Návrh nových huristík*:
@@ -42,7 +49,7 @@ Heuristika musí byť [[#Heuristiky|prípustná]].
 	- Zrelaxovaný problém supergraf $\forall$ možných stavových grafov
 	- Zrelaxovaný problém by sa mal čo najviac podobať reálnej situácii na zníženie počtu expandovaných stavov.
 
-**Dominantnosť heuristík** - ak heuristika aproximuje reálne váhy, vo všeobecnosti expanduje menší poćet uzlov, ale výpočet je náročnejší
+**Dominantnosť heuristík** - čím viac heuristika aproximuje reálne váhy, tak vo všeobecnosti expanduje tým menší počet uzlov na úkor výpočtovej rýchlosti
 
 **Prípustnosť heuristík** - heuristika musí spĺňať $h(n) \leq c^*(n)$
 - heuristka nikdy nepresahuje cenu (náklady) na dosiahnutie cieľa.

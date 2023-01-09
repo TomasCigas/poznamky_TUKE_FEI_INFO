@@ -21,6 +21,7 @@ Algoritmus je jednoduchá krokovacia funkcia, ktorá závisí len na učení int
 Hlavnou myšlienkou perceptronu je minimalizácia chyby.
 
 ## Metóda podporných vektorov (SVM)
+V prípade klasifikácie sa označujú aj ako **SVC**.
 Ide o rozšírenie [[#Perceptron|perceptronu]], v tomto prípade sa minimalizuje hraničné pásmo namiesto chyby. Je výpočtovo náročnejšie ako perceptron, ale taktiež presnejšie.
 
 V prípade, že sa nedá riešenie získať lineárne používame slack (voľný) [[Terminológia a označenia v ISI|hyperparameter]], krorý nám povoľuje istú mieru chybného riešenia (obvykle sa nazýva **C**).
@@ -39,10 +40,17 @@ Obmedzuje to pre/podtrénovanie jedného stromu. [[Terminológia a označenia v 
 
 ## K najbližších susedov
 Relatívne lenivý prístup k riešeniu. Algoritmus sa pozrie na svoj radius a rozhodne sa podľa toho, koľko susedov toho istého typu sa nachádza v jeho okolí.
-Problémom je dimenzionalita, s narastajúcim počtom parametrov a atribútov narastá aj jeho výpočtová rýchlosť.
+Problémom je dimenzionalita, s narastajúcim počtom parametrov a atribútov narastá aj jeho výpočtová rýchlosť. Taktiež je senzitívny na [[Inteligentné systémy v informatike#Predpsracovanie dát|škálovanie]].
 
 Ako [[Terminológia a označenia v ISI|hyperparametre]] máme radius bodu a počet požadovaných susedov.
 
 ## Základné klasifikátory s najlepšími výsledkami
 - XGboost (podobný [[#Náhodné stromy|náhodným lesom]])
 - TabNet (neurónové siete)
+
+# Regresná analýza
+**Používajú sa**:
+- [[#Rozhodovacie stromy]]
+- [[#Náhodné lesy]]
+- [[#Metóda podporných vektorov (SVM)]] (napr. metóda najmenších štvorcov)
+- a i.

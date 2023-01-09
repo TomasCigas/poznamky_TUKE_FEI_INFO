@@ -27,6 +27,7 @@ Považujú sa za "slepé" algoritmy.
 **BFS**:
 - *Časová*: $O(d*n)$
 - *Pamäťová*: $O(d^k*n^k)$
+
 _nvm čo je d,n a k :P_
 
 # Spätné vyhľadávanie 
@@ -53,13 +54,14 @@ Pri redukcii $H(f)$ musíme skontrolovať aj už okonotrolované hrany.
 3. Ak je $H(f)$ hrany $B$ prázdny, vyberáme inú hodnotu premennej
 4. Opakujeme od 1. dokedy nie sú všetky hrany konzistentné
 
-**Časová náročnosť**: $O(e*d^3)$
+**Časová náročnosť**: $O(e*d^3)$, kde
+- $e$ - počet hrán v CSP
+- $d$ - maximálna veľkosť domény
 **Pamäťová náročnosť**: $O(e)$
 
 **Radenie premenných**:
 - *Minimal remaining values* - Vyberáme premenné s najmenšou mohutnosťou $H(f)$
 - *Least constraining values* - Vyberáme premennú, ktorá minimálne narúša $H(f)$ ostatných premenných
-- *Fail-Fast ordering* - ?
 
 **Rozšírenia**:
 *Path-consistency* - Rozšírenie hranovej konzistencie o cestu medzi dvoma stavmi
@@ -77,9 +79,10 @@ Algoritmy pracujú s nejakým úplným stavom (všetkym premenným sú priraden�
 Priradzujeme premenným hodnoty s ľubovoľným počtom konfliktov (porušenia obmedzení). Po priradzení vyberáme novú hodnotu premennej, ktorá minimalizuje počet konfliktov (počet konfliktov zisťujeme **evaluačnou funkciou**).
 
 ? je schopný riešiť N-queens v konštantnom čase.
+
 ## Hill-climbing
 Taktiež inicializujeme počiatočný stav. Kontrolujeme premenné a ak existuje lepší "sused" (hodnota) tak ho vyberieme. Pokračujeme dokedy sa nedostaneme na **lokálne maximum**.
-Nevýhodou je, že konzistnentosť riešenia nie je jednoznačná, nakoľko môžeme nájsť lokálne maximum.
+Nevýhodou je, že konzistnentosť riešenia nie je jednoznačná, nakoľko môžeme nájsť lokálne minimum konfliktov.
 
 Algoritmus je greedy - nehľade na ďalší krok vyberá najbližší stav k cieľu.
 

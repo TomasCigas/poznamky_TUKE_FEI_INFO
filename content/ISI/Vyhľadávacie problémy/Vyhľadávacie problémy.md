@@ -1,7 +1,7 @@
 ***********
-Existuje viacero vyhľadávacích problémov (viď kapitoly).
+Existuje viacero druhov vyhľadávacích problémov (viď kapitoly).
 
-**Agent** - entita, ktorá vníma a reaguje na zmeny v priestore pomocou senzorov a ovplivňuje prostredie pomocou akcií
+**Agent** - entita, ktorá vníma a reaguje na zmeny v priestore pomocou senzorov a ovplivňuje prostredie pomocou svojich akcií
 
 **Typy agentov podľa racionality** (podľa užitku a penalizácie):
 - **Reflexný agent**: rozhoduje sa na základe momentálneho stavu
@@ -41,19 +41,19 @@ Strom expandujeme dokým nenájdeme riešenie.
 
 ## Prehľadávanie stavového priestoru
 
-**Vo forme stromu**:
-- Problémom môže byť expandovanie identických stavov viackrát
+**Vyhľadávanie v strome**:
 - *Algoritmus*:
 	1. Do zásobníka vlož štartovací uzol (stav)
 	2. Vyber zo zásobníka prvý uzol
 	3. Ak je uzol konečný stav, tak ho vráť
 	4. Expanduj uzol a jeho deti pridaj do zásobníka
 	5. Opakuj od 2. kroka
-**Vo forme grafu**:
+**Vyhľadávanie v grafu**:
+- expanzia vyhľadávania v strome + množina už expandovaných (navštívených) uzlov (**closed set**)
 - *Algoritmus*:
 	1. Do zásobníka vlož štartovací uzol (stav)
 	2. Vyber zo zásobníka prvý uzol
-	3. Ak je uzol konečný stav, tak ho vráť
+	3. Ak je uzol konečný stav, tak ho vráť 
 	4. Pridaj uzol do zoznamu navštívených uzlov
 	5. Expanduj uzol a jeho susedov pridaj do zásobníka
 	6. Opakuj od 2. kroka 
