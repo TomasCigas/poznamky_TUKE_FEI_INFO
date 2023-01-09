@@ -21,7 +21,7 @@ Počet klastrov počítame *lakťovou metódou*, teda hľadáme v grafe *Chyba*/
 ![[laket.excalidraw]]
 
 # DBSCAN
-Namiesto vzdialenosti bodov od centra ([[#K-means]]) sa berie do úvahy ich hustota - teda počet bodov vo vzájomnej vzdialenosti s polomerom E.
+Namiesto vzdialenosti bodov od centra ([[#K-means]]) sa berie do úvahy ich hustota - teda klastruje body, ktoré sú blízko seba (body s *MinPts* počtom susedov), pri čom označuje body, ktoré sa nachádzajú v nízko-hustotných oblastiach ako [[Inteligentné systémy v informatike#Predpsracovanie dát|outlierov]].
 
 Algoritmus:
 1. Označenie typu bodov

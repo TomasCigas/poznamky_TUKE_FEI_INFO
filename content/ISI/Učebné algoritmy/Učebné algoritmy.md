@@ -19,7 +19,7 @@ Obvykle ladíme:
 
 Pri ladení môže dôjsť ku pretrénovaniu modelu, tomuto predchádzame *validáciou modelu*:
 - **Hold-Out** - rozdelíme dáta na 3 sady (trénovacie, validačné a testovacie), kde túnujeme model len na dvoch z nich a potom testujeme s tretím
-- **Cross-validation** - dáta rozdelíme na $n$ častí a trénujem model $n$-krát.
+- **Cross-validation** - dáta rozdelíme na $k$ častí a trénujem model $k$-krát. (tzv. $k$-fold)
 	- vystupuje tu k-fold parameter, ktorý hovorí na koľko častí rozdelíme dáta
 	- *stratified k-fold* - dáta sa rozdeľujú na rovnomerné časti
 	- *nonstratified k-fold* - dáta sa rozdeľujú v náhodnom pomere

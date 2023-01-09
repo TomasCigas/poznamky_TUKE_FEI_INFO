@@ -2,17 +2,19 @@
 Algoritmy používajú evaluačnú funkciu $f(n)$, ktorá nám hovorí o riešení momentálneho stavu, resp. ako ďaleko sme v riešení nášho stavu / ako blízko sme pri riešení.
 
 # UCS
+Aj keď UCS nemá informáciu o neznámom priestore, uchováva si informáciu o už prejdenom priestore.
+
 $f(n) = c(n)$
 - kde $c(n)$ je kumulatívna hodnota akcií nášho algoritmu
 
 UCS algoritmus hľadá cestu v strome, ktorá je "najlacnejšia", teda má najmenšiu kumulatívnu hodnotu.
 
-UCS nájde optimálne riešenie
+UCS nájde optimálne riešenie.
 
-**Časová zložitosť** - $O(b^{1+(c^* / \epsilon)})$, kde
+**Časová zložitosť** - $O(b^{(c^* / \epsilon)})$, kde
 - $\epsilon$ - minimálna váha hrany
 - $c^*$ - kumulatívna váha k cieľu
-**Pamäťová zložitosť** - $O(b^{1+(c^* / \epsilon)})$
+**Pamäťová zložitosť** - $O(b^{(c^* / \epsilon)})$
 
 # Greedy
 $f(n) = h(n)$

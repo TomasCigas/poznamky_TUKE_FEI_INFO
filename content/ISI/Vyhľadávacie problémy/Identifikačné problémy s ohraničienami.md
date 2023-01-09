@@ -43,8 +43,8 @@ Po priradení danej premennej verifikuje $H(f)$ susedných (spolu súvisiacich) 
 
 # Konzistencia hrán
 Nádstavba [[#Dopredná kontrola|doprednej kontroly]].
-Hrana $X \rightarrow Y$ je konzistentnám, ak pre $\forall$ hodnotu z $x \epsilon X$ existuje aspoň jedna hodnota $y\epsilon Y$.
-Jednoducho povedané $\forall$ hrana v grafe musí byť konzistentná.
+Hrana $X$ a $Y$ je konzistentná, ak pre $\forall$ hodnotu z $x \epsilon X$ existuje aspoň jedna hodnota $y\epsilon Y$, tak aby $(x,y)$ spĺňali všetky binárne ohraničenia medzi $X$ a $Y$.
+Problém je konzistentný ak každá hrana je konzistentná z každou inou (susednou).
 Pri redukcii $H(f)$ musíme skontrolovať aj už okonotrolované hrany.
 
 **Algoritmus**:
@@ -64,8 +64,8 @@ Pri redukcii $H(f)$ musíme skontrolovať aj už okonotrolované hrany.
 - *Least constraining values* - Vyberáme premennú, ktorá minimálne narúša $H(f)$ ostatných premenných
 
 **Rozšírenia**:
-*Path-consistency* - Rozšírenie hranovej konzistencie o cestu medzi dvoma stavmi
-- Riešenie je konzistentné ak $(A,a);(B,b)$, je hranovo konzistentné, tak $\exists x$, tak aj $(A,x);(B,x)$ je hranovo konzistentné
+*Path-consistency* - Rozšírenie hranovej konzistencie na konzistenciu 2 premenných s 3.
+- $X$ a $Y$ sú konzistentné so $Z$, ak pre každý pár $(x,y)$, ktoré spĺňajú binárne ohraničenia $X$ a $Y$, exituje hodnota $z$ v doméne $Z$, taká, že $(x,z)$ je konzistentné pre hranu medzi $X$ a $Z$  a $(y,z)$ pre hranu $Y$ a $Z$
 *K-konzistency* - path-consistency pre viacero premenných
 
 # Alternatívne riešenie - Local Search

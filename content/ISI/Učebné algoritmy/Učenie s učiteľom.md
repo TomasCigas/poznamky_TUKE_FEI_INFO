@@ -33,6 +33,8 @@ Dobre zvládajú zmiešané a kategórické atribúty. Avšak ide tu o veľkú h
 
 Ako [[Terminológia a označenia v ISI|hyperparametre]] tu vystupujú počty detí uzla a maximálna hĺbka.
 
+Nie je ovplyvnený [[Inteligentné systémy v informatike#Predpsracovanie dát|škálovaním]].
+
 ## Náhodné lesy
 Jedná sa o skupinový klasifikátor. Jednoducho povedané jedná sa o viacero [[#Rozhodovacie stromy|stromov]], medzi ktorými sa následne vyberá rôznym spôsobom. Napr. hlasovaním.
 

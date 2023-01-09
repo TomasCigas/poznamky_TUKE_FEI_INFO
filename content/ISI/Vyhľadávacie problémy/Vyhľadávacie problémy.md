@@ -48,6 +48,8 @@ Strom expandujeme dokým nenájdeme riešenie.
 	3. Ak je uzol konečný stav, tak ho vráť
 	4. Expanduj uzol a jeho deti pridaj do zásobníka
 	5. Opakuj od 2. kroka
+- *Pseudokód*:
+![[tree_search.png]]
 **Vyhľadávanie v grafu**:
 - expanzia vyhľadávania v strome + množina už expandovaných (navštívených) uzlov (**closed set**)
 - *Algoritmus*:
@@ -57,7 +59,8 @@ Strom expandujeme dokým nenájdeme riešenie.
 	4. Pridaj uzol do zoznamu navštívených uzlov
 	5. Expanduj uzol a jeho susedov pridaj do zásobníka
 	6. Opakuj od 2. kroka 
-
+- *Pseudokód*:
+![[graph_search.png]]
 
 ---
 - [[Problém bez informácií]]
