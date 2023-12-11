@@ -17,7 +17,7 @@ Jedná sa o rýchlejší a efektívnejší spôsob interakcie s počítačom/pro
 Vyplnenie formulára, teda viacero polí, ktoré sa môžu nachádzať aj len na jednej obrazovke.
 
 # Menu
-Používateľ si nemusí pamätať príkazy, lebo všetky sú mu ukázane. Toto zvyšuje [[Podmienky použiteľnosti#Viditeľnosť|viditeľnosť]], avšak môže znížiť [[Komponenty použiteľnosti#Efektívnosť|efektivitu]] a zvýšiť komplexnosť kvôli hierarchii.
+Používateľ si nemusí pamätať príkazy, lebo všetky sú mu ukázane. Toto zvyšuje [[Podmienky použiteľnosti#Viditeľnosť|viditeľnosť]], avšak môže znížiť [[Komponenty zrozumiteľného dizajnu#Efektívnosť|efektivitu]] a zvýšiť komplexnosť kvôli hierarchii.
 
 # Priame manipulovanie
 Používateľ priamo zaobchádza so systémom. Obvykle sa nemusí ani učiť.

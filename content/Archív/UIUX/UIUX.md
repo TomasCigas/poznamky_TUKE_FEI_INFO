@@ -44,7 +44,7 @@ Z týchto je najefektívnejšie *podobné* mapovanie.
 
 ---
 - [[Zadania]]
-- [[Komponenty použiteľnosti]]
+- [[Komponenty zrozumiteľného dizajnu]]
 - [[Podmienky použiteľnosti]]
 - [[Štýly interakcie s počítačom]]
 - [[Ľudský modelový procesor]]
