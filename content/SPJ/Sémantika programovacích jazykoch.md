@@ -17,5 +17,6 @@ Prvky v relácii teda zapisujeme ako $aRb$:
 - [[Funkcie]]
 - [[Sémantika]]
 - [[Programovacie jazyky]]
+- [[Dôkazy]]
 ---
 

@@ -61,6 +61,20 @@ s' = s[x\mapsto e]
 $$
 kde $s'$ je nový stav, ktorý mení premennú $x$ na $e$.
 
+# Ekvivalencia
+Majme rozdielne príkazy $S_1$ a $S_2$. Tieto dva príkazy sú ekvivalentné ak pre každý vstupný stav $s$ dostaneme rovnaký stav $s'$ v každom prípade z oboch príkazov. Teda:
+$$
+S_1 \equiv S_2\ \ \ \ \text{iff} \ \ \ \ (\langle S_1,s\rangle \rightarrow s' )\ \wedge\ (\langle S_2,s\rangle \rightarrow s' )
+$$
+Napríklad otočený if:
+$$
+S_1 = \texttt{if}\ b\ \texttt{then}\ S_A\ \texttt{else}\ S_B
+$$
+a
+$$
+S_2 = \texttt{if}\ \neg\  b\ \texttt{then}\ S_B\ \texttt{else}\ S_A
+$$
+
 ---
 - [[Konštrukcie]]
 - [[Typy sémantiky]]

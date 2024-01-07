@@ -9,7 +9,7 @@ Formálna definícia jazyka pozostáva z:
 - formálnej sémantickej metódy
 
 # Formálna definícia jazyka
-
+#add_info 
 
 ---
 - [[Paradigmy programovania]]
