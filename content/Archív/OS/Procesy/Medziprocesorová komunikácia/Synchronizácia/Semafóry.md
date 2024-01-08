@@ -17,7 +17,6 @@ Dekrementácia môže spôsobiť blokovanie procesu a inkrementácia zasa jeho o
 
 ## Podmienená premenná (Conditional Variable)
 - typ premennej, ktorá sa používa na zablokovanie [[Procesy|procesu]] alebo _vlákna_ dokým sa nesplní istá podmienka
-#add_link 
 
 ## Nedostatky
 - Neexistuje spôsob ako sa dozvedieť či bude proces zablokovaný

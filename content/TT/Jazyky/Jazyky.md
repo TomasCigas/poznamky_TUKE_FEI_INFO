@@ -9,7 +9,7 @@ Formálna definícia jazyka:
 
 Formálnu syntax môžeme definovať:
 - [[Gramatika|gramatikou]]
-- [[Lexikálna analýza|BNF]] produkčným pravidlom
+- [[Lexikálna analýza#Backusova-Naurova forma|BNF]] produkčným pravidlom
 - induktívnou definíciou
 	- definuje množinu legálnych termov ako najmenšiu mnozinu $Term$
 - odvodzovacími pravidlami
@@ -17,7 +17,7 @@ Formálnu syntax môžeme definovať:
 Jazyky pozostáva z *termov*, ktoré reprezentujú základné syntaktické konštrukcie.
 
 # Typovanie
-Typovanie je proces priradzovania [[Teória Typov|typu]] termu.
+Typovanie je proces priradzovania [[Typy|typu]] termu.
 Formálne definujeme typovanie prostredníctvom **typovacími pravidlami** a **typovacou reláciou**.
 
 Typovacia relácia pre T-NBL:
@@ -48,6 +48,7 @@ Pri typovaných jazykoch skúmame:
 2. vyhodnotenie
 3. typovanie
 4. stále má zmysel hovoriť o výsledku termu
+
 Church - Typovanie pred vyhodnotením (Church - podľa kostolného poriadku):
 1. syntax
 2. typovanie

@@ -44,9 +44,8 @@ Dátová jednotka (PDU): **Pakety**
 **Transportná vrstva** má na starosti spoľahlivosť daného spojenia
 
 Využívajú sa:
-TCP (Transmission Control Protocol)
-UDP (User Datagram Protocol)
-#add_link 
+[[TCP a UDP|TCP]] (Transmission Control Protocol)
+[[TCP a UDP|UDP]] (User Datagram Protocol)
 
 **Sledovanie informácii**:
 **Segmntácia**:

@@ -43,8 +43,7 @@ Spôsoby vyriešenia:
 -  Princíp "Test and Set" -> opakovane kontrolujeme či môžeme pokračovať v kritcikej sekcii a pokiaľ áno, tak ju vykonáme a potom oznámime, že sme z nej už vyšli
 -  [[Pojmy IPC#Atomická operácia|Atomická operácia]]
 	-  Princíp "Compare&Swap" -> porovnávame, či sa v pamäti nachádza *testovacia* premenná a pokiaľ áno nastavíme hodnotu uloženú v pamäti na *novú hodnotu*
-		Použiva sa v _semaforoch_ či Mutexoch
-		#add_link 
+		Použiva sa v [[Semafóry|semaforoch]] či Mutexoch
 	 - Princíp "Exchange instruction" -> výmena obsah registra a pamäte
 		
 ## Dizajnové charakteristiky pre [[Synchronizácia|synchronizáciu]] a [[Komunikácia|komunikáciu]]

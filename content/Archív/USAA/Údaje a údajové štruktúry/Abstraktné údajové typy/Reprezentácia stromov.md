@@ -32,7 +32,6 @@ BVS pre množinu $S$ je označený binárny strom, kde pre každý vrchol označ
 - $\forall$ vrchol $a$ existuje jediný vrchol $v$, taký že $l(v) = a$
 
 **Zložitosť** najhorší prípad -> $O(n^2)$, možno vylepšiť použitím **AVL** alebo **RB** stromami.
-#add_link 
 
 #### Optimálne BVS
 **Optimálny BVS** je [[#Binárny vyhľadávací strom|binárny vyhľadávací strom]], ktorý poskytuje najmenší možný/očakávaný čas na nájdenie požadovaného prvku/prvkov.

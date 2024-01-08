@@ -5,8 +5,7 @@ $$
 $$
 Ako prechod medzi jednotlivými stavmi a príkazmi (teda redukcia) používame buď:
 - $\langle S,s \rangle \rightarrow \langle S,s' \rangle$ pre [[Prirodzená sémantika|prirodzenú sémantiku]]
-- $\langle S,s \rangle \Rightarrow \langle S,s' \rangle$ pre štrukturálnu operačnú sémantiku
-#add_link 
+- $\langle S,s \rangle \Rightarrow \langle S,s' \rangle$ pre [[Štrukturálna operačná sémantika|štrukturálnu operačnú sémantiku]]
 
 Definícia operačnej sémantiky nevyužíva sémantické rovnosti, ale **axiómy** a **odvodzovacie pravidlá**.
 Všeobecný zápis pravidla pre odvodenie je:

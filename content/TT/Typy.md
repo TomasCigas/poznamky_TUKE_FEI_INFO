@@ -3,7 +3,7 @@
 - **súbor hodnôt**, ktoré môže počítač reprezentovať
 - **operácie** nad týmito hodnotami
 
-Kontrola týchto typov je vykonávaná v [[Formálne jazyky|prekladačoch]] a [linkeroch](https://en.wikipedia.org/wiki/Linker_(computing).
+Kontrola týchto typov je vykonávaná v [[Formálne jazyky|prekladačoch]] a [linkeroch](https://en.wikipedia.org/wiki/Linker_(computing)).
 
 # Základné typy
 Najzákladnejšie typy používané v [[Typovaný NBL|T-NBL]] a [[Jednoducho typovaný lambda-kalkul|JTLK]] sú $Bool$ a $Nat$.
@@ -52,8 +52,8 @@ inr\ 5 : Bool + Nat\\
 \end{align}
 $$
 Na zabezpečenie jednoznačnosti používame 3 metódy:
-- dochádza k rekonštrukcii typov #add_link 
-- využijeme podtypy, kde každý typ sa vzťahuje na najmenší možný typ (všetci sú rovnaký typ v podstate) #add_link 
+- dochádza k [[#Typová rekonštrukcia|rekonštrukcii typov]]
+- využijeme [[#Podtypy|podtypy]], kde každý typ sa vzťahuje na najmenší možný typ (všetci sú rovnaký typ v podstate)
 - požadujeme aby programátor [[Lambda-kalkul#Pripísanie|explicitne pomenoval]] aký typ používa.
 
 My budeme používať explicitné pomenovanie.
@@ -170,7 +170,44 @@ $\sigma_{mgu}$ dostaneme postupom:
 
 V skratke typujeme za použitia premenných (na doteraz neznáme typy), následne zadáme obmedzenia na dané typy a pri unifikácie dosadzujeme rovnosťami na unifikácii, dokým už nevieme ďalej unifikovať. Ako posledný krok dosadíme jednotlivé typy na typové premenné.
 
-# Podtypy
+# Typový polymorfizmus
+V mnohých prípadoch je vhodné aby term nebol jediného typu. Preto zadefinujeme **polymorfné typy**, ktoré môžu byť rôznych typov.
+
+Definícia typového polymorfizmu:
+![[Pasted image 20240108223656.png]]
+
+Typový polymorfizmus nám povoľuje pomocou **typových konštruktorov** a **typových premenných** vytvoriť nové typy.
+
+Napríklad [[#Zoznamy|zoznamy]] sa definujú ako $List<T>$, kde:
+- $List<T>$ je typový výraz
+- $List$ je typový konštruktor
+- $T$ je typová premenná
+Po dosadení dostávame nový typu do typovej premennej sme vytvorili nový typ.
+
+## Polymorfizmus 1. rádu
+Využíva ho napríklad Systém F, ktorý je v podstate polymorfným [[Jednoducho typovaný lambda-kalkul|JTLK]] a slúži ako základ na definovanie polymorfizmu v programovacích jazykoch.
+
+Definujeme **typovú abstrakciu**:
+$$
+\lambda X.t
+$$
+a **typovú aplikáciu**:
+$$
+t[E]
+$$
+, kde $E$ je typový výraz.
+
+
+## Ad-hoc polymorfizmus
+
+Umožňuje rôzne správanie podľa zadefinovania iného typu:
+- **preťaženie** term môže byť viacerých konkrétnych typov
+- **viacnásobné preťaženie** - podobne ako normálne, ale typy sa nedefinujú implicitne, ale počas vyhodnocovania
+
+## Intenzionálny polymorfizmus
+Dovoľuje obmedzené výpočty nad typmi v runtime. je využívaný napríklad garbage-collectorom.
+
+## Podtypový polymorfizmus
 Podtypy patria medzi často používané rozšírenie typového systému.
 
 Hovoríme teda, že existuje jeden najväčší typ $\top$ , ktorý je **super-typ** každého typu a najmenší $\perp$, ktorý je **podtyp** každého typu. Teda každý typ iný typ má nejaký super-typ a podtyp.

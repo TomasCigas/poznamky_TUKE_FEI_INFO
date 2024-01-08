@@ -7,7 +7,6 @@
 *Algoritmus* je konečná postupnosť presne definovaných inštrukcií, ktorá slúži na vyriešenie konkrétneho problému.
 
 Ak je problém algoritmicky riešiteľný, potom existuje program pre niektorý abstraktný stroj (Turingov stroj, RAM, RASP)
-#add_link 
 
 Algoritmus môže byť špecifikovaný rôznymi spôsobmi, napr.:
 - v prirodzenom jazyku

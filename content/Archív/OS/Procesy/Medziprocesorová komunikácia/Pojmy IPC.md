@@ -20,7 +20,5 @@
 ## Podmienka závodov (Race condition)
 - situácia, v ktorej viacero *vlákien* alebo [[Procesy|procesov]] zapisuje či číta z [[#Kritická sekcia|kritického zdroja]] a finálny výsledok závisí od ich relatívneho času spustenia a vykonania
 
-#add_link
-
 ## Vyhladovanie (Starvation)
 - situácia, v ktorej bol procesu odmietnutý prístup k vyžadovaným zdrojom, obvykle pretože s týmto zdrojom narába iný proces

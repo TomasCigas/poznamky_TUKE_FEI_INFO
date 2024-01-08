@@ -17,7 +17,6 @@ Kladie dôraz na výpočty a oblasti [[Konštrukcie#Toky informácií|vidieľné
 - obsahuje rozsiahle a komplexné výpočty hodnôt
 - málo priradení hodnôt
 - [[Konštrukcie#Toky riadenia|tok riadenia]] je vyjadrený aktiváciou funkcií
-#add_link 
 - viditeľnosť v deklaráciách je často rekurzívna
 ## Súbežné programovanie
 Kladie dôraz na súbežné procesy, [[Konštrukcie#Toky riadenia|výber alternatívy]] a [[Konštrukcie#Toky informácií|odovzdávanie správ]].
@@ -41,6 +40,5 @@ Sústredí sa na ukladanie faktov a  [[Konštrukcie#Toky riadenia|výber alterna
 **Charakteristiky**:
 - program pozostáva z alternatívnych procedurálnych abstrakcií
 - výber alternatív sa robí pomocou *unifikácie vzorov* medzi parametrami abstrakcií a argumentmi aktivácie funkcie. Táto unifikácia sa viaže identifikátormi k termom
-#add_link 
 
 ---

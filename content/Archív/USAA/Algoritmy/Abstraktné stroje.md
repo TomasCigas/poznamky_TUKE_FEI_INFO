@@ -5,7 +5,6 @@ Napríklad: Turingov stroj, [[#Stroj RAM|stroj RAM]], stroj RASP
 
 ## Stroj RAM
 Ide o model hardvardského počítača
-#add_link 
 
 **Konfigurácia**:
 - vstupná, výstupná páska, pamäť programu a apamäť údajov
@@ -50,7 +49,6 @@ Môžeme abstrahovať a vynechať niekoľko inštrukcií (skoky, inštrukcie vst
 
 #### Porovnávací model
 Pri niektorých programoch sú meradlom zložitosti momenty porovnávania (napr. triedenie). Uvažujeme model, kde každý krok predstavuje dvojcestné vetvenie -> preto je vhodná reprezentácia vo forme **rozhodovacieho stromu**.
-#add_link 
 - vnútorný vrchol reprezentuje rozhodovanie
 - **vľavo** je podmienka **splnená**
 - **vpravo** je podmienka **nesplnená**
@@ -60,7 +58,6 @@ Pri niektorých programoch sú meradlom zložitosti momenty porovnávania (napr.
 
 ## Stroj RASP
 Ide o model von neumanovského počítača.
-#add_link 
 
 RAM a RASP sú ekvivalentné z hľadiska časovej aj pamäťovej zložitosti
 
