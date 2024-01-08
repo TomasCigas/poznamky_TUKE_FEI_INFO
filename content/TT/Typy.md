@@ -157,7 +157,46 @@ $$
 Na zaručenie [[Jazyky|typovej bezpečnosti]] existujú vety:
 ![[Pasted image 20240107192442.png]]
 
+# Typová rekonštrukcia
+Jedná sa o spätné [[Jazyky#Typovanie|typovanie]] netypovaných termov. Napríklad ak máme term $f\ 3$ vieme, že $3 : Nat$, takže funkcia $f$ bude $f: X \rightarrow Nat$, kde $X$ predstavuje **typovú premennú**.
 
+Postup pri typovej rekonštrukcii:
+![[Pasted image 20240108164806.png]]
 
+Algoritmus **unifikácie** zisťuje akého typu je daný term. Určuje to prostredníctvom **najvšeobecnejšieho unifikátora** $\sigma_{mgu}$ (most general unificator) a **najvšeobecnejšieho typu**
+
+$\sigma_{mgu}$ dostaneme postupom:
+![[Pasted image 20240108165049.png]]
+
+V skratke typujeme za použitia premenných (na doteraz neznáme typy), následne zadáme obmedzenia na dané typy a pri unifikácie dosadzujeme rovnosťami na unifikácii, dokým už nevieme ďalej unifikovať. Ako posledný krok dosadíme jednotlivé typy na typové premenné.
+
+# Podtypy
+Podtypy patria medzi často používané rozšírenie typového systému.
+
+Hovoríme teda, že existuje jeden najväčší typ $\top$ , ktorý je **super-typ** každého typu a najmenší $\perp$, ktorý je **podtyp** každého typu. Teda každý typ iný typ má nejaký super-typ a podtyp.
+
+Na zadefinovanie, ktorý typ je podtyp ktorého (prípadne super), zavedieme **podtypovú reláciu**, ktorá je:
+$$
+S <:T
+$$
+, kde:
+- $S$ je podtypom $T$
+- $T$ je super-typom $S$
+- každá hodnota popísaná typom $S$ je popísaná aj typom $T$
+- prvky typu $S$ tvoria podmnožinu typu $T$
+
+Napríklad celé čísla $Int$ sú super typom prirodzených čísiel $Nat$ nakoľko môžeme použiť $Int$  namiesto $Nat$ tam, kde by sme chceli a mohli použiť len $Nat$, ale naopak to nemusí byť pravda:
+$$
+Int\ 5 + Int\ 5 = 10 <=> Nat\ 5 + Nat\ 5 = 10
+$$
+ale
+$$
+Int\ 4 - Int\ 6 = -2 <\neq> Nat\ 4 - Nat\ 6 = ??
+$$
+Podtypová relácia je [[Množiny a množinové relácie#Vlastnosti binárnych množín|reflexínva a tranzitívna]].
+
+V prípade funkčných typov platí rovnaký princíp. Pokiaľ máme typ $S_1 \rightarrow S_2$ a vieme, že $T_1 <: S_1$ a $T_2 <: S_2$,, tak funkcia $S_1 \rightarrow S_2$ môže byť použitá tam, kde funkcia typu $T_1 \rightarrow T_2$.
+
+Podtypy [[#Súčinové typy|súćinových typov]] sú taktiež podobné, avšak podtypom súčinového typu, je súčinový typ s viac položkami.
 
 ---

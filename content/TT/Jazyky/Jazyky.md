@@ -72,11 +72,10 @@ Zavedieme teda **typovateľnosť termu** - netypovaný term $m$ je **typovateľn
 - existuje typ $T$
 - existuje typový kontext $\Gamma$, taký, že: $erase(t) = m$ a $\Gamma \vdash t : T$
 
-Typovateľnosť sa využíva pri rekonštrukcii typov.
-#add_link 
-
-
+Typovateľnosť sa využíva pri [[Typy#Typová rekonštrukcia|rekonštrukcii typov]].
 
 ---
-- <**>
+- [[Lambda-kalkul]]
+- [[NBL]]
+- [[Výnimočné situácie]]
 ---

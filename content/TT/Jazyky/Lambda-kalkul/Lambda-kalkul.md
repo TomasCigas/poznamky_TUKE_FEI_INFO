@@ -201,5 +201,6 @@ $$
 $$
 
 ---
-- <**>
+- [[Jednoducho typovaný lambda-kalkul]]
+- [[Curry-Howardova korešpondencia]]
 ---
