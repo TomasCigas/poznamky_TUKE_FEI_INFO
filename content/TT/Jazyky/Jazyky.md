@@ -16,6 +16,10 @@ Formálnu syntax môžeme definovať:
 
 Jazyky pozostáva z *termov*, ktoré reprezentujú základné syntaktické konštrukcie.
 
+**Výraz** používame pre všetky syntaktické frázy (termový výraz, typový výraz...)
+**Term** je syntaktická fráza pre výpočet, ktorého sémantický význame je hodnota
+
+
 # Typovanie
 Typovanie je proces priradzovania [[Typy|typu]] termu.
 Formálne definujeme typovanie prostredníctvom **typovacími pravidlami** a **typovacou reláciou**.

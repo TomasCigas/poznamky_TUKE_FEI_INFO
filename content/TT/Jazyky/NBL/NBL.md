@@ -10,6 +10,8 @@ $$
 Con:Term \rightarrow P(\{0,true,false\})
 $$
 
+Množina $Depth(t)$ je hĺbka syntaktického stromu.
+
 
 ---
 - [[Typovaný NBL]]

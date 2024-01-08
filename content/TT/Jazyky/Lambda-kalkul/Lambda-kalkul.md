@@ -161,6 +161,8 @@ $$
 
 V tomto prípade sa vyhodnotí term $t_1$ ako prvý a potom sa priradí hodnote $x$ v terme $t_2$.
 
+Pri kontrole typov doplní typechecker žiadanú informáciu na základe svojej analýzy (ide teda o transformáciu [[Jazyky#Typovanie|odvodenia typov]])
+
 ### Pripísanie
 Pripísanie je **explicitné priradenie typu** určitému termu. Vykonáva sa kvôli nejednoznačnosti napr. [[Typy#Jednoduché typy|súčtových typov]].
 
