@@ -19,7 +19,6 @@ $$
 x \wedge x' = O\ a\ x \vee x' = I
 $$
 Kde $O = inf(L)$ a $I = sup(L)$
-
 ## Vlastnosti zväzov
 Ak máme zväz $L$ tak je:
 ### Komplementárny
