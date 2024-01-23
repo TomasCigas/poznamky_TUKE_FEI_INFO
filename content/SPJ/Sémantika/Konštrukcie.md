@@ -6,7 +6,7 @@ Tento výpočet je postupnosť podvýpočtov konštrukcií v danom programe.
 
 Riadenie výpočtu vstupuje do konštrukcie akonáhle sa začne jej podvýpočet a vystupuje s jeho koncom.
 
-Konštrukcie sa môžu líšiť [[#Tok riadenia|tokmi riadenia]], [[#Tok informácií|tokmi informácií]].
+Konštrukcie sa môžu líšiť [[#Toky riadenia|tokmi riadenia]], [[#Toky informácií|tokmi informácií]].
 # Toky
 ## Toky riadenia
 **Základné druhy**:
@@ -94,6 +94,10 @@ $$
 \texttt{begin}\ D\ ;\ D_p\ ; S\ \texttt{end}
 $$
 Na zavolanie procedúry sa používa funkcia $\texttt{call}\ p$.
+$D$ sú zadané hodnoty:
+$$
+D=\texttt{var }x:=e;D'
+$$
 
 
 ---
