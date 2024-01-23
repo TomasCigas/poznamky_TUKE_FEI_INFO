@@ -37,7 +37,7 @@ Vue.js:
 ## VS-code
 1. Extensions
 2. pip
-3. Enviroment, conda alebo 
+3. Enviroment, conda alebo npm
 
 ## GIT-HUB
 1. Vytvorenie repozitára
@@ -47,8 +47,17 @@ Vue.js:
 5. Branch a strom
 6. Merge
 
-## Figma
+## Figma (môžeme robiť)
 1. Pull - drag rozloženia
 2. Animácie
 3. Prechody medzi obrazovkami
 4. UI basics - farby, prístupnosť
+
+# Meeting 21.1.2024
+- Obrazovka je dotyková
+- Naplánovať Vue.js workshop
+- Worshop bude 24.1. / 25.1.
+- VS-code - používajú asi všetci, ale môžeme to spomenúť
+- Git a Git-Hub - môžeme robiť
+- Figma - môžeme robiť
+- Vue.js - naplánovať

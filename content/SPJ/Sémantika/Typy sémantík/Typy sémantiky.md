@@ -36,10 +36,30 @@ $$
 \texttt{Envproc}=\texttt{Procname} \rightharpoonup \texttt{Statm} \times\texttt{Envproc}
 $$
 
+# Cheatsheet  sémantík
+Ako vyzerajú jednotlivé sémantiky pre príkaz:
+$$
+x :=1;\texttt{if iszero(}x\texttt{) then }x:=x+1\texttt{ else }x:=x-1
+$$
+## Prirodzená
+![[prir.excalidraw]]
+
+## Štrukturálna operačná
+![[str_op.excalidraw]]
+## Denotačná
+![[Denot.excalidraw]]
+
+# Sémantika abstraktného stroja
+
+![[ABS_ss.excalidraw]]
+
 
 
 ---
 - [[Operačná sémantika]]
 - [[Prirodzená sémantika]]
 - [[Štrukturálna operačná sémantika]]
+- [[Denotačná sémantika]]
+- [[Axiomatická sémantika]]
+- [[Algebraická sémantika]]
 ---
