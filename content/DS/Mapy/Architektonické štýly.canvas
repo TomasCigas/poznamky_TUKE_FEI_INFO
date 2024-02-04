@@ -1,0 +1,43 @@
+{
+	"nodes":[
+		{"id":"cb859c548a2b2e50","type":"text","text":"# Architektonické štýly","shape":"predefined-process","isStartNode":true,"x":-160,"y":-80,"width":340,"height":80,"color":"1"},
+		{"id":"0cc225a7c03a9120","x":-153,"y":-420,"width":326,"height":149,"color":"2","type":"text","text":"## Vrstvové architektúra\n- 1 vrstva = 1 proces\n- zoradenie komponentov do vrstiev"},
+		{"id":"9538166a9fc3a7bf","x":-320,"y":-700,"width":250,"height":164,"color":"2","type":"text","text":"### Horizontálna komunikácia\n- interface\n- protocol\n- service"},
+		{"id":"7addc2a403f4995b","x":80,"y":-700,"width":250,"height":178,"color":"2","type":"text","text":"### Vertikálna komunikácia\n- downcalls\n- upcalls"},
+		{"id":"e068918f79dc7f75","x":-153,"y":-980,"width":326,"height":192,"color":"2","type":"text","text":"### Application layering\n- 3 vrstvový model:\n\t- UI\n\t- Spracovanie (Application)\n\t- Databázy"},
+		{"id":"275bbe27d08266e9","x":580,"y":-76,"width":250,"height":72,"color":"3","type":"text","text":"## Publish-service architectures"},
+		{"id":"0567e9912f64ef02","type":"text","text":"voľnejší pohľad na procesy","shape":"document","x":595,"y":80,"width":220,"height":52,"color":"3"},
+		{"id":"e905c33470c16503","x":900,"y":-360,"width":295,"height":124,"color":"3","type":"text","text":"### Mailbox coordination\n- nebežia spolu, ale poznajú sa\n- správy sú v \"mailboxe\""},
+		{"id":"96d0bfd9c88e07fa","x":882,"y":106,"width":313,"height":234,"color":"3","type":"text","text":"### Shared space coordination\n- procesy nebežia naraz, nepoznajú sa\n- proces vloží událosť do spoločného priestoru\n- musia byť predom dohodnuté na typu udalosti "},
+		{"id":"5543388f36add40a","x":1260,"y":-360,"width":267,"height":199,"color":"3","type":"text","text":"### Event-based coordination\n- procesy bežia, ale nepoznajú sa\n- procesy notifikujú ostatné pri zmene"},
+		{"id":"7f75f70ef74b8359","x":1260,"y":106,"width":316,"height":146,"color":"3","type":"text","text":"### Direct coordination\n- procesy sú spojené (obe bežia) a poznajú svoje endpointy\n- komunikácia je priamočiara"},
+		{"id":"7b7ee2b6cb7c6553","x":-125,"y":181,"width":271,"height":85,"color":"5","type":"text","text":"## Service oriented architecture"},
+		{"id":"83e5028710923dcc","type":"text","text":"kompozície $\\exists$ komponentov\nenkapsulácia služby = entita","shape":"document","x":200,"y":165,"width":220,"height":117,"color":"5"},
+		{"id":"14534ce29b2b0bc2","x":-554,"y":100,"width":250,"height":162,"color":"5","type":"text","text":"### Object-oriented architecture\n- volanie na dialku pomocou proxy/stub na interface"},
+		{"id":"3f1224236e9e040d","type":"text","text":"komponent = objekt","shape":"document","x":-481,"y":320,"width":177,"height":53,"color":"5"},
+		{"id":"21277fafdfb1f7fe","x":-683,"y":540,"width":291,"height":220,"color":"5","type":"text","text":"### Microservice-oriented architecture\n- kompozícia viacerých služieb\n\t- služba je jednotka obsahujúca zdroje\n\t- konvenčne sú malé"},
+		{"id":"0566edcc760903d1","type":"text","text":"komponent = minislužba","shape":"document","x":-880,"y":487,"width":177,"height":53,"color":"5"},
+		{"id":"007ac933abf77762","x":15,"y":440,"width":325,"height":163,"color":"5","type":"text","text":"### Resource-based architecture\n- kompozícia strojov individuálne manažovaných komponentmi"},
+		{"id":"aa69e37e02a2918a","x":-169,"y":760,"width":369,"height":291,"color":"5","type":"text","text":"#### RESTful architectures\n- zdroje sú identifikovateľné jedným menovou schémou (URL)\n- všetky služby majú rovnaké rozhranie (HTTP)\n- správy sú v plne identifikovateľnom tvare (JSON, XML)\n- po vykonaní služby sa zabúda na klienta - **statless execution**\n"}
+	],
+	"edges":[
+		{"id":"8faf5e0ae768bce3","fromNode":"cb859c548a2b2e50","fromSide":"top","toNode":"0cc225a7c03a9120","toSide":"bottom"},
+		{"id":"e377d43f329b37b8","fromNode":"0cc225a7c03a9120","fromSide":"top","toNode":"9538166a9fc3a7bf","toSide":"bottom"},
+		{"id":"e6892672a5d8f51b","fromNode":"0cc225a7c03a9120","fromSide":"top","toNode":"7addc2a403f4995b","toSide":"bottom"},
+		{"id":"a1734b2df5306ad6","fromNode":"0cc225a7c03a9120","fromSide":"top","toNode":"e068918f79dc7f75","toSide":"bottom"},
+		{"id":"8d1b7e5dbdd48c96","fromNode":"cb859c548a2b2e50","fromSide":"right","toNode":"275bbe27d08266e9","toSide":"left"},
+		{"id":"7fb87903e8664166","fromNode":"275bbe27d08266e9","fromSide":"bottom","toNode":"0567e9912f64ef02","toSide":"top"},
+		{"id":"b76ee3f46e9ef1a1","fromNode":"275bbe27d08266e9","fromSide":"right","toNode":"7f75f70ef74b8359","toSide":"top"},
+		{"id":"5608f9f28bf7ccdc","fromNode":"275bbe27d08266e9","fromSide":"right","toNode":"e905c33470c16503","toSide":"bottom"},
+		{"id":"d68b3f60ce06e2a6","fromNode":"275bbe27d08266e9","fromSide":"right","toNode":"5543388f36add40a","toSide":"bottom"},
+		{"id":"b668278978068775","fromNode":"275bbe27d08266e9","fromSide":"right","toNode":"96d0bfd9c88e07fa","toSide":"top"},
+		{"id":"4078069474bbb88e","fromNode":"cb859c548a2b2e50","fromSide":"bottom","toNode":"7b7ee2b6cb7c6553","toSide":"top"},
+		{"id":"736a5ad4c5c9b94d","fromNode":"7b7ee2b6cb7c6553","fromSide":"right","toNode":"83e5028710923dcc","toSide":"left"},
+		{"id":"49f59c6d58f10a39","fromNode":"7b7ee2b6cb7c6553","fromSide":"left","toNode":"14534ce29b2b0bc2","toSide":"right"},
+		{"id":"806dfd8c6f9ded19","fromNode":"14534ce29b2b0bc2","fromSide":"bottom","toNode":"3f1224236e9e040d","toSide":"top"},
+		{"id":"97878710752e74c2","fromNode":"7b7ee2b6cb7c6553","fromSide":"bottom","toNode":"21277fafdfb1f7fe","toSide":"top"},
+		{"id":"0c5f8da5c5dab2c9","fromNode":"21277fafdfb1f7fe","fromSide":"left","toNode":"0566edcc760903d1","toSide":"left"},
+		{"id":"87d839aef63adabb","fromNode":"7b7ee2b6cb7c6553","fromSide":"bottom","toNode":"007ac933abf77762","toSide":"top"},
+		{"id":"5ce413bc0125afdd","fromNode":"007ac933abf77762","fromSide":"bottom","toNode":"aa69e37e02a2918a","toSide":"top"}
+	]
+}

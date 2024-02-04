@@ -1,0 +1,42 @@
+{
+	"nodes":[
+		{"id":"3dd1480fd7756aa5","type":"text","text":"# Naming","shape":"predefined-process","x":-125,"y":-30,"width":250,"height":60,"color":"1"},
+		{"id":"8f176bf7efba2998","x":-165,"y":-440,"width":331,"height":286,"color":"1","type":"text","text":"## Typy\n- **Name**: označuje entitu\n- **Access point**: poskytuje pristup k entite a jej *adresu*\n- **Identifier**: označuje max 1 entitu a nemení sa\n- **Human friendly name**: poskytuje ľudsky zrorumiteľné meno (napr. DNS)"},
+		{"id":"657868a9c7bc6654","x":306,"y":-141,"width":250,"height":60,"color":"3","type":"text","text":"## Flat naming"},
+		{"id":"e87b02bdc29fc64d","x":666,"y":-753,"width":314,"height":213,"color":"3","type":"text","text":"### Broadcast & multicast\n- posielanie s ID\n- posielanie viacerým entitám\n- používané v ARP\n- broadcast nie je efektívny vo veľkých sieťach, multicast lepší\n"},
+		{"id":"c7fc8a21db17a5f9","x":666,"y":-459,"width":353,"height":179,"color":"3","type":"text","text":"### Forwarding pointers\n- pokiaľ sa entita presunie ponechá za sebou smerník k novej lokácii\n- ak sa veľakrát entita presunie, môže to spôsobiť veľký nárast smerníkov"},
+		{"id":"63c5b28260c934aa","x":666,"y":-230,"width":374,"height":238,"color":"3","type":"text","text":"### Home-based prístup\n- Home: obsahuje lokáciu entity (obvykle kde vznikla)\n- cloudové siete\n- pokiaľ sa chceme pripojiť na entitu, tak sa presmeruje na lokalitu, kde sa nachádza\n- vysoká latencia"},
+		{"id":"387c065e0b165957","x":666,"y":60,"width":394,"height":244,"color":"3","type":"text","text":"### Distribuované hash tabuľky\n- **Chord systém**: distribuovaná \"look up\" služba\n- efektívne vyhľadávanie: $O(log\\ n)$\n- flexibílne\n- využíva proximitu entít\n- každý uzol má cca rovnaký počet záznamov (load balancing)"},
+		{"id":"e35eb7c4ed2b7c73","x":666,"y":360,"width":443,"height":250,"color":"3","type":"text","text":"### Hierarchický prístup\n- globálna lokalizačná služba\n- stromový algoritmus\n- kolekcia domén roztriedená do subdomén\n- koreň obsahuje lokáciu\n- uzly obsahujú lokáciu\n- pri vyhľadávaní sa pripojíme na koreň, ktorý nás potom presmeruje na požadovaný uzol"},
+		{"id":"4f63c48d7c7d6ce8","x":-687,"y":-120,"width":407,"height":320,"color":"3","type":"text","text":"## Structured naming\n- mená sú organizované do rôznych priestorov (Namespaces)\n- roztriedené do grafu:\n\t- listy sú entity\n\t- ostatné uzly sú priečinky\n- každý musí poznať koreň\n- názvy entít sú reálne cesty v systéme (reálne/absolútne)\n- taktiež nazývaný aj **naming system**"},
+		{"id":"04e0d17105305871","x":-1200,"y":-235,"width":380,"height":315,"color":"3","type":"text","text":"### Naming resolution\n- hľadanie mena začíname v koreni\n- linking & mounting:\n\t- alisay, hard linky, symlinky\n\t- name resolution na viacerých namespacoch:\n\t\t- Mount point: uzol s referenciou na remote node\n\t\t- Mounting point: koreň\n\t- URL"},
+		{"id":"1c3e6b4a3d0c1d3d","x":-1247,"y":120,"width":427,"height":460,"color":"3","type":"text","text":"### Name space distribution\n- hierarchicky roztriedené do:\n\t1. Globálna vrstva:\n\t\t- koreň a jeho deti\n\t\t- reprezentuje skupinu\n\t\t- nemení sa často\n\t2. Administračná vrstva\n\t\t- uzly manažované jednou organizáciou\n\t\t- obvykle uzly pre jeden department\n\t\t- nie veľmi časté zmeny\n\t3. Manažmentská vrstva\n\t\t- často sa mení\n\t\t- súbory definované používateľom\n\t\t- reprezentuje používateľov\n- **Zóna**: časť namespacu implementovaná na samostatný server"},
+		{"id":"c108300b5699cdde","x":-1110,"y":-440,"width":200,"height":69,"color":"3","type":"text","text":"#### Implementácia\n"},
+		{"id":"d8102f17fefe0e74","x":-1010,"y":-831,"width":319,"height":217,"color":"3","type":"text","text":"#### Rekurzívne\n- kontaktuje lokálnu časť mena, ktorá ho potom smeruje\n- vyššie požiadavky na uzly mena\n- cachovanie je výhodné\n- znižuje komunikačnú cenu"},
+		{"id":"c2a057ebf9aa1ade","x":-1300,"y":-768,"width":250,"height":154,"color":"3","type":"text","text":"##### Iteratívne\n- opätovné volanie koreňa na zistenie častí mena"},
+		{"id":"6fc6e2887270c2f5","x":-179,"y":200,"width":360,"height":240,"color":"5","type":"text","text":"## Attribution-based naming\n- priečinky obsahujú páry vlastností a mien\n- viaceré hodnoty (mená) na jednú vlastnosť\n- môže sa kombinovať s hierarchickým prístupom\n- taktiež nazývané ako **directory server**"},
+		{"id":"7bf55135f249f6c1","x":-125,"y":610,"width":250,"height":60,"color":"5","type":"text","text":"### Implementácia"},
+		{"id":"370f6885a2f60636","x":258,"y":828,"width":402,"height":332,"color":"5","type":"text","text":"#### Hierarchická\n- lookup podľa názvu, vlastnosti a hodnoty\n- tzv. LDAB\n- prístupy:\n\t- **DIT**: directory information tree\n\t- **DIB**: directory information base\n- podobné k DNS, ale s viac lookup operáciami\n- **DSA** = directory service agent: servery kde sú nasadené DITy\n- **DUA** = directory user agent: klient"},
+		{"id":"4e581a72639785d8","x":-560,"y":813,"width":358,"height":327,"color":"5","type":"text","text":"#### Decentralizovaná\n- distribuovaný index: každý atribút má svoj server\n- space-filling curves:\n\t- sieť $n$ atribútov v jednej dimenzii (linked list)\n\t- rozhoduje sa ako vhodne distribuovať uzol podľa atribútu\n\t- súvisiace atribúty by mali byť blízko seba"}
+	],
+	"edges":[
+		{"id":"0531a71b7071af05","fromNode":"3dd1480fd7756aa5","fromSide":"top","toNode":"8f176bf7efba2998","toSide":"bottom"},
+		{"id":"54da788fc164b239","fromNode":"3dd1480fd7756aa5","fromSide":"right","toNode":"657868a9c7bc6654","toSide":"left"},
+		{"id":"fe6d35eb420a0b8b","fromNode":"657868a9c7bc6654","fromSide":"right","toNode":"e87b02bdc29fc64d","toSide":"left"},
+		{"id":"edbf3da86e13b16f","fromNode":"657868a9c7bc6654","fromSide":"right","toNode":"c7fc8a21db17a5f9","toSide":"left"},
+		{"id":"6ca8bd9c42f232ad","fromNode":"657868a9c7bc6654","fromSide":"right","toNode":"63c5b28260c934aa","toSide":"left"},
+		{"id":"84e1e5798aff2732","fromNode":"657868a9c7bc6654","fromSide":"right","toNode":"387c065e0b165957","toSide":"left"},
+		{"id":"73982f45e614f3bd","fromNode":"657868a9c7bc6654","fromSide":"right","toNode":"e35eb7c4ed2b7c73","toSide":"left"},
+		{"id":"b78c7334e941e805","fromNode":"3dd1480fd7756aa5","fromSide":"left","toNode":"4f63c48d7c7d6ce8","toSide":"right"},
+		{"id":"6ff241c46e396875","fromNode":"4f63c48d7c7d6ce8","fromSide":"left","toNode":"04e0d17105305871","toSide":"right"},
+		{"id":"44e41d91b9570e65","fromNode":"4f63c48d7c7d6ce8","fromSide":"left","toNode":"1c3e6b4a3d0c1d3d","toSide":"right"},
+		{"id":"3bc38066b624b5c9","fromNode":"04e0d17105305871","fromSide":"top","toNode":"c108300b5699cdde","toSide":"bottom"},
+		{"id":"b9ed2078de0c3b2b","fromNode":"c108300b5699cdde","fromSide":"top","toNode":"c2a057ebf9aa1ade","toSide":"bottom"},
+		{"id":"693fe5ebfacdcfe1","fromNode":"c108300b5699cdde","fromSide":"top","toNode":"d8102f17fefe0e74","toSide":"bottom"},
+		{"id":"b51becea40948fce","fromNode":"3dd1480fd7756aa5","fromSide":"bottom","toNode":"6fc6e2887270c2f5","toSide":"top"},
+		{"id":"43c582c70dca50bd","fromNode":"e35eb7c4ed2b7c73","fromSide":"bottom","toNode":"370f6885a2f60636","toSide":"right","toEnd":"none","color":"#404040"},
+		{"id":"2936bcb362ec4ad5","fromNode":"6fc6e2887270c2f5","fromSide":"bottom","toNode":"7bf55135f249f6c1","toSide":"top"},
+		{"id":"d4c5fa01192f4f12","fromNode":"7bf55135f249f6c1","fromSide":"bottom","toNode":"370f6885a2f60636","toSide":"top"},
+		{"id":"c41d2f486da21b8f","fromNode":"7bf55135f249f6c1","fromSide":"bottom","toNode":"4e581a72639785d8","toSide":"top"}
+	]
+}

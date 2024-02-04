@@ -1,0 +1,19 @@
+{
+	"nodes":[
+		{"isStartNode":true,"id":"85f565743a48cf07","type":"text","text":"# Distribuované systémy","shape":"predefined-process","x":-140,"y":-62,"width":280,"height":124,"color":"1"},
+		{"id":"24ca9ed446994c37","type":"file","file":"content/DS/Mapy/Servery.canvas","x":-200,"y":-580,"width":400,"height":400},
+		{"id":"70a69813f081328d","type":"file","file":"content/DS/Mapy/Migrácia.canvas","x":240,"y":-580,"width":400,"height":400},
+		{"id":"5aea9eb507f29085","type":"file","file":"content/DS/Mapy/Komunikácia.canvas","x":-640,"y":-580,"width":400,"height":400},
+		{"id":"4fa14707c721c0cb","type":"file","file":"content/DS/Mapy/Architektonické štýly.canvas","x":-200,"y":160,"width":400,"height":400},
+		{"id":"2ab4b87374749ac0","type":"file","file":"content/DS/Mapy/Vlálkna.canvas","x":-680,"y":160,"width":400,"height":400},
+		{"id":"bafc727caf6e99da","x":340,"y":160,"width":400,"height":400,"type":"file","file":"content/DS/Mapy/Naming.canvas"}
+	],
+	"edges":[
+		{"id":"b3ca430c664a974e","fromNode":"85f565743a48cf07","fromSide":"top","toNode":"24ca9ed446994c37","toSide":"bottom"},
+		{"id":"a6bd1a61e5d3af4d","fromNode":"85f565743a48cf07","fromSide":"right","toNode":"70a69813f081328d","toSide":"bottom"},
+		{"id":"7f03fbff7dad3cca","fromNode":"85f565743a48cf07","fromSide":"left","toNode":"5aea9eb507f29085","toSide":"bottom"},
+		{"id":"9431e3a9e0b12978","fromNode":"85f565743a48cf07","fromSide":"bottom","toNode":"4fa14707c721c0cb","toSide":"top"},
+		{"id":"9889ec01315b0067","fromNode":"85f565743a48cf07","fromSide":"left","toNode":"2ab4b87374749ac0","toSide":"top"},
+		{"id":"afa233da1165ad8a","fromNode":"85f565743a48cf07","fromSide":"right","toNode":"bafc727caf6e99da","toSide":"top"}
+	]
+}

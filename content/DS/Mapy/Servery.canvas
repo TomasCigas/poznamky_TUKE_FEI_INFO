@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"7e8830d82381843c","type":"file","file":"assets/download 1.svg","x":93,"y":-540,"width":510,"height":281,"color":"5"},
+		{"id":"30018d8e08696272","type":"text","text":"#### Superserver\nPočúva na všetkých portoch a po pripojení poskytne vyžiadaný port používateľovi","x":-642,"y":-500,"width":250,"height":186,"color":"2"},
+		{"id":"420436432ea951c0","type":"text","text":"### Server Clusters","x":128,"y":-82,"width":279,"height":65,"color":"5"},
+		{"id":"4bb52558e9314e7b","type":"text","text":"### Typy","x":213,"y":142,"width":250,"height":60,"color":"4"},
+		{"id":"0cb21facc5ebc6a7","type":"text","text":"#### No end-point\nPort sa dynamicky pripojí","x":-642,"y":-300,"width":250,"height":86,"color":"2"},
+		{"id":"8b534c4e3fe4b41d","type":"text","text":"Kolekica strojov prepojených cez sieť, každý stroj je aspoň jeden server","x":-87,"y":-240,"width":250,"height":102,"color":"5"},
+		{"id":"cdc944cdc03ba3cd","type":"text","text":"### Konkurentné\nPriradený na vláknach osobitných","x":-517,"y":25,"width":250,"height":131,"color":"1"},
+		{"id":"f609e6d6ca33fcac","type":"text","text":"### Pripojenie do Servera","x":-392,"y":-82,"width":279,"height":65,"color":"2"},
+		{"id":"aeebefbbd817a266","type":"text","text":"#### End-point\nPort servera","x":-642,"y":-200,"width":250,"height":86,"color":"2"},
+		{"id":"72457dec1b644a81","type":"text","text":"#### Stateless\n- stav klienta neudržujú\n- ľahko škálovateľné\n- použítie COOKIES\n- soft-state: obmedzený čas spracovania stavu\n","x":553,"y":-17,"width":250,"height":220,"color":"4"},
+		{"id":"40214a189a863b70","type":"text","text":"#### Wide-area cluster\n- Dátové centrá (cloud)\n- väčší delay\n- cachovanie čo najbližšie ku klientovi","x":509,"y":-220,"width":344,"height":138,"color":"5"},
+		{"id":"7fc7a887abe73b36","type":"text","text":"#### Stateful\n- udržuje informáciu o klientovi","x":553,"y":234,"width":250,"height":120,"color":"4"},
+		{"id":"26d31e5a69f66ffc","type":"text","text":"### Interatívne\nLen 1 vlákno, čaká pri spracovaní požiadavky","x":-517,"y":200,"width":250,"height":138,"color":"1"},
+		{"id":"efcbbfa6627d3a1d","type":"text","text":"## Servery","shape":"predefined-process","x":-122,"y":140,"width":250,"height":63,"color":"1"}
+	],
+	"edges":[
+		{"id":"60c786a74dd3a66e","fromNode":"efcbbfa6627d3a1d","fromSide":"left","toNode":"26d31e5a69f66ffc","toSide":"right"},
+		{"id":"df99e24602762345","fromNode":"efcbbfa6627d3a1d","fromSide":"left","toNode":"cdc944cdc03ba3cd","toSide":"right"},
+		{"id":"48dd93f828374bea","fromNode":"efcbbfa6627d3a1d","fromSide":"right","toNode":"4bb52558e9314e7b","toSide":"left"},
+		{"id":"62ecc0073405206f","fromNode":"4bb52558e9314e7b","fromSide":"right","toNode":"72457dec1b644a81","toSide":"left"},
+		{"id":"03ccf65d8be31e80","fromNode":"4bb52558e9314e7b","fromSide":"right","toNode":"7fc7a887abe73b36","toSide":"left"},
+		{"id":"4dbeeb4c3ab64ab6","fromNode":"efcbbfa6627d3a1d","fromSide":"top","toNode":"f609e6d6ca33fcac","toSide":"bottom"},
+		{"id":"d9632ff704cb2118","fromNode":"f609e6d6ca33fcac","fromSide":"top","toNode":"aeebefbbd817a266","toSide":"right"},
+		{"id":"8d8308e430e5655f","fromNode":"f609e6d6ca33fcac","fromSide":"top","toNode":"0cb21facc5ebc6a7","toSide":"right"},
+		{"id":"edf7410a9b26177c","fromNode":"f609e6d6ca33fcac","fromSide":"top","toNode":"30018d8e08696272","toSide":"right"},
+		{"id":"3a53847983f0d8d6","fromNode":"efcbbfa6627d3a1d","fromSide":"top","toNode":"420436432ea951c0","toSide":"bottom"},
+		{"id":"7a2b7f865d52fe09","fromNode":"420436432ea951c0","fromSide":"left","toNode":"8b534c4e3fe4b41d","toSide":"bottom"},
+		{"id":"8c71a529cf6be803","fromNode":"420436432ea951c0","fromSide":"top","toNode":"7e8830d82381843c","toSide":"bottom"},
+		{"id":"abda77ef641463cf","fromNode":"420436432ea951c0","fromSide":"right","toNode":"40214a189a863b70","toSide":"left"}
+	]
+}
