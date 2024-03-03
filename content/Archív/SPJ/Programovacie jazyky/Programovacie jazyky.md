@@ -13,5 +13,5 @@ Formálna definícia jazyka pozostáva z:
 
 ---
 - [[Paradigmy programovania]]
-- [[content/SPJ/Programovacie jazyky/Syntax|Syntax]]
+- [[Syntax|Syntax]]
 ---

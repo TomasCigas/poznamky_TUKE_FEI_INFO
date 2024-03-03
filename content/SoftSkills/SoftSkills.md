@@ -11,14 +11,4 @@ Rozhodovacia paralýza - priveľa možností vedie k eventuálnej nerozhodnuteľ
 
 Zvyšovanie vôľovej kapacity?
 
-# Počúvanie
-Prekážky počúvania.
-
-# Ekonomická gramotnosť
-
-# Soft skills
-
-# Leaderstvo
-
-
 ---
