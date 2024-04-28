@@ -1,0 +1,1 @@
+CosmosDB - Queue, FIFO, tahanie len zopar elementov, nie cely objekt. 
