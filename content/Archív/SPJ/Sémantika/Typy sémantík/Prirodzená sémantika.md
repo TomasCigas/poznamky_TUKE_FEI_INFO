@@ -1,5 +1,5 @@
 ***********
-Prirodzená sémantika formálne popisuje vzťah medzi počiatočným vzťahom, v ktorom sa vykonáva príkaz a koncový stav po jeho vykonaní.
+Prirodzená sémantika formálne popisuje vzťah medzi počiatočným stavom, v ktorom sa vykonáva príkaz a koncový stav po jeho vykonaní.
 Zaoberá sa len zmenou stavu celého príkazu.
 
 [[Operačná sémantika|Odvodzovacie pravidlo]] prirodzenej sémantiky je podobné ako pri operačnej:

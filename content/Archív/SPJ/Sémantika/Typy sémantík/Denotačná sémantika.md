@@ -1,7 +1,7 @@
 *********************************
 Denotačná sémantika priraďuje k syntakticky správnemu programu jeho jednoznačný význam - **denotáciu programu**. DS je **kompozičná**, teda denotácia zložitého prvku je definovaná **len** podľa jeho prvkov
 
-Význam je programov vyjadruje pomocou funkcií a čísel.
+Význam programov vyjadruje pomocou funkcií a čísel.
 
 **Denotácia programu** dosiahne výsledok bez ohľadu na poradie vykonania.
 
@@ -15,7 +15,7 @@ Denotácia **podmienky**:
 
 Denotácia **cyklu**:
 - nemôžeme použiť $cond$ nakoľko by sme narušili **kompozičnú vlastnosť** denotácie
-- potrebujeme dostať [[Lambda-kalkul#Fixný bod a rekurzia|fixný bod]] cyklu a postupne dopĺňame jednotlivé časti cyklu:
+- potrebujeme dostať [[Lambda-kalkul#Fixný bod a rekurzia|fixný bod]] cyklu a postupne dopĺňame jednotlivé časti cyklu: fixny bod doucit
 1. ![[Pasted image 20240121203141.png]]
 2. ![[Pasted image 20240121203149.png]]
 3. ![[Pasted image 20240121203158.png]]
@@ -30,7 +30,7 @@ Najznámejšie vlastnosti NDS:
 - výnimočné situácie - $\texttt{exception}$
 - nepodmienený skok - $\texttt{goto}$
 
-Zmenu toku riadenia popisuje funkcia:
+Zmenu toku riadenia popisuje funkcia: doucit
 $$
 c \in Continuation = State \rightharpoonup State
 $$
